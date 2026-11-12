@@ -1,0 +1,323 @@
+{
+  "id": "inv-ce-xx",
+  "name": "INV-CE-XX",
+  "order": 3,
+  "category": "Edge Computer",
+  "category_plural": "Intel Based Device",
+  "eyebrow": [
+    "INTEL BASED DEVICE"
+  ],
+  "subtitle": "Industrial 5G/4G Edge Computer",
+  "bar_title": "Industrial 5G/4G Edge Computer",
+  "description": "A rugged, fanless SD-WAN edge appliance powered by Intel X7425E, designed for high-performance networking at distributed sites. It combines multi-WAN connectivity (Ethernet, 4G/5G, Wi-Fi) with flexible OS support and industrial-grade reliability, making it ideal for seamless failover, traffic optimisation, and edge computing. Best suited for telecom, industrial IoT, smart infrastructure, and enterprise branch deployments.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\inv-ce-xx.webp",
+  "tiles": [
+    {
+      "icon": "cpu",
+      "value": "X7425E",
+      "label": "QUAD CORE 3.9 GHz"
+    },
+    {
+      "icon": "chip",
+      "value": "32 GB",
+      "label": "DDR4 RAM (MAX)"
+    },
+    {
+      "icon": "storage",
+      "value": "512 GB",
+      "label": "SSD (MAX)"
+    },
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "5G MODEM"
+    },
+    {
+      "icon": "wifi",
+      "value": "Wi-Fi 6",
+      "label": "DUAL BAND"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "5G Ready"
+    },
+    {
+      "icon": "wifi",
+      "label": "Wi-Fi 6"
+    },
+    {
+      "icon": "shield",
+      "label": "IP30 Rated"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "CPU",
+      "value": "Intel X7425E/X7433RE/X7835RE/x7809C/i3-N305/N350 Quad Core/Octa Core with 3.9 GHz turbo frequency"
+    },
+    {
+      "show": true,
+      "key": "RAM",
+      "value": "Up to 32 GB DDR4 or 64 GB SODIMM DDR5"
+    },
+    {
+      "show": true,
+      "key": "Ethernet",
+      "value": "4 X 10/100/1000 (Realtek RTL8111H),"
+    },
+    {
+      "show": true,
+      "key": "Cellular",
+      "value": "4G/5G"
+    },
+    {
+      "show": true,
+      "key": "SIM",
+      "value": "2x Nano SIM"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi",
+      "value": "One M.2 ( E Key, 3052 for Wifi/BLE Module 802.11b/g/n/ac/ax (1 x PCIe, 1 X USB2.0) (WiFi module to be Separately Ordered)"
+    },
+    {
+      "show": true,
+      "key": "Storage",
+      "value": "Up to 512 GB SSD and up to 64 GB eMMC (optional across all devices except arrowlake)"
+    },
+    {
+      "show": true,
+      "key": "TPM",
+      "value": "Firmware/Hardware TPM ( Optional)"
+    },
+    {
+      "show": true,
+      "key": "RTC Battery Backup",
+      "value": "3V, CR2032"
+    },
+    {
+      "show": true,
+      "key": "Button",
+      "value": "Software Reset"
+    },
+    {
+      "show": true,
+      "key": "LEDs",
+      "value": "Power, SATA, WiFi (depending on WiFi module), Cellular Activity (depending on modem),Link and Activity for Ethernets"
+    },
+    {
+      "show": true,
+      "key": "Interface",
+      "value": "2x USB 2.0, 1 x HDM"
+    },
+    {
+      "show": true,
+      "key": "Antenna",
+      "value": "Cellular: 4 x SMA Connector,Wi-Fi: 1x SMA connector for 5Ghz and 1 x SMA connector for 2.4Ghz"
+    },
+    {
+      "show": true,
+      "key": "USB",
+      "value": "2 x USB2.0"
+    },
+    {
+      "show": true,
+      "key": "HDMI",
+      "value": "1 (Optional)"
+    },
+    {
+      "show": true,
+      "key": "Console",
+      "value": "1 x Type B Micro USB"
+    },
+    {
+      "show": true,
+      "key": "Custom Expansion Interface",
+      "value": "Two types of cards are available, 1.Two additional 1Gbps Ethernets and 4G M.2 interface 2. 5G M.2 interface, Two isolated RS485, Two Isolated RS232 and 4 DIOs ( size of the box will increase)"
+    },
+    {
+      "show": true,
+      "key": "Dimensions",
+      "value": "150mm X 160mm X 55mm ( L X W X H)"
+    },
+    {
+      "show": true,
+      "key": "Storage Temperature",
+      "value": "-20 ~ 75℃"
+    },
+    {
+      "show": true,
+      "key": "Operating Temperature",
+      "value": "0 ~ 50℃"
+    },
+    {
+      "show": true,
+      "key": "Humidity",
+      "value": "10 ~ 90% (non-condensing)"
+    },
+    {
+      "show": true,
+      "key": "Operating System",
+      "value": "Ubuntu/Oracle Linux/OpenWRT/Windows"
+    },
+    {
+      "show": true,
+      "key": "Boot Loader",
+      "value": "Intel Slim Boot Loader"
+    }
+  ],
+  "software": [
+    {
+      "show": true,
+      "key": "Operating System",
+      "value": "Ubuntu / Oracle Linux / OpenWRT / Windows"
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "IP Rating",
+      "value": "IP30"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Aluminum Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "Desktop Mount, Rack Mount, Vesa Mount, Wall Mount"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fan less"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "12V DC, DC Jack"
+    }
+  ],
+  "ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "use_cases": [
+    {
+      "title": "Enterprise Branch Connectivity",
+      "desc": "Provides secure and uninterrupted connectivity for branch offices with multi-WAN support (SD-WAN), enabling seamless failover and optimized network performance."
+    },
+    {
+      "title": "Infotainment System for Vehicles",
+      "desc": "The Intel X7425E platform enables advanced vehicle infotainment, telematics, and connectivity solutions. It supports GPS navigation, multimedia applications, 4G/5G communication, Wi-Fi hotspot functionality, and real-time vehicle monitoring, making it ideal for connected vehicles, fleet management, and smart transportation systems."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "IP30",
+  "density": 1.0,
+  "sources": {
+    "json": "inv-ce-xx",
+    "brief_page": 4,
+    "detailed_page": 42,
+    "match": "name"
+  },
+  "status": "approved",
+  "created": "2026-10-07T16:21:17",
+  "_json_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "_pdf_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "conflicts": [
+    {
+      "field": "CPU",
+      "json": "Intel X7425E/X7433RE/X7835RE/x7809C/i3-N305/N350 Quad Core/Octa Core with 3.9 GHz turbo frequency",
+      "pdf": "Intel X7425E, 4 cores with 3.4GHz Turbo Frequency.",
+      "targets": [
+        [
+          "hardware",
+          "CPU"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "RAM",
+      "json": "Up to 32 GB DDR4 or 64 GB SODIMM DDR5",
+      "pdf": "32GB DDR5 SODIMM (Max) (Memory to be Separately Ordered)",
+      "targets": [
+        [
+          "hardware",
+          "RAM"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Storage / Flash",
+      "json": "Up to 512 GB SSD and up to 64 GB eMMC",
+      "pdf": "One M.2 (B Key,2280), Upto 512GB SSD, Upto 64GB eMMC ((Memory to be Separately Ordered); Up to 128GB eMMC",
+      "targets": [
+        [
+          "hardware",
+          "Storage"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Cellular",
+      "json": "4G/5G",
+      "pdf": "One M.2( B Key, supports both types 3042 and 3052) with USB2.0 and USB3.0 Supporting both 4G and 5G Modems. (Cellular module to be Separately Ordered)",
+      "targets": [
+        [
+          "hardware",
+          "Cellular"
+        ]
+      ],
+      "choice": "json"
+    }
+  ],
+  "updated": "2026-11-12T16:02:52",
+  "approved_at": "2026-11-12T16:02:52",
+  "ordering_image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\uploads\\inv-ce-xx_ordering.webp",
+  "ordering_mode": "image"
+}

@@ -1,0 +1,224 @@
+{
+  "id": "itx-arl-board",
+  "name": "Arrowlake ITX",
+  "order": 6,
+  "category": "Edge Computer",
+  "category_plural": "Intel Based Device",
+  "eyebrow": [
+    "INTEL BASED DEVICE"
+  ],
+  "subtitle": "Industrial - Edge Computer",
+  "bar_title": "Industrial - Edge Computer",
+  "description": "The Invendis ARL Mini ITX is a high-performance industrial computing platform powered by Intel Core Ultra Processors (Series 2) with integrated NPU AI acceleration, Intel Arc 140T graphics, and up to 128 GB DDR5 RAM. Housed in an aluminium heatsink enclosure with fanless or fan options, it offers dual 2.5 GbE LAN ports, triple display outputs (2× HDMI, 1× DP), and extensive M.2 expansion for Wi-Fi 6, 4G/5G cellular, and NVMe storage.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\itx-arl-board.webp",
+  "tiles": [
+    {
+      "icon": "chip",
+      "value": "128 GB",
+      "label": "DDR5 RAM (MAX)"
+    },
+    {
+      "icon": "storage",
+      "value": "6 GB",
+      "label": "STORAGE"
+    },
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "MODEM"
+    },
+    {
+      "icon": "ports",
+      "value": "2×",
+      "label": "ETHERNET PORTS"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "LTE"
+    },
+    {
+      "icon": "wifi",
+      "label": "5G Ready"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "CPU",
+      "value": "Intel Core Ultra (Series 2) — Ultra 5 & Ultra 7, 14/16 Cores, 5.1 GHz Turbo (CPU + GPU + NPU)"
+    },
+    {
+      "show": true,
+      "key": "RAM",
+      "value": "Up to 128 GB DDR5 CSODIMM"
+    },
+    {
+      "show": true,
+      "key": "Storage",
+      "value": "1× M.2 (B Key, 2280) PCIe ×4 NVMe; 2× SATA3 (6 Gb/s)"
+    },
+    {
+      "show": true,
+      "key": "Cellular",
+      "value": "1× M.2 (B Key, 3042/3052) supporting 4G and 5G modems"
+    },
+    {
+      "show": true,
+      "key": "Graphics",
+      "value": "Intel Arc 140T GPU; PCIe Gen 5 ×8 discrete GPU support (Optional)"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi",
+      "value": "M.2 E Key (3052) — 802.11b/g/n/ac/ax (Wi-Fi 6/BLE)"
+    },
+    {
+      "show": true,
+      "key": "Ethernet Ports",
+      "value": "2× 2.5 GbE"
+    },
+    {
+      "show": true,
+      "key": "USB",
+      "value": "4× USB 3.2 Gen 1, 2× USB 2.0 Header"
+    },
+    {
+      "show": true,
+      "key": "HDMI",
+      "value": "2"
+    },
+    {
+      "show": true,
+      "key": "DisplayPort",
+      "value": "1"
+    },
+    {
+      "show": true,
+      "key": "Type-C",
+      "value": "1 (15W PD)"
+    },
+    {
+      "show": true,
+      "key": "Audio",
+      "value": "Mic In, Line-Out, Front Panel Header"
+    },
+    {
+      "show": true,
+      "key": "COM Port (Optional)",
+      "value": "4 (RS232/RS485)"
+    },
+    {
+      "show": true,
+      "key": "SIM",
+      "value": "2× Nano SIM"
+    },
+    {
+      "show": true,
+      "key": "Operating Temp",
+      "value": "0–50°C"
+    }
+  ],
+  "software": [
+    {
+      "key": "Operating System",
+      "value": "Ubuntu / Oracle Linux / OpenWRT / Windows",
+      "show": true
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "210 x 203 x 60 mm"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Aluminium Heat Sink with CRCA Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "Desktop / Wall / 19\" Rack / VESA"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "1400 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "use_cases": [
+    {
+      "title": "AI-Powered Edge Vision & Video Analytics",
+      "desc": "Integrated NPU acceleration and optional Intel Arc 140T GPU allow real-time inference for surveillance analytics, defect detection, or people-counting directly on-site, without sending video to the cloud. Dual 2.5GbE ports support multiple high-bandwidth camera feeds simultaneously."
+    },
+    {
+      "title": "Industrial IoT Gateway & Automation Controller",
+      "desc": "Triple display outputs (2x HDMI, 1x DP) let operators monitor SCADA dashboards, camera walls, and diagnostics across multiple screens from one compact unit. Up to 128GB DDR5 RAM and NVMe storage handle demanding multitasking and data logging workloads."
+    },
+    {
+      "title": "High-Performance Interactive Kiosks & Digital Signage",
+      "desc": "5G/4G cellular connectivity combined with a fanless or fan-optional aluminum enclosure suits deployment in vehicles, kiosks, or remote sites needing high compute power without a data center. Extensive M.2 expansion supports added storage or connectivity as field requirements grow."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "itx-arl-board",
+    "brief_page": null,
+    "detailed_page": null,
+    "match": "no match"
+  },
+  "status": "approved",
+  "created": "2026-10-07T16:34:03",
+  "_json_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "_pdf_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "conflicts": [],
+  "ordering_image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\uploads\\itx-arl-board_ordering.png",
+  "ordering_mode": "image",
+  "updated": "2026-11-12T12:09:14",
+  "approved_at": "2026-11-12T12:09:14"
+}

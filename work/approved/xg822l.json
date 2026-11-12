@@ -1,0 +1,241 @@
+{
+  "id": "xg822l",
+  "name": "XG-82-2L",
+  "order": 37,
+  "category": "Switch",
+  "category_plural": "Switches",
+  "eyebrow": [
+    "SWITCHES"
+  ],
+  "subtitle": "Industrial - Switch",
+  "bar_title": "Industrial - Switch",
+  "description": "A Layer 2 managed PoE switch with 8 Gigabit ports, 2x 2.5G SFP uplinks, 240W PoE budget, 20 Gbps switching capacity, and MSTP/QoS/ERPS/SNMP management in a DIN-rail aluminium enclosure.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\xg822l.webp",
+  "tiles": [
+    {
+      "icon": "ports",
+      "value": "8+2",
+      "label": "POE+SFP"
+    },
+    {
+      "icon": "bolt",
+      "value": "44–57 V",
+      "label": "DC INPUT"
+    },
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "MODEM"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "LTE"
+    },
+    {
+      "icon": "ports",
+      "label": "POE+SFP"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "Ethernet Ports",
+      "value": "Gigabit Ethernet"
+    },
+    {
+      "show": true,
+      "key": "SFP",
+      "value": "2 × 2.5G"
+    },
+    {
+      "show": true,
+      "key": "PoE Budget",
+      "value": "240W, 30W max per port"
+    },
+    {
+      "show": true,
+      "key": "Switch Type",
+      "value": "Managed PoE Switch"
+    },
+    {
+      "show": true,
+      "key": "Operating Temp",
+      "value": "0 ~ 60°C"
+    },
+    {
+      "show": true,
+      "key": "Power Connector",
+      "value": "Option 1: 2 Screw Terminal block Option 2: Spring\nLoaded 2 Pin Terminal block and DC Jack"
+    },
+    {
+      "show": true,
+      "key": "Input Voltage Range",
+      "value": "44-57 Vdc"
+    },
+    {
+      "show": true,
+      "key": "Total PoE Budget",
+      "value": "240 W(Max)"
+    }
+  ],
+  "software": [
+    {
+      "show": true,
+      "key": "MAC Address table entries",
+      "value": "8K"
+    },
+    {
+      "show": true,
+      "key": "Packet Forwarding Rate",
+      "value": "14.88 Mbps"
+    },
+    {
+      "show": true,
+      "key": "Basic Function",
+      "value": "Compatible with IEEE 802.3AF/AT compliant Powered Devices (PD). Wire-speed forwarding. MAC self-learning and aging. IEEE802.3X Full-duplex and backpressure for half-duplex mode"
+    },
+    {
+      "show": true,
+      "key": "Security",
+      "value": "MAC Manage, Strom Control, Traffic Monitoring, DHCP Snooping"
+    },
+    {
+      "show": true,
+      "key": "QoS",
+      "value": "QoS Basic, QoS Advance (802.1p)\nDiagnostics: Ping Tool, Cable diagnostics\nConfiguration Utility: Import and Export Configuration backup"
+    },
+    {
+      "show": true,
+      "key": "Switch Monitoring and Management",
+      "value": "Web, CLI (Console Port, Telnet, SSH), SNMP V1/V2, Support trap: cold start, warm start, link down and link up"
+    },
+    {
+      "show": true,
+      "key": "EEE",
+      "value": "Support Energy-Efficient Ethernet (EEE) function (IEEE802.3az)"
+    },
+    {
+      "show": true,
+      "key": "PoE",
+      "value": "POE configuration, POE scheduling management, etc."
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "200 x 120 x 55 mm (W x L x H)"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Industrial Aluminium"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "Dual Input: 44-57 VDC"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "675 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "PoE",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "-",
+        "✓",
+        "XG 82-2L Lite Managed Switch"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Enterprise Surveillance & Security Networks",
+      "desc": "Ideal for large CCTV deployments, enabling centralized management of IP cameras, PoE-powered devices, and optimized video traffic through QoS and VLAN support."
+    },
+    {
+      "title": "Smart Campus & Enterprise Network Management",
+      "desc": "Suitable for offices, campuses, and commercial buildings requiring managed switching, traffic prioritization, and secure segmentation for access points, IP phones, and endpoints."
+    },
+    {
+      "title": "Industrial Network Control & Redundancy",
+      "desc": "Can be deployed in factories and utility environments where Layer 2 management, ERPS redundancy, IGMP snooping, and network diagnostics are essential for uninterrupted operations."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "xg822l",
+    "brief_page": null,
+    "detailed_page": null,
+    "match": "no match"
+  },
+  "status": "approved",
+  "created": "2026-10-08T12:51:07",
+  "_json_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "PoE",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "-",
+        "✓",
+        "XG 82-2L Lite Managed Switch"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "conflicts": [],
+  "updated": "2026-11-12T12:36:48",
+  "approved_at": "2026-11-12T12:36:48"
+}

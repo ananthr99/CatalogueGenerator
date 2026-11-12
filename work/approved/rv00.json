@@ -1,0 +1,320 @@
+{
+  "id": "rv00",
+  "name": "RV00",
+  "order": 13,
+  "category": "Router",
+  "category_plural": "Routers",
+  "eyebrow": [
+    "ROUTERS"
+  ],
+  "subtitle": "Industrial - Router",
+  "bar_title": "Industrial - Router",
+  "description": "The RV00 is a compact industrial router built on MediaTek MT7621 featuring Wi-Fi 4, five Gigabit Ethernet ports, and OpenWRT Linux with VPN, VLAN, and NMS remote management. Ideal for industrial IoT and M2M deployments without cellular connectivity.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\rv00.webp",
+  "tiles": [
+    {
+      "icon": "ports",
+      "value": "4+1",
+      "label": "LAN+WAN"
+    },
+    {
+      "icon": "chip",
+      "value": "512 MB",
+      "label": "DDR3 RAM"
+    },
+    {
+      "icon": "bolt",
+      "value": "12 V",
+      "label": "DC INPUT"
+    },
+    {
+      "icon": "storage",
+      "value": "32MB",
+      "label": "FLASH"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "ports",
+      "label": "5 Ports"
+    },
+    {
+      "icon": "fan",
+      "label": "Fanless"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "CPU",
+      "value": "MediaTek MT7621"
+    },
+    {
+      "show": true,
+      "key": "RAM",
+      "value": "512MB DDR3"
+    },
+    {
+      "show": true,
+      "key": "Flash",
+      "value": "32/64 MB"
+    },
+    {
+      "show": true,
+      "key": "WAN",
+      "value": "1x 10/100/1000"
+    },
+    {
+      "show": true,
+      "key": "LAN",
+      "value": "4x 10/100/1000"
+    },
+    {
+      "show": true,
+      "key": "USB",
+      "value": "1 x USB 2.0"
+    },
+    {
+      "show": true,
+      "key": "RTC",
+      "value": "Built-in RTC"
+    },
+    {
+      "show": true,
+      "key": "Reset",
+      "value": "Pinhole Reset Button"
+    },
+    {
+      "show": true,
+      "key": "Storage Temp",
+      "value": "-30 ~ 70 °C"
+    },
+    {
+      "show": true,
+      "key": "Operating Temp",
+      "value": "0~ 50 °C"
+    },
+    {
+      "show": true,
+      "key": "Humidity",
+      "value": "10 ~ 90% (non-condensing)"
+    }
+  ],
+  "software": [
+    {
+      "show": true,
+      "key": "Operating System",
+      "value": "OpenWRT-based Linux OS"
+    },
+    {
+      "show": true,
+      "key": "Routing",
+      "value": "Static routing, Dynamic Routing (BGP,OSPF etc)"
+    },
+    {
+      "show": true,
+      "key": "Network Protocols",
+      "value": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP, SNMP, PPPoE"
+    },
+    {
+      "show": true,
+      "key": "Monitoring",
+      "value": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)"
+    },
+    {
+      "show": true,
+      "key": "Firewall Features",
+      "value": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules."
+    },
+    {
+      "show": true,
+      "key": "DHCP",
+      "value": "Static and Dynamic"
+    },
+    {
+      "show": true,
+      "key": "VLAN",
+      "value": "Tagged VLAN, Untagged VLAN"
+    },
+    {
+      "show": true,
+      "key": "VPN",
+      "value": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel"
+    },
+    {
+      "show": true,
+      "key": "OpenVPN",
+      "value": "TUN/TAP with TLS Certificates"
+    },
+    {
+      "show": true,
+      "key": "IPsec",
+      "value": "IKEv1, IKEv2, Aggressive/Main Mode"
+    },
+    {
+      "show": true,
+      "key": "PPTP/L2TP WAN",
+      "value": "Server & Client with/without MPPE Encryption"
+    },
+    {
+      "show": true,
+      "key": "Remote Management",
+      "value": "Remote Monitoring & Management Platform for SILBO Networking products"
+    },
+    {
+      "show": true,
+      "key": "NMS VPN",
+      "value": "Remote Access of SILBO and non-SILBO Networking devices"
+    },
+    {
+      "show": true,
+      "key": "Supported Languages / Tools",
+      "value": "Shell scripting, C, C++"
+    },
+    {
+      "show": true,
+      "key": "SDK Package",
+      "value": "SDK package with built environment provided (Optional)"
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "110 x 26 x 95 mm (W x H x D)"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Industrial Aluminium Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "DIN rail mounting Kit (Optional)"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fanless"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "12 VDC Input"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "200 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "—",
+        "—",
+        "—",
+        "—",
+        "RV00"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Remote Industrial Site Networking",
+      "desc": "Provides secure and reliable connectivity for remote industrial locations such as warehouses, substations, and field sites using dual-SIM cellular access."
+    },
+    {
+      "title": "Edge Networking for Small Businesses",
+      "desc": "Suitable for retail outlets, fuel stations, and branch offices requiring stable internet access, local networking, and backup cellular connectivity."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "rv00",
+    "brief_page": 13,
+    "detailed_page": 51,
+    "match": "name"
+  },
+  "status": "approved",
+  "created": "2026-10-07T16:56:19",
+  "_json_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "—",
+        "—",
+        "—",
+        "—",
+        "RV00"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "—",
+        "—",
+        "—",
+        "—",
+        "RV00"
+      ]
+    ]
+  },
+  "conflicts": [],
+  "updated": "2026-11-12T12:15:09",
+  "approved_at": "2026-11-12T12:15:09"
+}

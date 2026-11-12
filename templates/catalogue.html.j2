@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ r.name }} – {{ r.subtitle }}</title>
+<style>
+@font-face { font-family: "Roboto"; src: url(data:font/woff2;base64,{{ fonts.roboto }}) format("woff2"); font-weight: 100 900; font-stretch: 75% 100%; }
+@font-face { font-family: "Roboto Condensed"; src: url(data:font/woff2;base64,{{ fonts.condensed }}) format("woff2"); font-weight: 100 900; }
+@page { size: A4; margin: 0; }
+:root {
+  --navy: {{ brand.primary_dark }}; --blue: {{ brand.primary }}; --red: {{ brand.accent }};
+  --ink: #2b2f3a; --muted: #5d6475; --line: #e3e6ee; --shade: #f4f6fa; --d: {{ r.density or 1 }};
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #e9ecf2; }
+body { font-family: "Roboto", "Segoe UI", Arial, sans-serif; color: var(--ink); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.page { width: 794px; height: 1123px; margin: 0 auto; background: #fff; position: relative; overflow: hidden; padding: 16px 20px 0; }
+@media print { html, body { background: #fff; } .page { margin: 0; } .no-print { display: none !important; } }
+
+/* header */
+.top { display: flex; align-items: stretch; gap: 14px; height: 46px; }
+.logo { width: 150px; display: flex; flex-direction: column; justify-content: center; line-height: 1; }
+.logo img { max-width: 150px; max-height: 46px; object-fit: contain; }
+.logo .word { font-family: "Times New Roman", "Liberation Serif", "TeX Gyre Termes", Georgia, serif; font-size: 31px; color: var(--blue); letter-spacing: -.3px; }
+.logo .word i { color: var(--red); }
+.logo .tag { font-family: "Times New Roman", "Liberation Serif", Georgia, serif; font-size: 10px; color: #444; align-self: flex-end; margin-top: 2px; margin-right: 6px; }
+.bar { flex: 1; background: var(--navy); border-left: 6px solid var(--red); color: #fff; display: flex; align-items: center; justify-content: space-between; padding: 0 18px; }
+.bar .t { font-size: 14px; font-weight: 700; letter-spacing: .2px; }
+.bar .t .dot { opacity: .7; margin: 0 7px; }
+.bar .p { font-size: 12.5px; color: #c9d1f3; white-space: nowrap; }
+.bar .p span { margin: 0 8px; opacity: .6; }
+
+/* hero */
+.hero { display: grid; grid-template-columns: 246px 1fr 142px; gap: 18px; margin-top: 16px; min-height: 180px; }
+.photo { height: 180px; border: 1px solid var(--line); border-radius: 4px; display: flex; align-items: center; justify-content: center; padding: 10px; background: #fff; }
+.photo img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.photo .ph { color: #aab; font-size: 11px; }
+.intro { padding-top: 6px; }
+.eyebrow { color: var(--red); font-size: 10.5px; font-weight: 700; letter-spacing: .6px; }
+.eyebrow span + span::before { content: "·"; margin: 0 6px; }
+.intro h1 { color: var(--navy); font-size: 40px; font-weight: 900; letter-spacing: -.5px; line-height: 1.05; margin-top: 4px; }
+.intro h2 { color: var(--navy); font-size: 18px; font-weight: 700; margin-top: 4px; line-height: 1.2; }
+.intro p { font-size: 10.8px; line-height: 1.48; color: #3d4250; margin-top: 9px; }
+.badges { border-left: 1px solid var(--line); padding-left: 16px; display: flex; flex-direction: column; justify-content: space-around; }
+.badge { display: flex; align-items: center; gap: 9px; color: var(--navy); font-size: 11px; font-weight: 700; }
+.badge svg { width: 30px; height: 30px; flex: none; }
+
+/* tiles */
+.tiles { display: grid; grid-template-columns: repeat({{ r.tiles|length or 1 }}, 1fr); margin-top: 16px; border: 1px solid var(--line); background: #fbfcfe; }
+.tile { display: flex; align-items: center; justify-content: center; gap: 12px; padding: 11px 6px; }
+.tile + .tile { border-left: 1px solid var(--line); }
+.tile svg { width: 32px; height: 32px; color: var(--navy); flex: none; }
+.tile b { display: block; color: var(--navy); font-size: 18px; font-weight: 800; line-height: 1.1; white-space: nowrap; }
+.tile small { display: block; color: var(--muted); font-size: 10.5px; letter-spacing: .4px; margin-top: 2px; white-space: nowrap; }
+
+/* columns */
+.cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 26px; margin-top: 18px; zoom: var(--d); }
+.sec + .sec { margin-top: 16px; }
+.sec h3 { display: flex; align-items: center; gap: 10px; color: var(--navy); font-size: 14px; font-weight: 800; letter-spacing: .3px; text-transform: uppercase; border-bottom: 1.5px solid var(--navy); padding-bottom: 5px; margin-bottom: 4px; }
+table { width: 100%; border-collapse: collapse; font-family: "Roboto Condensed", "Roboto", Arial, sans-serif; font-size: 11px; }
+.kv td { padding: 4px 8px; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.32; }
+.kv td:first-child { width: 33%; background: var(--shade); color: #2a3150; font-weight: 500; }
+.ord th { background: var(--navy); color: #fff; font-weight: 700; padding: 5px 4px; font-size: 11px; border-right: 1px solid rgba(255,255,255,.18); }
+.ord td { text-align: center; padding: 4px; border-bottom: 1px solid var(--line); }
+.ord tr:nth-child(even) td { background: var(--shade); }
+.ord td:last-child { color: var(--blue); font-weight: 600; }
+.ord td.y { color: var(--navy); font-weight: 700; }
+.legend { font-size: 9.5px; color: var(--muted); margin-top: 5px; }
+.legend span + span { margin-left: 18px; }
+.uc { background: #f1f4fb; border-left: 4px solid var(--red); padding: 6px 12px; margin-top: 6px; }
+.uc b { display: block; color: var(--navy); font-size: 12px; }
+.uc small { display: block; color: var(--muted); font-size: 10px; margin-top: 1px; line-height: 1.35; }
+.comp { display: grid; justify-content: start; align-items: center; gap: 10px 22px; padding: 8px 6px 0; }
+.comp div { display: flex; align-items: center; gap: 8px; font-size: 11.5px; font-weight: 500; color: #333; white-space: nowrap; }
+.comp svg { height: 26px; width: 26px; color: #111; }
+.comp .ce svg { width: 40px; }
+.comp img.mk { height: 40px; width: auto; max-width: 72px; object-fit: contain; }
+.comp.logos { padding-top: 10px; }
+.comp.logos img.mk { height: 40px; max-width: 72px; }
+.badge img.mk { height: 30px; width: auto; max-width: 46px; object-fit: contain; flex: none; }
+
+/* footer */
+.foot { position: absolute; left: 20px; right: 20px; bottom: 0; height: 84px; border-top: 1px solid #cfd3dc; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-size: 10px; color: #7a8090; }
+.foot .contact { display: flex; flex-direction: column; gap: 5px; line-height: 1.3; }
+.foot .contact b { color: var(--navy); font-size: 10.5px; font-weight: 700; }
+.foot .qr { display: flex; align-items: center; gap: 10px; text-align: right; }
+.foot .qr b { display: block; color: var(--navy); font-size: 11px; font-weight: 700; }
+.foot .qr span { display: block; }
+.foot .qr img { width: 70px; height: 70px; display: block; }
+
+.ordimg { display: block; width: 100%; height: auto; margin-top: 6px; }
+/* compact spacing: applied by fitPage only when a page overflows at min density */
+.compact .kv td { padding: 2px 7px; line-height: 1.24; }
+.compact .ord th { padding: 3px 4px; }
+.compact .ord td { padding: 2px 4px; }
+.compact .sec + .sec { margin-top: 11px; }
+.compact .uc { padding: 4px 10px; margin-top: 4px; }
+.compact .comp { padding-top: 5px; }
+/* preview-only overflow warning */
+.fitnote { position: absolute; right: 0; top: 0; background: #eef1f8; color: #4a5165; font: 600 11px Arial; padding: 3px 8px; border-radius: 3px; z-index: 9; }
+.overflow { position: absolute; left: 0; right: 0; top: 0; background: #c62828; color: #fff; font: 600 12px Arial; padding: 6px 10px; text-align: center; z-index: 9; }
+</style>
+</head>
+<body>
+<div class="page" id="page">
+  <div class="top">
+    <div class="logo">
+      {% if logo %}<img src="{{ logo }}" alt="logo">{% else %}
+      <div class="word">Inven<i>dis</i></div><div class="tag">{{ company.tagline }}</div>{% endif %}
+    </div>
+    <div class="bar">
+      <div class="t">{{ r.name }}<span class="dot">·</span>{{ r.bar_title }}</div>
+      <div class="p">{{ r.category_plural }}<span>|</span>Page {{ '%02d' % (r.order|int) }}</div>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div class="photo">{% if image %}<img src="{{ image }}" alt="{{ r.name }}">{% else %}<div class="ph">No image</div>{% endif %}</div>
+    <div class="intro">
+      <div class="eyebrow">{% for e in r.eyebrow if e %}<span>{{ e }}</span>{% endfor %}</div>
+      <h1>{{ r.name }}</h1>
+      <h2>{{ r.subtitle }}</h2>
+      <p>{{ r.description }}</p>
+    </div>
+    <div class="badges">
+      {% for b in r.badges %}<div class="badge">{{ icon(b.icon)|safe }}{% if b.label %}<span>{{ b.label }}</span>{% endif %}</div>{% endfor %}
+    </div>
+  </div>
+
+  {% if r.tiles %}<div class="tiles">
+    {% for t in r.tiles %}<div class="tile">{{ icon(t.icon)|safe }}<div><b>{{ t.value }}</b><small>{{ t.label }}</small></div></div>{% endfor %}
+  </div>{% endif %}
+
+  <div class="cols" id="cols">
+    {% for col in columns %}<div class="col" id="col{{ loop.index0 }}">
+      {% for s in col %}<div class="sec" data-id="{{ s.id }}" data-pin="{{ s.pin }}">
+        <h3>{{ s.title }}</h3>
+        {% if s.kind == 'kv' %}
+        <table class="kv">{% for row in s.rows %}<tr><td>{{ row.key }}</td><td>{{ row.value }}</td></tr>{% endfor %}</table>
+        {% elif s.kind == 'ordering' %}
+        <table class="ord"><tr>{% for h in s.headers %}<th>{{ h }}</th>{% endfor %}</tr>
+          {% for row in s.rows %}<tr>{% for c in row %}<td{% if c == '✓' %} class="y"{% endif %}>{{ c }}</td>{% endfor %}</tr>{% endfor %}</table>
+        <div class="legend"><span>✓ = Included</span><span>— = Not included</span></div>
+        {% elif s.kind == 'ordering_image' %}
+        <img class="ordimg" src="{{ ordering_img }}" alt="Ordering information">
+        {% elif s.kind == 'usecases' %}
+        {% for u in s.rows %}<div class="uc"><b>{{ u.title }}</b>{% if u.desc %}<small>{{ u.desc }}</small>{% endif %}</div>{% endfor %}
+        {% elif s.kind == 'compliance' %}
+        {% set logo_only = s.rows|rejectattr('label')|list|length == s.rows|length %}
+        <div class="comp{{ ' logos' if logo_only }}" style="grid-template-columns: repeat({{ [s.rows|length, 6 if logo_only else 4]|min }}, max-content)">{% for c in s.rows %}<div class="{{ c.cls }}">{{ icon(c.icon)|safe }}{% if c.label %}<span>{{ c.label }}</span>{% endif %}</div>{% endfor %}</div>
+        {% endif %}
+      </div>{% endfor %}
+    </div>{% endfor %}
+  </div>
+
+  <div class="foot">
+    <div class="contact">
+      {% if company.name %}<b>{{ company.name }}</b>{% endif %}
+      {% set contact = [company.city, company.email, company.phone]|select|list %}
+      {% if contact %}<span>{{ contact|join('  ·  ') }}</span>{% endif %}
+      {% if company.websites %}<span>{{ company.websites|join(' | ') }}</span>{% endif %}
+    </div>
+    {% if qr %}<div class="qr">
+      <div><b>{{ qr.title }}</b><span>{{ qr.caption }}</span></div>
+      <a href="{{ qr.url }}"><img src="{{ qr.img }}" alt="QR code: {{ qr.url }}"></a>
+    </div>{% endif %}
+  </div>
+</div>
+<script>
+// Shared by the app preview and the PDF build: step table density down until the columns clear the footer.
+window.fitPage = function (start, min) {
+  var root = document.documentElement, page = document.getElementById('page');
+  var L = document.getElementById('col0'), R = document.getElementById('col1');
+  var ORDER = {hardware: 0, software: 0, physical: 1, ordering: 2, usecases: 3, compliance: 4};
+  var DEF = {physical: 'left', ordering: 'left', usecases: 'right', compliance: 'right'};
+  var all = Array.prototype.slice.call(page.querySelectorAll('#cols .sec'));
+  var byId = {}; all.forEach(function (e) { byId[e.dataset.id] = e; });
+  var movable = all.filter(function (e) { return DEF[e.dataset.id]; }).map(function (e) { return e.dataset.id; });
+  function over() {
+    var pr = page.getBoundingClientRect(), k = pr.height / 1123;
+    var cols = document.getElementById('cols').getBoundingClientRect(), foot = page.querySelector('.foot').getBoundingClientRect();
+    return Math.round((cols.bottom - (foot.top - 6 * k)) / k);
+  }
+  function place(side) {                       // side: {id: 'left'|'right'} for movable sections
+    var l = [], r = [];
+    all.forEach(function (e) {
+      var id = e.dataset.id, s = id === 'hardware' ? 'left' : id === 'software' ? 'right' : side[id];
+      (s === 'left' ? l : r).push(e);
+    });
+    var cmp = function (a, b) { return ORDER[a.dataset.id] - ORDER[b.dataset.id]; };
+    l.sort(cmp).forEach(function (e) { L.appendChild(e); });
+    r.sort(cmp).forEach(function (e) { R.appendChild(e); });
+  }
+  // every left/right assignment of the movable sections that respects the pins
+  var options = [];
+  for (var mask = 0; mask < (1 << movable.length); mask++) {
+    var side = {}, moves = 0, ok = true;
+    movable.forEach(function (id, i) {
+      var s = (mask >> i) & 1 ? 'right' : 'left', pin = byId[id].dataset.pin;
+      if ((pin === 'left' || pin === 'right') && pin !== s) ok = false;
+      if (s !== DEF[id]) moves++;
+      side[id] = s;
+    });
+    if (ok) options.push({side: side, moves: moves});
+  }
+  options.sort(function (a, b) { return a.moves - b.moves; });
+  function arrange() {                         // fewest moves that fits; else the least overflow
+    var best = null;
+    for (var i = 0; i < options.length; i++) {
+      place(options[i].side);
+      var o = over();
+      if (o <= 0) { best = {side: options[i].side, o: o}; break; }
+      if (!best || o < best.o) best = {side: options[i].side, o: o};
+    }
+    place(best.side);
+    return best.o;
+  }
+  function shrink() {
+    var d = start; root.style.setProperty('--d', d);
+    var o = arrange();
+    while (o > 0 && d - 0.02 >= min - 1e-9) { d = Math.round((d - 0.02) * 100) / 100; root.style.setProperty('--d', d); o = arrange(); }
+    return [d, o, current()];
+  }
+  function current() {
+    var ids = function (c) { return Array.prototype.map.call(c.querySelectorAll('.sec'), function (e) { return e.dataset.id; }); };
+    return {left: ids(L), right: ids(R)};
+  }
+  function apply(r) { root.style.setProperty('--d', r[0]); place(sideOf(r[2])); }
+  function sideOf(a) { var s = {}; a.left.forEach(function (i) { s[i] = 'left'; }); a.right.forEach(function (i) { s[i] = 'right'; }); return s; }
+  page.classList.remove('compact');
+  var r = shrink(), compact = false;
+  // text had to shrink: try tighter row spacing too and keep whichever leaves the larger text
+  if (r[0] < start || r[1] > 0) {
+    page.classList.add('compact');
+    var c = shrink();
+    if ((c[1] <= 0 && (r[1] > 0 || c[0] > r[0] + 0.03)) || (r[1] > 0 && c[1] < r[1])) { r = c; compact = true; }
+    else { page.classList.remove('compact'); apply(r); }
+  }
+  return {density: r[0], overflow_px: Math.max(0, r[1]), compact: compact, arrangement: r[2]};
+};
+{% if preview %}
+(function () {
+  function run() {
+    var r = fitPage({{ r.density or 1 }}, {{ min_density }});
+    var page = document.getElementById('page'), el = document.createElement('div');
+    el.className = 'no-print ' + (r.overflow_px > 0 ? 'overflow' : 'fitnote');
+    el.textContent = r.overflow_px > 0
+      ? 'Overflows the page by ' + r.overflow_px + ' px even at density ' + r.density + ' — untick rows or shorten text.'
+      : (r.density < {{ r.density or 1 }} || r.compact ? 'auto density ' + r.density + (r.compact ? ' · compact spacing' : '') : '');
+    if (el.textContent) page.appendChild(el);
+  }
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(run); else window.onload = run;
+})();
+{% endif %}
+</script>
+</body>
+</html>

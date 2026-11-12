@@ -1,0 +1,224 @@
+{
+  "id": "mcx",
+  "name": "MC-X",
+  "order": 42,
+  "category": "Other",
+  "category_plural": "Others",
+  "eyebrow": [
+    "OTHERS",
+    "-"
+  ],
+  "subtitle": "Industrial - Other",
+  "bar_title": "Industrial - Other",
+  "description": "A compact media converter bridging 10/100/1000Base-T Ethernet to single-mode fibre up to 10 km at 1310nm, with a duplex SC connector and 5–12V DC input.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\mcx.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "MODEM"
+    },
+    {
+      "icon": "bolt",
+      "value": "5–12 V",
+      "label": "DC INPUT"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "LTE"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "Description",
+      "value": "10/100/1000 Base-T to 1000 Base-LX"
+    },
+    {
+      "show": true,
+      "key": "Fiber Wavelength",
+      "value": "1310nm"
+    },
+    {
+      "show": true,
+      "key": "Max Distance",
+      "value": "10Km"
+    },
+    {
+      "show": true,
+      "key": "Ports",
+      "value": "One RJ - 45 and One Fiber port (Duplex SC type connector)"
+    },
+    {
+      "show": true,
+      "key": "Mode",
+      "value": "Single - mode"
+    },
+    {
+      "show": true,
+      "key": "Auto MDI Support",
+      "value": "Yes"
+    },
+    {
+      "show": true,
+      "key": "Input Voltage Range",
+      "value": "5-12 VDC IN"
+    },
+    {
+      "show": true,
+      "key": "Dimensions",
+      "value": "92 x 66 x 26 mm (HxWxD)"
+    },
+    {
+      "show": true,
+      "key": "Working Temperature",
+      "value": "0 ~ 70℃"
+    },
+    {
+      "show": true,
+      "key": "Humidity",
+      "value": "5% to 90%"
+    },
+    {
+      "show": true,
+      "key": "Ethernet",
+      "value": "10/100/1000 Base T to 1000 Base SX"
+    }
+  ],
+  "software": [
+    {
+      "show": true,
+      "key": "Standard Packaging",
+      "value": "MC-1 Media Converter with Sheet Metal Housing, 01- meter Ethernet cable, Power Adaptor"
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Steel Metal Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "5-12 VDC IN"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "187 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Interface",
+      "Mode",
+      "Max Distance",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "1× RJ45 + 1× Fiber SC",
+        "Single-mode",
+        "5 km",
+        "ISMC1-SD851G-S5"
+      ],
+      [
+        "1× RJ45 + 1× Fiber SC",
+        "Single-mode",
+        "10 km",
+        "ISMC1-SD311G-10"
+      ],
+      [
+        "1× RJ45 + 1× Fiber SC",
+        "Single-mode",
+        "20 km",
+        "SMC1-SD311G-20"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Long-Distance Network Extension",
+      "desc": "Extends network connectivity across geographically separated locations, remote facilities, and challenging environments where standard Ethernet links may fall short. It provides a reliable communication link for sharing data and accessing network resources over longer distances."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "mcx",
+    "brief_page": 33,
+    "detailed_page": 73,
+    "match": "name"
+  },
+  "status": "approved",
+  "created": "2026-11-11T17:50:20",
+  "_json_ordering": {
+    "headers": [
+      "Interface",
+      "Mode",
+      "Max Distance",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "1× RJ45 + 1× Fiber SC",
+        "Single-mode",
+        "5 km",
+        "ISMC1-SD851G-S5"
+      ],
+      [
+        "1× RJ45 + 1× Fiber SC",
+        "Single-mode",
+        "10 km",
+        "ISMC1-SD311G-10"
+      ],
+      [
+        "1× RJ45 + 1× Fiber SC",
+        "Single-mode",
+        "20 km",
+        "SMC1-SD311G-20"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "conflicts": [],
+  "updated": "2026-11-12T12:39:17",
+  "approved_at": "2026-11-12T12:39:17"
+}

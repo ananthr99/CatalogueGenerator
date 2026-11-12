@@ -1,0 +1,165 @@
+{
+  "id": "miniups",
+  "name": "Mini UPS",
+  "order": 49,
+  "category": "Other",
+  "category_plural": "Others",
+  "eyebrow": [
+    "OTHERS"
+  ],
+  "subtitle": "Industrial - Other",
+  "bar_title": "Industrial - Other",
+  "description": "A compact 12V UPS with dual output ports, user-replaceable batteries (19–38 Whr), up to 10 hours backup, and auto turn-on for keeping routers, cameras, and access points online during power cuts.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\miniups.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "- MODEM"
+    },
+    {
+      "icon": "ports",
+      "value": "0×",
+      "label": "ETHERNET PORTS"
+    },
+    {
+      "icon": "bolt",
+      "value": "12/2/3 V",
+      "label": "DC INPUT"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "LTE"
+    }
+  ],
+  "hardware": [
+    {
+      "key": "Input/Output",
+      "value": "12 V Input, 12V/2A/3A Output",
+      "show": true
+    },
+    {
+      "key": "Output Port",
+      "value": "Dual Output port",
+      "show": true
+    },
+    {
+      "key": "Battery",
+      "value": "User replaceable (18650/26650), overcharge and discharge protection. Thermal protection",
+      "show": true
+    },
+    {
+      "key": "Power",
+      "value": "19 Whr, backup time 3-5 hours/ 38 Whr, backup time 9-10 hours",
+      "show": true
+    },
+    {
+      "key": "On/Off",
+      "value": "Auto turn on feature",
+      "show": true
+    },
+    {
+      "key": "LED Indicators",
+      "value": "Charging and output power status indicators",
+      "show": true
+    },
+    {
+      "key": "Protection",
+      "value": "Short Circuit Protection",
+      "show": true
+    }
+  ],
+  "software": [],
+  "physical": [
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "12V in / 12V out (2A/3A)"
+    }
+  ],
+  "ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "use_cases": [
+    {
+      "title": "Router & Modem Power Backup",
+      "desc": "Provides backup power to routers and modems during mains power interruptions, keeping network connectivity active when it is needed most. This helps prevent communication downtime and ensures uninterrupted access to critical online services."
+    },
+    {
+      "title": "CCTV & Security Continuity",
+      "desc": "Keeps CCTV cameras and security systems operational during power outages through reliable backup power support. This ensures continuous surveillance, uninterrupted video recording, and consistent protection of critical premises."
+    },
+    {
+      "title": "Smart Device Power Resilience",
+      "desc": "Maintains power to connected smart devices during electrical interruptions, helping prevent unexpected shutdowns and communication loss. This ensures essential networked equipment remains operational and available for monitoring and control."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "miniups",
+    "brief_page": 40,
+    "detailed_page": 80,
+    "match": "name"
+  },
+  "status": "approved",
+  "created": "2026-11-11T18:01:20",
+  "_json_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "_pdf_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "conflicts": [
+    {
+      "field": "Input Power",
+      "json": "12V in / 12V out (2A/3A)",
+      "pdf": "19 Whr, backup time 3-5 hours 38 Whr, backup time 9-10 hours",
+      "targets": [
+        [
+          "physical",
+          "Input Power"
+        ]
+      ],
+      "choice": "json"
+    }
+  ],
+  "updated": "2026-11-12T13:18:09",
+  "approved_at": "2026-11-12T13:18:09"
+}

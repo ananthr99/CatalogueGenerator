@@ -1,0 +1,494 @@
+{
+  "id": "rvxx",
+  "name": "RVXX",
+  "order": 12,
+  "category": "Router",
+  "category_plural": "Routers",
+  "eyebrow": [
+    "ROUTERS"
+  ],
+  "subtitle": "Industrial 4G Dual Modem Router",
+  "bar_title": "Industrial 4G Dual Modem Router",
+  "description": "The RVXX is a compact industrial router built on MediaTek MT7621 featuring dual-band Wi-Fi 5, 4G/3G/2G cellular with dual SIM, and five Gigabit Ethernet ports. Running OpenWRT Linux with VPN, VLAN, advanced routing, and NMS remote management, it is ideal for industrial IoT, M2M, and edge-networking deployments.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\rvxx.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Dual",
+      "label": "4G MODEMS"
+    },
+    {
+      "icon": "ports",
+      "value": "4+1",
+      "label": "LAN+WAN"
+    },
+    {
+      "icon": "chip",
+      "value": "512 MB",
+      "label": "DDR3 RAM"
+    },
+    {
+      "icon": "wifi",
+      "value": "Wi-Fi 5",
+      "label": "DUAL BAND"
+    },
+    {
+      "icon": "bolt",
+      "value": "9–30 V",
+      "label": "DC INPUT"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "4G LTE"
+    },
+    {
+      "icon": "wifi",
+      "label": "Wi-Fi 5"
+    },
+    {
+      "icon": "fan",
+      "label": "Fanless Design"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "CPU",
+      "value": "MT7621 MIPS Dual Core with 880 MHz Frequency"
+    },
+    {
+      "show": true,
+      "key": "RAM",
+      "value": "512 MB DDR3"
+    },
+    {
+      "show": true,
+      "key": "Flash",
+      "value": "32 MB"
+    },
+    {
+      "show": true,
+      "key": "WAN",
+      "value": "1x 10/100/1000"
+    },
+    {
+      "show": true,
+      "key": "LAN",
+      "value": "4x 10/100/1000"
+    },
+    {
+      "show": true,
+      "key": "Cellular",
+      "value": "4G/3G/2G with Dual SIM, External 5dBi antenna"
+    },
+    {
+      "show": true,
+      "key": "SIM",
+      "value": "2x Nano SIM (2x Active), Option for Active/Passive"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi",
+      "value": "802.11b/g/n/ac; Dual Band Wi-Fi, AP Station, External 5dBi antennas"
+    },
+    {
+      "show": true,
+      "key": "Reset",
+      "value": "Pinhole Reset Button"
+    },
+    {
+      "show": true,
+      "key": "Antenna",
+      "value": "Cellular: 4x SMA Connector, Wi-Fi: 2x SMA connector"
+    },
+    {
+      "show": true,
+      "key": "Storage Temp",
+      "value": "-30 ~ 70 °C"
+    },
+    {
+      "show": true,
+      "key": "Operating Temp",
+      "value": "0~ 50 °C"
+    },
+    {
+      "show": true,
+      "key": "Humidity",
+      "value": "10 ~ 90% (non-condensing)"
+    }
+  ],
+  "software": [
+    {
+      "show": true,
+      "key": "Operating System",
+      "value": "OpenWRT-based Linux OS"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi Mode",
+      "value": "Access Point (AP), Station, AP & Client, Guest Wi-Fi"
+    },
+    {
+      "show": true,
+      "key": "Encryption",
+      "value": "TKIP, AES, TKIP & AES"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi Technology",
+      "value": "802.11 b/g/n/ac"
+    },
+    {
+      "show": true,
+      "key": "Authentication",
+      "value": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode"
+    },
+    {
+      "show": true,
+      "key": "TX Power",
+      "value": "Configurable"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi Scheduler",
+      "value": "Scheduled ON/OFF"
+    },
+    {
+      "show": true,
+      "key": "Routing",
+      "value": "Static routing, Advance Routing"
+    },
+    {
+      "show": true,
+      "key": "Network Protocols",
+      "value": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP"
+    },
+    {
+      "show": true,
+      "key": "Monitoring",
+      "value": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)"
+    },
+    {
+      "show": true,
+      "key": "Firewall Features",
+      "value": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules."
+    },
+    {
+      "show": true,
+      "key": "DHCP",
+      "value": "Static and Dynamic"
+    },
+    {
+      "show": true,
+      "key": "VLAN",
+      "value": "Tagged VLAN, Untagged VLAN"
+    },
+    {
+      "show": true,
+      "key": "VPN",
+      "value": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel"
+    },
+    {
+      "show": true,
+      "key": "OpenVPN",
+      "value": "TUN/TAP with TLS Certificates"
+    },
+    {
+      "show": true,
+      "key": "IPsec",
+      "value": "IKEv1, IKEv2, Aggressive/Main Mode"
+    },
+    {
+      "show": true,
+      "key": "PPTP/L2TP WAN",
+      "value": "Server & Client with/without MPPE Encryption"
+    },
+    {
+      "show": true,
+      "key": "Remote Management",
+      "value": "Remote Monitoring & Management Platform for SILBO Networking products"
+    },
+    {
+      "show": true,
+      "key": "NMS VPN",
+      "value": "Remote Access of SILBO and non-SILBO Networking devices"
+    },
+    {
+      "show": true,
+      "key": "Supported Languages / Tools",
+      "value": "Shell scripting, C, C++"
+    },
+    {
+      "show": true,
+      "key": "SDK Package",
+      "value": "SDK package with built environment provided (Optional)"
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "110 x 60 x 95 mm (W x H x D)"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Industrial Aluminium Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "DIN rail mounting Kit (Optional)"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fanless"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "9-30/12 VDC"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "390 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "Wi-Fi 5",
+        "4G",
+        "Single",
+        "RV54-1"
+      ],
+      [
+        "✓",
+        "Wi-Fi 5",
+        "4G",
+        "Dual",
+        "RV54-2"
+      ],
+      [
+        "✓",
+        "—",
+        "4G",
+        "Single",
+        "RV04-1"
+      ],
+      [
+        "✓",
+        "Wi-Fi 5",
+        "4G",
+        "Dual",
+        "RV04-2"
+      ],
+      [
+        "—",
+        "Wi-Fi 5",
+        "5G",
+        "—",
+        "RV50"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "M2M Communication & Remote Asset Connectivity",
+      "desc": "Suitable for machine-to-machine (M2M) communication in ATMs, kiosks, vending machines, and remote assets requiring reliable cellular connectivity."
+    },
+    {
+      "title": "Transportation & Fleet Connectivity",
+      "desc": "Can be deployed in buses, logistics vehicles, and mobile units to provide continuous internet access, GPS-linked communication, and remote monitoring."
+    },
+    {
+      "title": "Backup Connectivity for Small Industrial Remote Sites",
+      "desc": "Provides reliable secondary network connectivity for small factories, warehouses, and branch locations through dual-SIM cellular failover and secure VPN access."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "rvxx",
+    "brief_page": 12,
+    "detailed_page": 50,
+    "match": "name"
+  },
+  "status": "approved",
+  "created": "2026-10-07T16:14:05",
+  "_json_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "Wi-Fi 5",
+        "4G",
+        "Single",
+        "RV54-1"
+      ],
+      [
+        "✓",
+        "Wi-Fi 5",
+        "4G",
+        "Dual",
+        "RV54-2"
+      ],
+      [
+        "✓",
+        "—",
+        "4G",
+        "Single",
+        "RV04-1"
+      ],
+      [
+        "✓",
+        "Wi-Fi 5",
+        "4G",
+        "Dual",
+        "RV04-2"
+      ],
+      [
+        "—",
+        "Wi-Fi 5",
+        "5G",
+        "—",
+        "RV50"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "Wi-Fi 5",
+        "4G",
+        "Single",
+        "RV54-1"
+      ],
+      [
+        "✓",
+        "Wi-Fi -5",
+        "4G",
+        "Dual",
+        "RV54-2"
+      ],
+      [
+        "✓",
+        "—",
+        "4G",
+        "Single",
+        "RV04-1"
+      ],
+      [
+        "✓",
+        "—",
+        "4G",
+        "Dual",
+        "RV04-2"
+      ],
+      [
+        "—",
+        "Wi-Fi 5",
+        "—",
+        "—",
+        "RV50"
+      ]
+    ]
+  },
+  "conflicts": [
+    {
+      "field": "CPU",
+      "json": "MT7621 MIPS Dual Core with 880 MHz Frequency",
+      "pdf": "MediaTek MT7621",
+      "targets": [
+        [
+          "hardware",
+          "CPU"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Cellular",
+      "json": "Dual M.2 Modem 4G/3G/2G",
+      "pdf": "4G/3G/2G with Dual SIM, External 5dBi antenna",
+      "targets": [
+        [
+          "hardware",
+          "Cellular"
+        ]
+      ],
+      "choice": "pdf"
+    },
+    {
+      "field": "Input Power",
+      "json": "9-30/12 VDC",
+      "pdf": "12 VDC Input",
+      "targets": [
+        [
+          "physical",
+          "Input Power"
+        ]
+      ],
+      "choice": "json"
+    }
+  ],
+  "updated": "2026-11-12T12:14:44",
+  "approved_at": "2026-11-12T12:14:44"
+}

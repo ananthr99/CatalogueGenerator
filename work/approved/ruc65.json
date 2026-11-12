@@ -1,0 +1,215 @@
+{
+  "id": "ruc65",
+  "name": "RUC 65",
+  "order": 29,
+  "category": "Gateway",
+  "category_plural": "Gateways",
+  "eyebrow": [
+    "GATEWAYS"
+  ],
+  "subtitle": "Industrial 5G/4G Gateway",
+  "bar_title": "Industrial 5G/4G Gateway",
+  "description": "An enterprise-grade fanless 5G gateway on MediaTek MT7981 with AX3000 Wi-Fi 6, dual-SIM, PoE IN, multi-WAN failover, and robust VPN tunneling. Delivers up to 2.2 Gbps Sub-6 cellular speeds for smart buildings, events, and mission-critical routing.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\ruc65.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "5G MODEM"
+    },
+    {
+      "icon": "ports",
+      "value": "3×",
+      "label": "GIGABIT ETHERNET"
+    },
+    {
+      "icon": "wifi",
+      "value": "Wi-Fi 6",
+      "label": "DUAL BAND"
+    },
+    {
+      "icon": "bolt",
+      "value": "12 V",
+      "label": "DC INPUT"
+    },
+    {
+      "icon": "cpu",
+      "value": "MT7981",
+      "label": "DUAL CORE · 1.3 GHz"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "5G Ready"
+    },
+    {
+      "icon": "wifi",
+      "label": "Wi-Fi 6"
+    }
+  ],
+  "hardware": [
+    {
+      "key": "CPU",
+      "value": "MediaTek MT7981 1.3 GHz Dual Core ARM Cortex A53",
+      "show": true
+    },
+    {
+      "key": "RAM",
+      "value": "512 MB DDR3",
+      "show": true
+    },
+    {
+      "key": "Storage",
+      "value": "128 MB NAND",
+      "show": true
+    },
+    {
+      "key": "Cellular",
+      "value": "4G/5G",
+      "show": true
+    },
+    {
+      "key": "Wi-Fi",
+      "value": "Wi-Fi 6",
+      "show": true
+    },
+    {
+      "key": "Ethernet Ports",
+      "value": "1 x Gigabit WAN (PoE IN IEEE802.3at), 2 x Gigabit LAN",
+      "show": true
+    },
+    {
+      "key": "Operating Temp",
+      "value": "0 ~ 50°C",
+      "show": true
+    }
+  ],
+  "software": [
+    {
+      "key": "Operating System",
+      "value": "OpenWRT Linux",
+      "show": true
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "105 x 200 x 105 mm (W x H x D)"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Plastic"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "12 VDC"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "590 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "Gen",
+      "Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "Wi-Fi 6",
+        "5G",
+        "Single",
+        "RUC 65"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Smart Building & IoT Edge Aggregation",
+      "desc": "Brings together data from building systems, IoT sensors, and connected devices through a centralized edge gateway. This enables efficient data collection, local processing, and seamless communication with building management platforms for smarter facility operations."
+    },
+    {
+      "title": "Mobile & Temporary Event Branch Connectivity",
+      "desc": "Provides dependable network connectivity for temporary offices, event venues, and mobile workspaces where permanent infrastructure may not be available. It enables teams to access business applications, communicate, and manage operations from any temporary location."
+    },
+    {
+      "title": "Mission-Critical Multi-WAN Industrial Routing",
+      "desc": "Combines multiple WAN connections to maintain reliable network access across industrial environments where connectivity is essential for continuous operations. Automatic failover and intelligent link management help minimize downtime and keep critical systems connected."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "ruc65",
+    "brief_page": null,
+    "detailed_page": null,
+    "match": "no match"
+  },
+  "status": "approved",
+  "created": "2026-10-08T11:03:39",
+  "_json_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "Gen",
+      "Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "Wi-Fi 6",
+        "5G",
+        "Single",
+        "RUC 65"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "conflicts": [],
+  "updated": "2026-11-12T12:28:23",
+  "approved_at": "2026-11-12T12:28:23"
+}

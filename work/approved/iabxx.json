@@ -1,0 +1,496 @@
+{
+  "id": "iabxx",
+  "name": "IABXX-X",
+  "order": 20,
+  "category": "Gateway",
+  "category_plural": "Gateways",
+  "eyebrow": [
+    "GATEWAYS"
+  ],
+  "subtitle": "Industrial 4G Gateway",
+  "bar_title": "Industrial 4G Gateway",
+  "description": "A rugged industrial gateway on MT7628 with 4G, Wi-Fi 4, RS485, RS232, digital I/O, analog input, RTC, and a wide 9–30V DC input. Built for smart energy automation, industrial process monitoring, and remote environmental and field monitoring.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\iabxx-x.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "4G MODEM"
+    },
+    {
+      "icon": "ports",
+      "value": "1+1",
+      "label": "LAN+WAN"
+    },
+    {
+      "icon": "serial",
+      "value": "Serial I/O",
+      "label": "RS485 · RS232 · DI/O · AI"
+    },
+    {
+      "icon": "wifi",
+      "value": "Wi-Fi 4",
+      "label": "2.4 GHz"
+    },
+    {
+      "icon": "bolt",
+      "value": "9–30 V",
+      "label": "DC INPUT"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "4G LTE"
+    },
+    {
+      "icon": "wifi",
+      "label": "Wi-Fi 4"
+    },
+    {
+      "icon": "fan",
+      "label": "Fanless Design"
+    }
+  ],
+  "hardware": [
+    {
+      "key": "CPU",
+      "value": "MT7628, Single Core with 580 MHz Frequency",
+      "show": true
+    },
+    {
+      "key": "RAM",
+      "value": "128MB",
+      "show": true
+    },
+    {
+      "key": "Flash",
+      "value": "32MB",
+      "show": true
+    },
+    {
+      "key": "WAN",
+      "value": "1x 10/100",
+      "show": true
+    },
+    {
+      "key": "LAN",
+      "value": "1x 10/100",
+      "show": true
+    },
+    {
+      "key": "Cellular",
+      "value": "4G/3G/2G with Dual SIM, External 5dBi antenna",
+      "show": true
+    },
+    {
+      "key": "SIM",
+      "value": "2x Nano SIM (1x Active, 1x Passive)",
+      "show": true
+    },
+    {
+      "key": "Wi-Fi",
+      "value": "802.11 b/g/n; Wi-Fi 2.4 GHz, 300 MBPS AP Station, External 5dBi antennas",
+      "show": true
+    },
+    {
+      "key": "Interface",
+      "value": "1x RS485, 4x DIO, 1x RS232, 2x AI, 1X ISO 24V OUT, 1 x USB H",
+      "show": true
+    },
+    {
+      "key": "Reset",
+      "value": "Pinhole Reset Button",
+      "show": true
+    },
+    {
+      "key": "Antenna",
+      "value": "Cellular: 2x SMA Connector Wi-Fi:2x SMA Connector",
+      "show": true
+    },
+    {
+      "key": "Storage Temp",
+      "value": "-30 ~ 70 °C",
+      "show": true
+    },
+    {
+      "key": "Operating Temp",
+      "value": "0~ 50 °C",
+      "show": true
+    },
+    {
+      "key": "Humidity",
+      "value": "10 ~ 90% (non-condensing)",
+      "show": true
+    }
+  ],
+  "software": [
+    {
+      "key": "Operating System",
+      "value": "OpenWRT-based Linux OS",
+      "show": true
+    },
+    {
+      "key": "Wi-Fi Mode",
+      "value": "Access Point (AP), Station, AP & Client, Guest Wi-Fi",
+      "show": true
+    },
+    {
+      "key": "Encryption",
+      "value": "TKIP, AES, TKIP & AES",
+      "show": true
+    },
+    {
+      "key": "Wi-Fi Technology",
+      "value": "802.11 b/g/n",
+      "show": true
+    },
+    {
+      "key": "Authentication",
+      "value": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode",
+      "show": true
+    },
+    {
+      "key": "TX Power",
+      "value": "Configurable",
+      "show": true
+    },
+    {
+      "key": "Wi-Fi Scheduler",
+      "value": "Scheduled ON/OFF",
+      "show": true
+    },
+    {
+      "key": "Routing",
+      "value": "Static routing, Advanced Static Routing",
+      "show": true
+    },
+    {
+      "key": "Network Protocols",
+      "value": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+      "show": true
+    },
+    {
+      "key": "Monitoring",
+      "value": "Ping Reboot, Scheduled Periodic Reboot",
+      "show": true
+    },
+    {
+      "key": "Firewall Features",
+      "value": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+      "show": true
+    },
+    {
+      "key": "DHCP",
+      "value": "Static and Dynamic",
+      "show": true
+    },
+    {
+      "key": "VLAN",
+      "value": "Tagged VLAN, Untagged VLAN",
+      "show": true
+    },
+    {
+      "key": "VPN",
+      "value": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+      "show": true
+    },
+    {
+      "key": "OpenVPN",
+      "value": "TUN/TAP with TLS Certificates",
+      "show": true
+    },
+    {
+      "key": "IPsec",
+      "value": "IKEv1, IKEv2, Aggressive/Main Mode",
+      "show": true
+    },
+    {
+      "key": "PPTP/L2TP WAN",
+      "value": "Server & Client with/without MPPE Encryption",
+      "show": true
+    },
+    {
+      "key": "Remote Management",
+      "value": "Remote Monitoring & Management Platform for SILBO Networking products",
+      "show": true
+    },
+    {
+      "key": "NMS VPN",
+      "value": "Remote Access of SILBO and non-SILBO Networking devices",
+      "show": true
+    },
+    {
+      "key": "Supported Languages / Tools",
+      "value": "Shell scripting, C, C++",
+      "show": true
+    },
+    {
+      "key": "SDK Package",
+      "value": "SDK package with built environment provided (Optional)",
+      "show": true
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "110 x 44 x 94 mm"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Industrial Aluminium Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "DIN rail mounting Kit (Optional)"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fanless"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "9-30 VDC IN"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "427 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "RS485",
+      "RS232",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "Wi-Fi 4",
+        "✓",
+        "✓",
+        "4G",
+        "Single",
+        "IAB44-C"
+      ],
+      [
+        "✓",
+        "Wi-Fi 4",
+        "✓",
+        "✓",
+        "4G",
+        "Single",
+        "IAB44-B (4 GB eMMC)"
+      ],
+      [
+        "✓",
+        "—",
+        "✓",
+        "✓",
+        "4G",
+        "Single",
+        "IAB04-B (4 GB eMMC)"
+      ],
+      [
+        "✓",
+        "—",
+        "✓",
+        "✓",
+        "4G",
+        "Single",
+        "IAB04-C"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Smart Energy & Utility Automation",
+      "desc": "Ideal for connecting energy meters, RTUs, and utility equipment using RS485/RS232 interfaces for real-time monitoring and data transmission."
+    },
+    {
+      "title": "Industrial Process Monitoring",
+      "desc": "Can be deployed in factories to collect sensor and machine data through DIO and analogue inputs for process control and predictive maintenance"
+    },
+    {
+      "title": "Remote Environmental & Field Monitoring",
+      "desc": "Suitable for monitoring weather stations, water pumps, agricultural systems, and other field assets requiring rugged and uninterrupted connectivity"
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "iabxx",
+    "brief_page": 20,
+    "detailed_page": 58,
+    "match": "name"
+  },
+  "status": "approved",
+  "created": "2026-10-07T20:57:14",
+  "_json_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "RS485",
+      "RS232",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "Wi-Fi 4",
+        "✓",
+        "✓",
+        "4G",
+        "Single",
+        "IAB44-C"
+      ],
+      [
+        "✓",
+        "Wi-Fi 4",
+        "✓",
+        "✓",
+        "4G",
+        "Single",
+        "IAB44-B (4 GB eMMC)"
+      ],
+      [
+        "✓",
+        "—",
+        "✓",
+        "✓",
+        "4G",
+        "Single",
+        "IAB04-B (4 GB eMMC)"
+      ],
+      [
+        "✓",
+        "—",
+        "✓",
+        "✓",
+        "4G",
+        "Single",
+        "IAB04-C"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "RS485",
+      "RS232",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "Wi-Fi 2.4",
+        "✓",
+        "✓",
+        "4G",
+        "Single",
+        "IAB44-C"
+      ],
+      [
+        "✓",
+        "Wi-Fi 2.4",
+        "✓",
+        "✓",
+        "4G",
+        "Single",
+        "IAB44-B (4GB eMMC)"
+      ],
+      [
+        "✓",
+        "—",
+        "✓",
+        "✓",
+        "4G",
+        "Single",
+        "IAB04-B (4GB eMMC)"
+      ],
+      [
+        "✓",
+        "—",
+        "✓",
+        "✓",
+        "4G",
+        "Single",
+        "IAB04-C"
+      ]
+    ]
+  },
+  "conflicts": [
+    {
+      "field": "CPU",
+      "json": "MT7628, Single Core with 580 MHz Frequency",
+      "pdf": "MediaTek MT7628",
+      "targets": [
+        [
+          "hardware",
+          "CPU"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Cellular",
+      "json": "4G",
+      "pdf": "4G/3G/2G with Dual SIM, External 5dBi antenna",
+      "targets": [
+        [
+          "hardware",
+          "Cellular"
+        ]
+      ],
+      "choice": "pdf"
+    }
+  ],
+  "updated": "2026-11-12T12:18:20",
+  "approved_at": "2026-11-12T12:18:20"
+}

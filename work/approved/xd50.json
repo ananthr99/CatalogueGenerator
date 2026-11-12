@@ -1,0 +1,277 @@
+{
+  "id": "xd50",
+  "name": "XD50-1",
+  "order": 35,
+  "category": "Switch",
+  "category_plural": "Switches",
+  "eyebrow": [
+    "SWITCHES"
+  ],
+  "subtitle": "Industrial - Switch",
+  "bar_title": "Industrial - Switch",
+  "description": "A slim 5-port Fast Ethernet unmanaged PoE switch with 9–30V DC input and compact sheet metal DIN-rail housing for EV charger connectivity, edge cabinets, and smart kiosk networking.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\xd50.webp",
+  "tiles": [
+    {
+      "icon": "ports",
+      "value": "5",
+      "label": "ETHERNET PORTS"
+    },
+    {
+      "icon": "bolt",
+      "value": "9–30 V",
+      "label": "DC INPUT"
+    },
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "MODEM"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "LTE"
+    },
+    {
+      "icon": "ports",
+      "label": "POE"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "Ethernet",
+      "value": "5 x 10/100 Mbps (MDI/MDIX)"
+    },
+    {
+      "show": true,
+      "key": "Status LED",
+      "value": "PWR(On/Off), LAN Activity LED."
+    },
+    {
+      "show": true,
+      "key": "MAC Address table entries",
+      "value": "2000"
+    },
+    {
+      "show": true,
+      "key": "Jumbo Frame",
+      "value": "9216 bytes"
+    },
+    {
+      "show": true,
+      "key": "Buffer size",
+      "value": "128 KB"
+    },
+    {
+      "show": true,
+      "key": "Power Connector",
+      "value": "2 Pin Screw TB"
+    },
+    {
+      "show": true,
+      "key": "Input Voltage Range",
+      "value": "9-30 Vdc"
+    },
+    {
+      "show": true,
+      "key": "Power Consumption",
+      "value": "<5W"
+    },
+    {
+      "show": true,
+      "key": "Dimensions",
+      "value": "27 mm x 112 mm x 94 mm (W x H x D)"
+    },
+    {
+      "show": true,
+      "key": "Other",
+      "value": "Grounding Screw"
+    },
+    {
+      "show": true,
+      "key": "Standard Packing",
+      "value": "XD-50-1 with Sheet Metal Enclosure"
+    }
+  ],
+  "software": [],
+  "physical": [
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Sheet Metal Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "DIN rail mounting Kit (Optional)"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fanless"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "9-30 VDC"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "307 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "PoE",
+      "No.of Modems",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "-",
+        "✓",
+        "Single",
+        "XD50-1 Unmanaged PoE Switch"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "EV Charger Controller Connectivity",
+      "desc": "Ideal multiple controller and connectivity and Display ethernet connection in small compact panel for EV charger."
+    },
+    {
+      "title": "Edge Cabinet Network Integration",
+      "desc": "Suitable for industrial cabinets, utility enclosures, and roadside deployments where compact, fanless, and maintenance-free network switching is required."
+    },
+    {
+      "title": "Smart Kiosk & Edge Device Networking",
+      "desc": "Suitable for kiosks, ticketing machines, vending systems, and compact edge deployments requiring reliable Ethernet connectivity in a small form factor."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "xd50",
+    "brief_page": 29,
+    "detailed_page": 67,
+    "match": "part numbers"
+  },
+  "status": "approved",
+  "created": "2026-10-08T12:25:44",
+  "_json_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "PoE",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "-",
+        "✓",
+        "XD50-1 Unmanaged PoE Switch"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "PoE",
+      "PoE Budget",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "240 W",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "XD50-1 Unmanaged"
+      ],
+      [
+        "—",
+        "—",
+        "✓",
+        "30W Max Per",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "PoE Switch"
+      ],
+      [
+        "",
+        "",
+        "",
+        "Port",
+        ""
+      ]
+    ]
+  },
+  "conflicts": [
+    {
+      "field": "Ordering table",
+      "json": "XD501UNMANAGEDPOESWITCH",
+      "pdf": ", POESWITCH, XD501UNMANAGED",
+      "targets": [
+        [
+          "ordering",
+          ""
+        ]
+      ],
+      "choice": "json"
+    }
+  ],
+  "updated": "2026-11-12T12:36:03",
+  "approved_at": "2026-11-12T12:36:03"
+}

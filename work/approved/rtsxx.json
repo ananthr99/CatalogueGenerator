@@ -1,0 +1,598 @@
+{
+  "id": "rtsxx",
+  "name": "RTSXX",
+  "order": 8,
+  "category": "Router",
+  "category_plural": "Routers",
+  "eyebrow": [
+    "ROUTERS"
+  ],
+  "subtitle": "Industrial 5G/4G Dual Modem Router",
+  "bar_title": "Industrial 5G/4G Dual Modem Router",
+  "description": "A ruggedised industrial router featuring dual 5G/4G modems, Wi-Fi 6, and SFP uplinks. Built on MediaTek MT7981 with OpenWRT, it supports dual-SIM failover, DIN-rail mounting, and a wide 9–30V DC power range — ideal for demanding telecom, industrial, and remote site deployments.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\rtsxx.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Dual",
+      "label": "5G MODEMS"
+    },
+    {
+      "icon": "ports",
+      "value": "4+1+2",
+      "label": "LAN+WAN+SFP"
+    },
+    {
+      "icon": "chip",
+      "value": "1 GB",
+      "label": "DDR4 RAM"
+    },
+    {
+      "icon": "wifi",
+      "value": "Wi-Fi 6",
+      "label": "DUAL BAND"
+    },
+    {
+      "icon": "bolt",
+      "value": "9–30 V",
+      "label": "DC INPUT"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "5G Ready"
+    },
+    {
+      "icon": "wifi",
+      "label": "Wi-Fi 6"
+    },
+    {
+      "icon": "ports",
+      "label": "5 Ports"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "CPU",
+      "value": "MediaTek MT7981 1.3GHz dual core ARM Cortex A53"
+    },
+    {
+      "show": true,
+      "key": "RAM",
+      "value": "512 MB DDR3/1GB DDR4"
+    },
+    {
+      "show": true,
+      "key": "Flash",
+      "value": "128/256 MB NAND"
+    },
+    {
+      "show": true,
+      "key": "Ethernet",
+      "value": "4 LAN 10/100/1000 1 WAN 10/100/1000 2 SFP"
+    },
+    {
+      "show": true,
+      "key": "Cellular",
+      "value": "Dual Modem 5G/4G/3G with Dual SIM, External 5dBi antenna 2x 5G Modem)"
+    },
+    {
+      "show": true,
+      "key": "SIM",
+      "value": "2x Nano SIM (Active), Option for Active/Passive"
+    },
+    {
+      "show": true,
+      "key": "USB",
+      "value": "1x USB 3.0 / USB 2.0 Host"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi",
+      "value": "802.11b/g/n/ac/ax; Dual-Band Wi-Fi, AP/Station, External 5dBi antennas"
+    },
+    {
+      "show": true,
+      "key": "Interface",
+      "value": "1x HDMI"
+    },
+    {
+      "show": true,
+      "key": "Reset",
+      "value": "Pinhole Reset Button"
+    },
+    {
+      "show": true,
+      "key": "Antenna",
+      "value": "Cellular: 4x SMA Connector, Wi-Fi: 3x SMA connector"
+    },
+    {
+      "show": true,
+      "key": "Storage Temp",
+      "value": "-20 ~ 65 °C"
+    },
+    {
+      "show": true,
+      "key": "Operating Temp",
+      "value": "0 - 50°C"
+    },
+    {
+      "show": true,
+      "key": "Humidity",
+      "value": "10 – 90% (non condensing)"
+    }
+  ],
+  "software": [
+    {
+      "show": true,
+      "key": "Operating System",
+      "value": "OpenWRT-based Linux OS"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi Mode",
+      "value": "Access Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh WiFi"
+    },
+    {
+      "show": true,
+      "key": "Encryption",
+      "value": "TKIP, AES, TKIP & AES"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi Technology",
+      "value": "802.11 b/g/n/ac/ax"
+    },
+    {
+      "show": true,
+      "key": "Authentication",
+      "value": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode"
+    },
+    {
+      "show": true,
+      "key": "TX Power",
+      "value": "Configurable"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi Scheduler",
+      "value": "Scheduled ON/OFF (Planned)"
+    },
+    {
+      "show": true,
+      "key": "Routing",
+      "value": "Static routing, Advanced Static Routing"
+    },
+    {
+      "show": true,
+      "key": "Network Protocols",
+      "value": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP"
+    },
+    {
+      "show": true,
+      "key": "Monitoring",
+      "value": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)"
+    },
+    {
+      "show": true,
+      "key": "Firewall Features",
+      "value": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules."
+    },
+    {
+      "show": true,
+      "key": "DHCP",
+      "value": "Static and Dynamic"
+    },
+    {
+      "show": true,
+      "key": "VLAN",
+      "value": "Tagged VLAN, Untagged VLAN"
+    },
+    {
+      "show": true,
+      "key": "Other Networking",
+      "value": "Black/whitelisting"
+    },
+    {
+      "show": true,
+      "key": "VPN",
+      "value": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel"
+    },
+    {
+      "show": true,
+      "key": "OpenVPN",
+      "value": "TUN/TAP with TLS Certificates"
+    },
+    {
+      "show": true,
+      "key": "IPsec",
+      "value": "IKEv1, IKEv2, Aggressive/Main Mode"
+    },
+    {
+      "show": true,
+      "key": "PPTP/L2TP",
+      "value": "Server & Client with/without MPPE Encryption"
+    },
+    {
+      "show": true,
+      "key": "Remote Management",
+      "value": "NMS Remote monitoring of SILBO Networking products"
+    },
+    {
+      "show": true,
+      "key": "NMS VPN",
+      "value": "Remote Access of SILBO and non-SILBO Networking Device"
+    },
+    {
+      "show": true,
+      "key": "Supported Languages / Tools",
+      "value": "Shell scripting, C, C++"
+    },
+    {
+      "show": true,
+      "key": "SDK Package",
+      "value": "SDK package with built environment provided (Optional)"
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "190 x 45 x 120 mm (W x H x D)"
+    },
+    {
+      "show": true,
+      "key": "IP Rating",
+      "value": "IP30"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Sheet Metal Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "DIN Rail Mounting Kit (Optional)"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fanless"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC JACK)"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "700 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "—",
+        "—",
+        "—",
+        "—",
+        "RTS00"
+      ],
+      [
+        "✓",
+        "—",
+        "4G",
+        "Single",
+        "RTS04-1"
+      ],
+      [
+        "✓",
+        "—",
+        "4G",
+        "Dual",
+        "RTS04-2"
+      ],
+      [
+        "✓",
+        "—",
+        "5G",
+        "Single",
+        "RTS05-1"
+      ],
+      [
+        "✓",
+        "—",
+        "5G",
+        "Dual",
+        "RTS05-2"
+      ],
+      [
+        "—",
+        "Wi-Fi 6",
+        "—",
+        "—",
+        "RTS60"
+      ],
+      [
+        "✓",
+        "Wi-Fi 6",
+        "4G",
+        "Single",
+        "RTS64-1"
+      ],
+      [
+        "✓",
+        "Wi-Fi 6",
+        "4G",
+        "Dual",
+        "RTS64-2"
+      ],
+      [
+        "✓",
+        "Wi-Fi 6",
+        "5G",
+        "Single",
+        "RTS65-1"
+      ],
+      [
+        "✓",
+        "Wi-Fi 6",
+        "5G",
+        "Dual",
+        "RTS65-2"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "SD-WAN & Branch Network Connectivity",
+      "desc": "Ideal for enterprise branches and remote offices, providing reliable multi-WAN connectivity with dual SIM failover, VPN support, and intelligent traffic management."
+    },
+    {
+      "title": "Secure VPN & Surveillance Network Deployment",
+      "desc": "Suitable for CCTV surveillance and secure networking applications, enabling encrypted VPN connectivity, remote access, and uninterrupted communication through dual cellular redundancy."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "IP30",
+  "density": 1.0,
+  "sources": {
+    "json": "rtsxx",
+    "brief_page": 8,
+    "detailed_page": 46,
+    "match": "name"
+  },
+  "status": "approved",
+  "created": "2026-10-07T16:38:25",
+  "_json_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "—",
+        "—",
+        "—",
+        "—",
+        "RTS00"
+      ],
+      [
+        "✓",
+        "—",
+        "4G",
+        "Single",
+        "RTS04-1"
+      ],
+      [
+        "✓",
+        "—",
+        "4G",
+        "Dual",
+        "RTS04-2"
+      ],
+      [
+        "✓",
+        "—",
+        "5G",
+        "Single",
+        "RTS05-1"
+      ],
+      [
+        "✓",
+        "—",
+        "5G",
+        "Dual",
+        "RTS05-2"
+      ],
+      [
+        "—",
+        "Wi-Fi 6",
+        "—",
+        "—",
+        "RTS60"
+      ],
+      [
+        "✓",
+        "Wi-Fi 6",
+        "4G",
+        "Single",
+        "RTS64-1"
+      ],
+      [
+        "✓",
+        "Wi-Fi 6",
+        "4G",
+        "Dual",
+        "RTS64-2"
+      ],
+      [
+        "✓",
+        "Wi-Fi 6",
+        "5G",
+        "Single",
+        "RTS65-1"
+      ],
+      [
+        "✓",
+        "Wi-Fi 6",
+        "5G",
+        "Dual",
+        "RTS65-2"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "—",
+        "—",
+        "—",
+        "—",
+        "RTS00"
+      ],
+      [
+        "✓",
+        "—",
+        "4G",
+        "Single",
+        "RTS04-1"
+      ],
+      [
+        "✓",
+        "—",
+        "4G",
+        "Dual",
+        "RTS04-2"
+      ],
+      [
+        "✓",
+        "—",
+        "5G",
+        "Single",
+        "RTS05-1"
+      ],
+      [
+        "✓",
+        "—",
+        "5G",
+        "Dual",
+        "RTS05-2"
+      ],
+      [
+        "—",
+        "WiFi-6",
+        "—",
+        "—",
+        "RTS-60"
+      ],
+      [
+        "✓",
+        "WiFi-6",
+        "4G",
+        "Single",
+        "RTS64-1"
+      ],
+      [
+        "✓",
+        "WiFi-6",
+        "4G",
+        "Dual",
+        "RTS64-2"
+      ],
+      [
+        "✓",
+        "WiFi-6",
+        "5G",
+        "Single",
+        "RTS65-1"
+      ],
+      [
+        "✓",
+        "WiFi-6",
+        "5G",
+        "Dual",
+        "RTS65-2"
+      ]
+    ]
+  },
+  "conflicts": [
+    {
+      "field": "Cellular",
+      "json": "Dual M.2 Modem 4G/3G/2G",
+      "pdf": "Dual Modem 5G/4G/3G with Dual SIM, External 5dBi antenna 2x 5G Modem)",
+      "targets": [
+        [
+          "hardware",
+          "Cellular"
+        ]
+      ],
+      "choice": "pdf"
+    },
+    {
+      "field": "Input Power",
+      "json": "9-30/12 VDC",
+      "pdf": "9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC JACK)",
+      "targets": [
+        [
+          "physical",
+          "Input Power"
+        ]
+      ],
+      "choice": "pdf"
+    }
+  ],
+  "updated": "2026-11-12T12:10:32",
+  "approved_at": "2026-11-12T12:10:32"
+}

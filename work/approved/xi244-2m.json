@@ -1,0 +1,176 @@
+{
+  "id": "xi244-2m",
+  "name": "XI 244-2M",
+  "order": 39,
+  "category": "Switch",
+  "category_plural": "Switches",
+  "eyebrow": [
+    "SWITCHES"
+  ],
+  "subtitle": "Industrial - Switch",
+  "bar_title": "Industrial - Switch",
+  "description": "An industrial Layer 2 managed switch with 24 Gigabit PoE ports (240W), 4 combo RJ45/SFP uplinks, 56 Gbps switching capacity, and MSTP/ERPS redundancy in a 1U rack-mountable aluminium enclosure.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\xi244-2m.webp",
+  "tiles": [
+    {
+      "icon": "ports",
+      "value": "24×",
+      "label": "ETHERNET PORTS"
+    },
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "MODEM"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "LTE"
+    }
+  ],
+  "hardware": [
+    {
+      "key": "Chipset",
+      "value": "EN8853D + EN8808Q×2 + EN8804 + 3×AN8503",
+      "show": true
+    },
+    {
+      "key": "Interface",
+      "value": "24× 10/100/1000 Mbps + 4G Combo (RJ45 or SFP)",
+      "show": true
+    },
+    {
+      "key": "Transfer Method",
+      "value": "Store-and-Forward",
+      "show": true
+    },
+    {
+      "key": "MAC Address Table",
+      "value": "32K",
+      "show": true
+    },
+    {
+      "key": "Switching Capacity",
+      "value": "56 Gbps",
+      "show": true
+    },
+    {
+      "key": "Operating Temp",
+      "value": "-10 ~ +60°C",
+      "show": true
+    }
+  ],
+  "software": [],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "440 x 220 x 44.5 mm"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "19\" Rack Mountable 1U Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "3150 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Wi-Fi",
+      "Cellular",
+      "PoE",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "-",
+        "-",
+        "XI 244-2M"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Commercial IP Security & Surveillance Infrastructure",
+      "desc": "Ideal for connecting and managing IP cameras, network video recorders (NVRs), and security systems across commercial buildings, offices, and retail facilities, enabling real-time video surveillance, centralized monitoring, and reliable data transmission for enhanced security and safety."
+    },
+    {
+      "title": "Smart Building & IoT Deployment",
+      "desc": "Ideal for connecting smart building devices such as HVAC controllers, lighting systems, access control units, energy meters, and IoT sensors, enabling seamless device communication, centralized monitoring, building automation, and improved energy efficiency."
+    },
+    {
+      "title": "Industrial / Campus Branch Network Aggregation",
+      "desc": "Ideal for aggregating network connectivity from multiple industrial devices, departments, and buildings across factories, industrial campuses, and enterprise facilities, enabling efficient data transmission, centralized network management, and reliable communication between distributed network systems."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "xi244-2m",
+    "brief_page": null,
+    "detailed_page": null,
+    "match": "no match"
+  },
+  "status": "approved",
+  "created": "2026-10-08T13:25:44",
+  "_json_ordering": {
+    "headers": [
+      "Wi-Fi",
+      "Cellular",
+      "PoE",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "-",
+        "-",
+        "XI 244-2M"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "conflicts": [],
+  "updated": "2026-11-12T12:38:01",
+  "approved_at": "2026-11-12T12:38:01"
+}

@@ -1,0 +1,419 @@
+{
+  "id": "iafxx",
+  "name": "IAFXX-X",
+  "order": 22,
+  "category": "Gateway",
+  "category_plural": "Gateways",
+  "eyebrow": [
+    "GATEWAYS"
+  ],
+  "subtitle": "Industrial 4G Gateway",
+  "bar_title": "Industrial 4G Gateway",
+  "description": "An industrial gateway on MediaTek MT7628 with 4G, Wi-Fi 4, RS485, Modbus TCP/RTU, digital/analog I/O, RTC, and SMS remote commands. Designed for field device integration, SCADA connectivity, and industrial alarm and event monitoring.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\iafxx-x.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "4G MODEM"
+    },
+    {
+      "icon": "ports",
+      "value": "1+1",
+      "label": "LAN+WAN"
+    },
+    {
+      "icon": "serial",
+      "value": "Serial I/O",
+      "label": "RS485"
+    },
+    {
+      "icon": "wifi",
+      "value": "Wi-Fi 4",
+      "label": "2.4 GHz"
+    },
+    {
+      "icon": "bolt",
+      "value": "−48 V",
+      "label": "DC INPUT"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "4G LTE"
+    },
+    {
+      "icon": "wifi",
+      "label": "Wi-Fi 4"
+    },
+    {
+      "icon": "fan",
+      "label": "Fanless Design"
+    }
+  ],
+  "hardware": [
+    {
+      "key": "CPU",
+      "value": "MediaTek MT7628",
+      "show": true
+    },
+    {
+      "key": "RAM",
+      "value": "128MB",
+      "show": true
+    },
+    {
+      "key": "Flash",
+      "value": "32MB",
+      "show": true
+    },
+    {
+      "key": "WAN",
+      "value": "1x 10/100",
+      "show": true
+    },
+    {
+      "key": "LAN",
+      "value": "1x 10/100",
+      "show": true
+    },
+    {
+      "key": "Cellular",
+      "value": "4G/3G/2G with Dual SIM, External 5dBi antenna",
+      "show": true
+    },
+    {
+      "key": "SIM",
+      "value": "2x Nano SIM (1x Active, 1x Passive)",
+      "show": true
+    },
+    {
+      "key": "Wi-Fi",
+      "value": "802.11 b/g/n; Wi-Fi 2.4 GHz, 300 MBPS AP Station, External 5dBi antennas",
+      "show": true
+    },
+    {
+      "key": "RTC",
+      "value": "Built-in RTC",
+      "show": true
+    },
+    {
+      "key": "Serial Interface",
+      "value": "4x AI, 1x ISO 24v OUT, 2x RS485, 2x DIDO, 2X DI/Pulse Input, 1x USB-H DI/Pulse Input, 1x USB-H",
+      "show": true
+    },
+    {
+      "key": "Interface",
+      "value": "2x DI/DO",
+      "show": true
+    },
+    {
+      "key": "Reset",
+      "value": "Pinhole Reset Button",
+      "show": true
+    },
+    {
+      "key": "Antenna",
+      "value": "Cellular: 2x SMA Connector Wi-Fi:2x SMA Connector",
+      "show": true
+    },
+    {
+      "key": "Power Connector",
+      "value": "Molex 4-pin Snug fit connector",
+      "show": true
+    },
+    {
+      "key": "Input Voltage Range",
+      "value": "-48 Vdc",
+      "show": true
+    }
+  ],
+  "software": [
+    {
+      "key": "Routing",
+      "value": "Static routing, Advanced Static Routing",
+      "show": true
+    },
+    {
+      "key": "Network Protocols",
+      "value": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+      "show": true
+    },
+    {
+      "key": "Connection Monitoring",
+      "value": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)",
+      "show": true
+    },
+    {
+      "key": "Firewall features",
+      "value": "Port forwarding, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+      "show": true
+    },
+    {
+      "key": "VPN",
+      "value": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+      "show": true
+    },
+    {
+      "key": "NMS",
+      "value": "Remote Monitoring C Management Platform for SILBO Networking products",
+      "show": true
+    },
+    {
+      "key": "Gateway Protocols",
+      "value": "Modbus TCP Slave, Modbus TCP Master, Modbus RTU",
+      "show": true
+    },
+    {
+      "key": "SMS Commands",
+      "value": "Reboot Command, Uptime Command",
+      "show": true
+    },
+    {
+      "key": "Standard Packaging",
+      "value": "IAF44-C Cellular Gateway with Industrial Aluminium Housing, 2x Cellular Rubber Duck Antennas, 2x Wi- Fi Rubber Duck",
+      "show": true
+    },
+    {
+      "key": "Antennas",
+      "value": "0.5-meter Power Cord, 1x AI, 1x ISO 24v OUT, 2x RS485, 1x DI/DO, 1X DI/Pulse Input, 01-meter Ethernet cable.",
+      "show": true
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "110 x 44 x 94 mm (W x H x D)"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Industrial Aluminium Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "DIN rail mounting Kit (Optional)"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fanless"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "-48 VDC IN"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "400 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "RS485",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "Wi-Fi 4",
+        "4G",
+        "—",
+        "Single",
+        "IAF44-C1"
+      ],
+      [
+        "✓",
+        "Wi-Fi 4",
+        "4G",
+        "✓",
+        "Single",
+        "IAF44-C2"
+      ],
+      [
+        "✓",
+        "—",
+        "4G",
+        "✓",
+        "Single",
+        "IAF04-C2"
+      ],
+      [
+        "—",
+        "—",
+        "4G",
+        "—",
+        "Single",
+        "IAF04-C1"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Remote Sensor & Transducer Data to Cloud",
+      "desc": "Ideal for connecting Transducers having 4-20mA output and data should be published to remote server using HTTPs/MQTTs communication."
+    },
+    {
+      "title": "Drinking Water Treatment Plant Data to Remote Cloud SCADA",
+      "desc": "Ideal for connecting clorine, Turbidity, TDS sensordata etc on AI interface to made available over VPN tunnel in Modbsu to SCADA for monitoring all the treatment paramaters."
+    },
+    {
+      "title": "Industrial Alarm & Event Monitoring",
+      "desc": "Suitable for factory alarms, pump stations, and equipment monitoring where digital I/O, pulse input, and SMS-based alerts are required for quick response and uptime management."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "iafxx",
+    "brief_page": 22,
+    "detailed_page": 60,
+    "match": "name"
+  },
+  "status": "approved",
+  "created": "2026-10-07T21:06:57",
+  "_json_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "RS485",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "Wi-Fi 4",
+        "4G",
+        "—",
+        "Single",
+        "IAF44-C1"
+      ],
+      [
+        "✓",
+        "Wi-Fi 4",
+        "4G",
+        "✓",
+        "Single",
+        "IAF44-C2"
+      ],
+      [
+        "✓",
+        "—",
+        "4G",
+        "✓",
+        "Single",
+        "IAF04-C2"
+      ],
+      [
+        "—",
+        "—",
+        "4G",
+        "—",
+        "Single",
+        "IAF04-C1"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "RS485",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "Wi-Fi 2.4",
+        "4G",
+        "—",
+        "Single",
+        "IAF44-C1"
+      ],
+      [
+        "✓",
+        "Wi-Fi 2.4",
+        "4G",
+        "✓",
+        "Single",
+        "IAF44-C2"
+      ],
+      [
+        "✓",
+        "—",
+        "4G",
+        "✓",
+        "Single",
+        "IAF04-C2"
+      ],
+      [
+        "—",
+        "—",
+        "4G",
+        "—",
+        "Single",
+        "IAF04-C1"
+      ]
+    ]
+  },
+  "conflicts": [
+    {
+      "field": "Cellular",
+      "json": "4G",
+      "pdf": "4G/3G/2G with Dual SIM, External 5dBi antenna",
+      "targets": [
+        [
+          "hardware",
+          "Cellular"
+        ]
+      ],
+      "choice": "pdf"
+    }
+  ],
+  "updated": "2026-11-12T12:19:07",
+  "approved_at": "2026-11-12T12:19:07"
+}

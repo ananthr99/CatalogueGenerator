@@ -1,0 +1,315 @@
+{
+  "id": "rvw50",
+  "name": "RVW 50 with M12",
+  "order": 46,
+  "category": "PCB",
+  "category_plural": "PCB",
+  "eyebrow": [
+    "PCB"
+  ],
+  "subtitle": "Industrial - PCB",
+  "bar_title": "Industrial - PCB",
+  "description": "A vehicle-grade router on MT7621 with vibration-resistant M12 Gigabit connectors, Wi-Fi 5, PoE input, and multi-WAN failover for transit, mobile fleet, and industrial field deployments.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\rvw50.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "MODEM"
+    },
+    {
+      "icon": "ports",
+      "value": "3+1",
+      "label": "LAN+WAN"
+    },
+    {
+      "icon": "chip",
+      "value": "512 MB",
+      "label": "DDR3 RAM"
+    },
+    {
+      "icon": "wifi",
+      "value": "Wi-Fi 5",
+      "label": "DUAL BAND"
+    },
+    {
+      "icon": "bolt",
+      "value": "9–30 V",
+      "label": "DC INPUT"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "LTE"
+    },
+    {
+      "icon": "wifi",
+      "label": "Wi-Fi 5"
+    },
+    {
+      "icon": "fan",
+      "label": "Fanless Design"
+    }
+  ],
+  "hardware": [
+    {
+      "key": "CPU",
+      "value": "MediaTek MT7621",
+      "show": true
+    },
+    {
+      "key": "RAM",
+      "value": "512 MB DDR3",
+      "show": true
+    },
+    {
+      "key": "Flash",
+      "value": "32 MB Flash",
+      "show": true
+    },
+    {
+      "key": "WAN",
+      "value": "1x 10/100/1000 (M12 Connector)",
+      "show": true
+    },
+    {
+      "key": "LAN",
+      "value": "3x 10/100/1000 (M12 Connector)",
+      "show": true
+    },
+    {
+      "key": "Wi-Fi",
+      "value": "802.11b/g/n/ac; Dual Band Wi-Fi, AP Station, External 5dBi antennas",
+      "show": true
+    },
+    {
+      "key": "Reset",
+      "value": "Pinhole Reset Button",
+      "show": true
+    },
+    {
+      "key": "Antenna",
+      "value": "Wi-Fi: 2x SMA connector",
+      "show": true
+    }
+  ],
+  "software": [
+    {
+      "key": "Routing",
+      "value": "Static routing, Dynamic Routing (BGP,OSPF etc)",
+      "show": true
+    },
+    {
+      "key": "Network Protocols",
+      "value": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP, SNMP, PPPoE",
+      "show": true
+    },
+    {
+      "key": "Internet Connectivity",
+      "value": "Multi-WAN (Ethernet, Cellular, Wi-Fi), Failover, Load Balancing",
+      "show": true
+    },
+    {
+      "key": "Firewall features",
+      "value": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+      "show": true
+    },
+    {
+      "key": "VPN",
+      "value": "Open VPN, IPsec, GRE, L2TP, PPTP, Wire guard, Zero Tier, IPIP Tunnel",
+      "show": true
+    },
+    {
+      "key": "NMS",
+      "value": "Remote Monitoring C Management Platform for SILBO Networking products",
+      "show": true
+    },
+    {
+      "key": "Wi-Fi",
+      "value": "Access Point, Client, Easy mesh",
+      "show": true
+    },
+    {
+      "key": "Standard Packaging",
+      "value": "RVW50 Cellular Router with sheet Metal housing, 2x Wi-Fi Rubber Duck Antennas, Power Adapter, 01- meter Ethernet cable.",
+      "show": true
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "209 x 30 x 154 mm (W x H x D)"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Industrial Aluminium Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "DIN rail mounting Kit (Optional)"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fanless"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "12 VDC / 9-30 VDC"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Wi-Fi",
+      "Cellular",
+      "Gen",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "Wi-Fi 5",
+        "-",
+        "-",
+        "Single",
+        "RVW 50"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Transit & Passenger Connectivity",
+      "desc": "Creates a connected environment across buses, trains, stations, and transit facilities, supporting reliable internet access and communication services. It enables passengers to stay connected while helping operators manage onboard systems and transit infrastructure more effectively."
+    },
+    {
+      "title": "Mobile Field Operations",
+      "desc": "Keeps field teams connected to central systems while working across remote locations or on the move. Reliable network access allows technicians to exchange data, access work orders, update service records, and coordinate activities in real time."
+    },
+    {
+      "title": "Industrial Fleet Networking",
+      "desc": "Connects vehicles, mobile machinery, and industrial equipment through a unified communication network, enabling continuous data exchange between moving assets and central systems. This supports fleet tracking, operational visibility, and more efficient coordination of industrial activities."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "rvw50",
+    "brief_page": 37,
+    "detailed_page": 77,
+    "match": "name"
+  },
+  "status": "approved",
+  "created": "2026-11-11T17:56:54",
+  "_json_ordering": {
+    "headers": [
+      "Wi-Fi",
+      "Cellular",
+      "Gen",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "Wi-Fi 5",
+        "-",
+        "-",
+        "Single",
+        "RVW 50"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "—",
+        "WiFi-5",
+        "—",
+        "Single",
+        "RVW 50"
+      ]
+    ]
+  },
+  "conflicts": [
+    {
+      "field": "RAM",
+      "json": "512 MB DDR3",
+      "pdf": "256/512MB DDR3",
+      "targets": [
+        [
+          "hardware",
+          "RAM"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Storage / Flash",
+      "json": "32 MB Flash",
+      "pdf": "32/64 MB",
+      "targets": [
+        [
+          "hardware",
+          "Flash"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Input Power",
+      "json": "12 VDC / 9-30 VDC",
+      "pdf": "Active PoE 44-57 VDC",
+      "targets": [
+        [
+          "physical",
+          "Input Power"
+        ]
+      ],
+      "choice": "json"
+    }
+  ],
+  "updated": "2026-11-12T13:16:58",
+  "approved_at": "2026-11-12T13:16:58"
+}

@@ -1,0 +1,413 @@
+{
+  "id": "ru60",
+  "name": "RU60",
+  "order": 9,
+  "category": "Router",
+  "category_plural": "Routers",
+  "eyebrow": [
+    "ROUTERS"
+  ],
+  "subtitle": "Industrial - Router",
+  "bar_title": "Industrial - Router",
+  "description": "A compact, fanless Wi-Fi 6 (802.11ax) access point and router built on MediaTek MT7981 with OpenWRT. Supports AP, Station, Repeater, Guest Wi-Fi, and EasyMesh modes with 1 LAN + 1 WAN Gigabit port. Designed for indoor enterprise, retail, and industrial environments requiring reliable, high-throughput wireless connectivity.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\ru60.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "MODEM"
+    },
+    {
+      "icon": "ports",
+      "value": "1+1",
+      "label": "LAN+WAN"
+    },
+    {
+      "icon": "chip",
+      "value": "1 GB",
+      "label": "DDR4 RAM"
+    },
+    {
+      "icon": "wifi",
+      "value": "Wi-Fi 6",
+      "label": "DUAL BAND"
+    },
+    {
+      "icon": "bolt",
+      "value": "12 V",
+      "label": "DC INPUT"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "LTE"
+    },
+    {
+      "icon": "wifi",
+      "label": "Wi-Fi 6"
+    },
+    {
+      "icon": "fan",
+      "label": "Fanless Design"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "CPU",
+      "value": "MediaTek MT7981"
+    },
+    {
+      "show": true,
+      "key": "RAM",
+      "value": "1 GB DDR4"
+    },
+    {
+      "show": true,
+      "key": "Flash",
+      "value": "1 GB NAND"
+    },
+    {
+      "show": true,
+      "key": "WAN",
+      "value": "1 × 10/100/1000"
+    },
+    {
+      "show": true,
+      "key": "LAN",
+      "value": "1 × 10/100/1000"
+    },
+    {
+      "show": true,
+      "key": "USB",
+      "value": "1 × USB-H"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi",
+      "value": "802.11 b/g/n/ac & AX (Upcoming); Dual-Band Wi-Fi, AP/Station, External 5dBi antenna"
+    },
+    {
+      "show": true,
+      "key": "Reset",
+      "value": "Pinhole Reset Button"
+    },
+    {
+      "show": true,
+      "key": "Antenna",
+      "value": "Wi-Fi: Up to 2 SMA connectors"
+    },
+    {
+      "show": true,
+      "key": "Power Supply",
+      "value": "Optional PSU (12 V DC)"
+    },
+    {
+      "show": true,
+      "key": "Storage Temp",
+      "value": "-30°C ~ 70°C"
+    },
+    {
+      "show": true,
+      "key": "Operating Temp",
+      "value": "-20°C ~ 60°C"
+    },
+    {
+      "show": true,
+      "key": "Humidity",
+      "value": "10% ~ 90% (Non-condensing)"
+    }
+  ],
+  "software": [
+    {
+      "show": true,
+      "key": "Operating System",
+      "value": "OpenWRT-based Linux OS"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi Mode",
+      "value": "Access Point, Station, Guest Wi-Fi, Repeater, EasyMesh"
+    },
+    {
+      "show": true,
+      "key": "Encryption",
+      "value": "TKIP, AES"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi Technology",
+      "value": "802.11 b/g/n/ac/ax, 20 MHz / 40 MHz / 80 MHz channels"
+    },
+    {
+      "show": true,
+      "key": "Authentication",
+      "value": "WPA (PSK), WPA2 (PSK), Mixed Mode"
+    },
+    {
+      "show": true,
+      "key": "TX Power",
+      "value": "Configurable"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi Scheduler",
+      "value": "Scheduled ON/OFF (Planned)"
+    },
+    {
+      "show": true,
+      "key": "Routing",
+      "value": "Static routing"
+    },
+    {
+      "show": true,
+      "key": "Network Protocols",
+      "value": "TCP, UDP, IPv4, IPv6, ICMP, NTP, DNS, HTTP, HTTPS, FTP, PPP, SSH, DHCP, SNMP (Planned), TR069 (Planned)"
+    },
+    {
+      "show": true,
+      "key": "Monitoring",
+      "value": "Ping Reboot, Scheduled Periodic Reboot"
+    },
+    {
+      "show": true,
+      "key": "Firewall Features",
+      "value": "Port forwarding, traffic rules, SNAT, zone-to-zone traffic control"
+    },
+    {
+      "show": true,
+      "key": "DHCP",
+      "value": "Static and Dynamic"
+    },
+    {
+      "show": true,
+      "key": "Failover",
+      "value": "Configurable Failover between Wired and Wi-Fi WAN"
+    },
+    {
+      "show": true,
+      "key": "VLAN",
+      "value": "Port-based VLAN, Tag-based VLAN 802.1ad"
+    },
+    {
+      "show": true,
+      "key": "Other Networking",
+      "value": "MAC binding, black/whitelisting"
+    },
+    {
+      "show": true,
+      "key": "VPN",
+      "value": "OpenVPN, IPsec, GRE, L2TP, PPTP, GRE over IPsec (Planned)"
+    },
+    {
+      "show": true,
+      "key": "OpenVPN",
+      "value": "TUN/TAP (Planned)"
+    },
+    {
+      "show": true,
+      "key": "IPsec",
+      "value": "IKEv1, IKEv2, up to 4x VPN IPsec clients; Encryption: DES, 3DES, AES128/192/256"
+    },
+    {
+      "show": true,
+      "key": "PPTP/L2TP WAN",
+      "value": "WAN with PPTP/L2TP configuration for secure broadband connection (Planned)"
+    },
+    {
+      "show": true,
+      "key": "Remote Management",
+      "value": "NMS Remote monitoring of SILBO Networking products"
+    },
+    {
+      "show": true,
+      "key": "NMS VPN",
+      "value": "Remote access of SILBO and non-SILBO networking products using NMS VPN"
+    },
+    {
+      "show": true,
+      "key": "Supported Languages / Tools",
+      "value": "Shell scripting, C, C++, Python (Optional)"
+    },
+    {
+      "show": true,
+      "key": "SDK Package",
+      "value": "Provided with built environment (Optional)"
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "190 x 190 x 50 mm (L x W x H)"
+    },
+    {
+      "show": true,
+      "key": "IP Rating",
+      "value": "IP30"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Metal Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "Din-rail mount (Optional accessory)"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fanless"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "12 VDC IN"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "350 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "—",
+        "Wi-Fi 6",
+        "—",
+        "—",
+        "RU60"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Enterprise & Office Wireless Connectivity",
+      "desc": "Provides high-speed and reliable Wi-Fi 6 connectivity for offices, campuses, and enterprise environments with support for guest Wi-Fi and seamless wireless coverage."
+    },
+    {
+      "title": "Retail & Commercial Space Networking",
+      "desc": "Wi-Fi Mesh is suitable for retail stores, restaurants, and commercial spaces to enable stable internet access for POS systems, customer/Guest Wi-Fi etc."
+    },
+    {
+      "title": "Industrial Wireless Network Extension",
+      "desc": "Can be deployed in industrial facilities and warehouses as an access point or repeater to extend wireless coverage and connect IoT devices in challenging environments."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "IP30",
+  "density": 1.0,
+  "sources": {
+    "json": "ru60",
+    "brief_page": 9,
+    "detailed_page": 47,
+    "match": "name"
+  },
+  "status": "approved",
+  "created": "2026-10-07T16:47:53",
+  "_json_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "—",
+        "Wi-Fi 6",
+        "—",
+        "—",
+        "RU60"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "—",
+        "Wi-Fi 6",
+        "—",
+        "—",
+        "RU60"
+      ]
+    ]
+  },
+  "conflicts": [
+    {
+      "field": "Dimensions",
+      "json": "190 x 190 x 50 mm (L x W x H)",
+      "pdf": "209 × 30 × 154 mm",
+      "targets": [
+        [
+          "physical",
+          "Dimensions (W × H × D)"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Weight",
+      "json": "350 gm",
+      "pdf": "950 g",
+      "targets": [
+        [
+          "physical",
+          "Weight"
+        ]
+      ],
+      "choice": "json"
+    }
+  ],
+  "updated": "2026-11-12T12:11:38",
+  "approved_at": "2026-11-12T12:11:38"
+}

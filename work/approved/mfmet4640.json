@@ -1,0 +1,131 @@
+{
+  "id": "mfmet4640",
+  "name": "ET 4640 (Multi-Function Meter)",
+  "order": 50,
+  "category": "Energy Meter",
+  "category_plural": "Energy Meter",
+  "eyebrow": [
+    "ENERGY METER"
+  ],
+  "subtitle": "Industrial - Energy Meter",
+  "bar_title": "Industrial - Energy Meter",
+  "description": "A panel-mountable three-phase multi-function energy meter tracking voltage, current, power, energy, and power factor across all phases with CT programmability, onboard RTC, and data storage.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\mfmet4640.webp",
+  "tiles": [],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "Meter Type",
+      "value": "Three-phase multi-function panel-mountable meter"
+    },
+    {
+      "show": true,
+      "key": "Voltage",
+      "value": "Phase-wise LL, LN, max and min values"
+    },
+    {
+      "show": true,
+      "key": "Current",
+      "value": "L1, L2, L3 — max & min values and neutral current"
+    },
+    {
+      "show": true,
+      "key": "Current Rating",
+      "value": "CT Primary Programmable (CTS 1A/5A)"
+    },
+    {
+      "show": true,
+      "key": "Aux Supply",
+      "value": "85-270V AC/DC"
+    },
+    {
+      "show": true,
+      "key": "Voltage Range",
+      "value": "60-415V (Line to Line)"
+    },
+    {
+      "show": true,
+      "key": "PF Range",
+      "value": "0.5 lag to unity to 0.5 lead"
+    },
+    {
+      "show": true,
+      "key": "Resolution",
+      "value": "0.1 kW/kVA"
+    }
+  ],
+  "software": [],
+  "physical": [],
+  "ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "use_cases": [
+    {
+      "title": "Energy Consumption Monitoring",
+      "desc": "Tracks real-time power consumption across connected devices and network infrastructure, providing visibility into energy usage patterns. This helps identify inefficiencies, optimize power utilization, and make informed decisions to reduce operational costs."
+    },
+    {
+      "title": "Industrial Power Quality Analysis",
+      "desc": "Monitors key electrical parameters such as voltage, current, frequency, and power factor to assess the quality and stability of the power supply. It helps detect abnormalities, prevent equipment damage, and maintain reliable industrial operations."
+    },
+    {
+      "title": "Utility & Compliance Metering",
+      "desc": "Enables accurate measurement and recording of electrical parameters to support utility monitoring, energy reporting, and regulatory compliance. It provides reliable consumption data and helps organizations maintain transparency in energy usage and meet applicable standards."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "mfmet4640",
+    "brief_page": null,
+    "detailed_page": null,
+    "match": "no match"
+  },
+  "status": "approved",
+  "created": "2026-11-11T18:02:58",
+  "_json_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "_pdf_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "conflicts": [],
+  "updated": "2026-11-12T13:18:37",
+  "approved_at": "2026-11-12T13:18:37"
+}

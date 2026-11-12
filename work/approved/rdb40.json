@@ -1,0 +1,203 @@
+{
+  "id": "rdb40",
+  "name": "RDB40",
+  "order": 30,
+  "category": "Gateway",
+  "category_plural": "Gateways",
+  "eyebrow": [
+    "GATEWAYS"
+  ],
+  "subtitle": "Industrial - Gateway",
+  "bar_title": "Industrial - Gateway",
+  "description": "A ceiling-mounted indoor access point on MediaTek MT7628 with 2.4 GHz Wi-Fi, integrated BLE 6.0 with long-range FEM, and 802.3af PoE IN. Designed for indoor asset tracking, smart building sensor aggregation, and single-cable Wi-Fi access point deployment.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\rdb40.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "MODEM"
+    },
+    {
+      "icon": "wifi",
+      "value": "Wi-Fi 5",
+      "label": "DUAL BAND"
+    },
+    {
+      "icon": "cpu",
+      "value": "MT7628",
+      "label": "PROCESSOR"
+    },
+    {
+      "icon": "storage",
+      "value": "32 MB",
+      "label": "STORAGE"
+    },
+    {
+      "icon": "chip",
+      "value": "128 MB",
+      "label": "RAM"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "LTE"
+    },
+    {
+      "icon": "wifi",
+      "label": "Wi-Fi 5"
+    },
+    {
+      "icon": "shield",
+      "label": "IP30 Rated"
+    }
+  ],
+  "hardware": [
+    {
+      "key": "CPU",
+      "value": "MediaTek MT7628",
+      "show": true
+    },
+    {
+      "key": "RAM",
+      "value": "128 MB",
+      "show": true
+    },
+    {
+      "key": "Storage",
+      "value": "32 MB",
+      "show": true
+    },
+    {
+      "key": "Wi-Fi",
+      "value": "Wi-Fi 5",
+      "show": true
+    },
+    {
+      "key": "Operating Temp",
+      "value": "0 ~ 50°C",
+      "show": true
+    }
+  ],
+  "software": [],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "190 x 190 x 40 mm (W x D x H)"
+    },
+    {
+      "show": true,
+      "key": "IP Rating",
+      "value": "IP30"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Plastic"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "290 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "✓",
+        "-",
+        "-",
+        "RDB 40"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Indoor Asset Tracking & Real-Time Location Services (RTLS)",
+      "desc": "Enables real-time tracking of people, equipment, and movable assets within indoor environments using connected positioning technologies. It provides location visibility, movement insights, and asset utilization data to improve operational efficiency and simplify asset management."
+    },
+    {
+      "title": "Smart Building Sensor Data Aggregation",
+      "desc": "Collects data from distributed building sensors, including temperature, humidity, occupancy, and environmental monitoring devices, through a unified network. This enables centralized data visibility and supports intelligent building automation, energy optimization, and better facility management."
+    },
+    {
+      "title": "Single-Cable PoE Indoor Wi-Fi Access Point Deployment",
+      "desc": "Simplifies indoor Wi-Fi deployment by delivering both network connectivity and electrical power to access points through a single Ethernet cable. This reduces cabling requirements, installation complexity, and infrastructure costs while providing reliable wireless coverage."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "IP30",
+  "density": 1.0,
+  "sources": {
+    "json": "rdb40",
+    "brief_page": null,
+    "detailed_page": null,
+    "match": "no match"
+  },
+  "status": "approved",
+  "created": "2026-10-08T11:05:45",
+  "_json_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "✓",
+        "-",
+        "-",
+        "RDB 40"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "conflicts": [],
+  "updated": "2026-11-12T12:28:53",
+  "approved_at": "2026-11-12T12:28:53"
+}

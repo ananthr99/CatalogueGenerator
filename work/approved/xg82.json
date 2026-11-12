@@ -1,0 +1,179 @@
+{
+  "id": "xg82",
+  "name": "XG-82-2MI",
+  "order": 38,
+  "category": "Switch",
+  "category_plural": "Switches",
+  "eyebrow": [
+    "SWITCHES"
+  ],
+  "subtitle": "Industrial - Switch",
+  "bar_title": "Industrial - Switch",
+  "description": "A compact Layer 2 smart managed switch with 8 Gigabit PoE ports (120W), 2× 2.5G SFP uplinks, VLAN/QoS/IGMP/ERPS support, and 44–57V DC input in an industrial aluminium enclosure.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\xg82.webp",
+  "tiles": [
+    {
+      "icon": "ports",
+      "value": "8+2",
+      "label": "ETHERNET+SFP"
+    },
+    {
+      "icon": "bolt",
+      "value": "44–57 V",
+      "label": "DC INPUT"
+    },
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "MODEM"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "LTE"
+    },
+    {
+      "icon": "ports",
+      "label": "GIGABIT ETHERNET"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "Ethernet Ports",
+      "value": "Gigabit Ethernet"
+    },
+    {
+      "show": true,
+      "key": "Switch Type",
+      "value": "Managed PoE Switch"
+    },
+    {
+      "show": true,
+      "key": "Operating Temp",
+      "value": "0 ~ 60°C"
+    }
+  ],
+  "software": [],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "200 x 120 x 55 mm (W x L x H)"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Industrial Aluminium"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "44-57 VDC"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "675 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "PoE",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "-",
+        "✓",
+        "Single",
+        "XG 82-2MI Lite Managed Switch"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Enterprise Surveillance & Security Networks",
+      "desc": "Ideal for large CCTV deployments, enabling centralized management of IP cameras, PoE-powered devices, and optimized video traffic through QoS and VLAN support."
+    },
+    {
+      "title": "Smart Campus & Enterprise Network Management",
+      "desc": "Suitable for offices, campuses, and commercial buildings requiring managed switching, traffic prioritization, and secure segmentation for access points, IP phones, and endpoints."
+    },
+    {
+      "title": "Industrial Network Control & Redundancy",
+      "desc": "Can be deployed in factories and utility environments where Layer 2 management, ERPS redundancy, IGMP snooping, and network diagnostics are essential for uninterrupted operations."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "xg82",
+    "brief_page": null,
+    "detailed_page": null,
+    "match": "no match"
+  },
+  "status": "approved",
+  "created": "2026-10-08T13:11:16",
+  "_json_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "PoE",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "-",
+        "✓",
+        "Single",
+        "XG 82-2MI Lite Managed Switch"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "conflicts": [],
+  "updated": "2026-11-12T12:37:28",
+  "approved_at": "2026-11-12T12:37:28"
+}

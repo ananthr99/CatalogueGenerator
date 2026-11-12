@@ -1,0 +1,142 @@
+{
+  "id": "bcpm",
+  "name": "ET7022 (BCPM)",
+  "order": 53,
+  "category": "Energy Meter",
+  "category_plural": "Energy Meter",
+  "eyebrow": [
+    "ENERGY METER"
+  ],
+  "subtitle": "Industrial - Energy Meter",
+  "bar_title": "Industrial - Energy Meter",
+  "description": "A DIN-rail branch circuit power meter tracking active power, energy, and power factor per circuit across single and three-phase branches via Modbus RS485 for data centres and commercial facilities.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\bcpm.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "MODEM"
+    },
+    {
+      "icon": "ports",
+      "value": "0×",
+      "label": "ETHERNET PORTS"
+    },
+    {
+      "icon": "bolt",
+      "value": "85–270 V",
+      "label": "DC INPUT"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "LTE"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "RS485 Ports",
+      "value": "1"
+    },
+    {
+      "show": true,
+      "key": "Operating Temp",
+      "value": "-10 ~ 75°C"
+    }
+  ],
+  "software": [],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "185 x 110 x 30 mm (W x H x D)"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Panel Mount"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "85-270V AC/DC"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "750 gm (approx.)"
+    }
+  ],
+  "ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "use_cases": [
+    {
+      "title": "Branch-Level Energy Monitoring",
+      "desc": "Provides visibility into energy consumption across individual branches, helping organizations track usage patterns and compare performance between locations. This makes it easier to identify high-consumption sites, control energy costs, and improve operational efficiency."
+    },
+    {
+      "title": "Data Centre & Facility Load Profiling",
+      "desc": "Analyzes power consumption patterns across data centres and facility infrastructure, including IT equipment, cooling systems, and critical loads. It helps identify peak demand periods, optimize load distribution, and improve energy efficiency and power availability."
+    },
+    {
+      "title": "Energy Cost Allocation",
+      "desc": "Tracks energy consumption across departments, equipment, or individual facilities to determine how electricity costs are distributed. This provides accurate cost visibility, simplifies internal billing, and helps organizations identify areas where energy expenses can be reduced."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "bcpm",
+    "brief_page": null,
+    "detailed_page": null,
+    "match": "no match"
+  },
+  "status": "approved",
+  "created": "2026-11-11T18:11:14",
+  "_json_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "_pdf_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "conflicts": [],
+  "updated": "2026-11-12T13:19:56",
+  "approved_at": "2026-11-12T13:19:56"
+}

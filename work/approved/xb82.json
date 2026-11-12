@@ -1,0 +1,271 @@
+{
+  "id": "xb82",
+  "name": "XB82-2",
+  "order": 33,
+  "category": "Switch",
+  "category_plural": "Switches",
+  "eyebrow": [
+    "SWITCHES"
+  ],
+  "subtitle": "Industrial - Switch",
+  "bar_title": "Industrial - Switch",
+  "description": "A plug-and-play 8-port Gigabit PoE+ unmanaged switch with 2 SFP uplinks, 240W PoE budget, and a wide 9–57V DC input in a DIN-rail mountable industrial aluminium enclosure.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\xb82.webp",
+  "tiles": [
+    {
+      "icon": "ports",
+      "value": "8+2",
+      "label": "Ethernet+SFP"
+    },
+    {
+      "icon": "bolt",
+      "value": "9–57 V",
+      "label": "DC INPUT"
+    },
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "MODEM"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "LTE"
+    },
+    {
+      "icon": "ports",
+      "label": "POE"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "Ethernet",
+      "value": "8 x 10/100/1000 Mbps (MDI/MDIX)"
+    },
+    {
+      "show": true,
+      "key": "SFP",
+      "value": "2 x SFP"
+    },
+    {
+      "show": true,
+      "key": "Status LED",
+      "value": "PWR(On/Off), LAN Activity LED (Green: Active connection, Orange: 1000 Mbps), SFP Status LED (Green: Connection status)"
+    },
+    {
+      "show": true,
+      "key": "MAC Address table entries",
+      "value": "2000"
+    },
+    {
+      "show": true,
+      "key": "Jumbo Frame",
+      "value": "9216 bytes"
+    },
+    {
+      "show": true,
+      "key": "Buffer size",
+      "value": "128 KB"
+    },
+    {
+      "show": true,
+      "key": "Power Connector",
+      "value": "Spring Loaded 2 wire connector"
+    },
+    {
+      "show": true,
+      "key": "Input Voltage Range",
+      "value": "9-57 Vdc"
+    },
+    {
+      "show": true,
+      "key": "Power Consumption",
+      "value": "5.5 W"
+    },
+    {
+      "show": true,
+      "key": "Interface",
+      "value": "2 X SFP Port"
+    },
+    {
+      "show": true,
+      "key": "Dimensions",
+      "value": "56 mm x 110 mm x 114 mm (W x H x D)"
+    },
+    {
+      "show": true,
+      "key": "Other",
+      "value": "Grounding Screw"
+    },
+    {
+      "show": true,
+      "key": "Standard Packing",
+      "value": "XB-82-2 with Industrial Aluminium Enclosure"
+    }
+  ],
+  "software": [],
+  "physical": [
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Industrial Aluminium Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "DIN rail mounting Kit (Optional)"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fanless"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "9-57 VDC"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "451 Gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "PoE",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "-",
+        "✓",
+        "XB82-2 Unmanaged PoE Switch"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Wireless Access Point Aggregation",
+      "desc": "Ideal for connecting and powering multiple wireless access points in offices, campuses, and commercial environments for seamless network coverage."
+    },
+    {
+      "title": "IP Telephony & Communication Networks",
+      "desc": "Can be deployed to power and connect IP phones, intercom systems, and communication devices in enterprise and industrial environments."
+    },
+    {
+      "title": "Remote Edge Network Distribution",
+      "desc": "Suitable for extending network connectivity in remote cabinets, kiosks, and field enclosures using Gigabit Ethernet and SFP uplinks for stable data transmission."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "xb82",
+    "brief_page": 27,
+    "detailed_page": 65,
+    "match": "part numbers"
+  },
+  "status": "approved",
+  "created": "2026-10-08T12:08:09",
+  "_json_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "PoE",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "-",
+        "✓",
+        "XB82-2 Unmanaged PoE Switch"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "PoE",
+      "PoE Budget",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "240 W",
+        "XB82-2"
+      ],
+      [
+        "—",
+        "—",
+        "✓",
+        "30W Max Per",
+        "Unmanaged"
+      ],
+      [
+        "",
+        "",
+        "",
+        "Port",
+        "PoE Switch"
+      ]
+    ]
+  },
+  "conflicts": [
+    {
+      "field": "Ordering table",
+      "json": "XB822UNMANAGEDPOESWITCH",
+      "pdf": "POESWITCH, UNMANAGED, XB822",
+      "targets": [
+        [
+          "ordering",
+          ""
+        ]
+      ],
+      "choice": "json"
+    }
+  ],
+  "updated": "2026-11-12T12:35:27",
+  "approved_at": "2026-11-12T12:35:27"
+}

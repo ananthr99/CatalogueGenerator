@@ -1,0 +1,265 @@
+{
+  "id": "xf100",
+  "name": "XF100-1",
+  "order": 36,
+  "category": "Switch",
+  "category_plural": "Switches",
+  "eyebrow": [
+    "SWITCHES"
+  ],
+  "subtitle": "Industrial - Switch",
+  "bar_title": "Industrial - Switch",
+  "description": "A 10-port Fast Ethernet unmanaged PoE switch with 9–30V DC input and sheet metal DIN-rail body for large camera networks, smart office connectivity, and industrial automation network expansion.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\xf100.webp",
+  "tiles": [
+    {
+      "icon": "ports",
+      "value": "10",
+      "label": "ETHERNET PORTS"
+    },
+    {
+      "icon": "bolt",
+      "value": "9–30 V",
+      "label": "DC INPUT"
+    },
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "MODEM"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "LTE"
+    },
+    {
+      "icon": "ports",
+      "label": "POE"
+    }
+  ],
+  "hardware": [
+    {
+      "key": "Ethernet",
+      "value": "10 x 10/100 Mbps (MDI/MDIX)",
+      "show": true
+    },
+    {
+      "key": "Status LED",
+      "value": "PWR(On/Off), LAN Activity LED.",
+      "show": true
+    },
+    {
+      "key": "MAC Address table entries",
+      "value": "2000",
+      "show": true
+    },
+    {
+      "key": "Jumbo Frame",
+      "value": "9216 bytes",
+      "show": true
+    },
+    {
+      "key": "Buffer size",
+      "value": "128 KB",
+      "show": true
+    },
+    {
+      "key": "Power Connector",
+      "value": "Spring Loaded 2 wire connector",
+      "show": true
+    },
+    {
+      "key": "Input Voltage Range",
+      "value": "9-30 Vdc",
+      "show": true
+    },
+    {
+      "key": "Power Consumption",
+      "value": "<5W",
+      "show": true
+    },
+    {
+      "key": "Dimensions",
+      "value": "45 mm x 116 mm x 90 mm (W x H x D)",
+      "show": true
+    },
+    {
+      "key": "Other",
+      "value": "Grounding Screw",
+      "show": true
+    },
+    {
+      "key": "Standard Packing",
+      "value": "XF-100-1 with Sheet Metal Enclosure",
+      "show": true
+    }
+  ],
+  "software": [],
+  "physical": [
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Sheet Metal Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "DIN rail mounting Kit (Optional)"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fanless"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "9-30 VDC"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "416 Gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "PoE",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "-",
+        "✓",
+        "Single",
+        "XF100-1 Unmanaged PoE Switch"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Large Camera & Surveillance Networks",
+      "desc": "Ideal for connecting multiple IP cameras and surveillance devices in warehouses, campuses, and industrial facilities requiring stable Gigabit connectivity."
+    },
+    {
+      "title": "Smart Office & Campus Device Connectivity",
+      "desc": "Can be deployed to connect access points, IP phones, printers, and network endpoints across offices and educational campuses."
+    },
+    {
+      "title": "Industrial Automation Network Expansion",
+      "desc": "Suitable for expanding Ethernet connectivity between PLCs, industrial PCs, gateways, and control systems in manufacturing and process industries."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "xf100",
+    "brief_page": 30,
+    "detailed_page": 68,
+    "match": "part numbers"
+  },
+  "status": "approved",
+  "created": "2026-10-08T12:30:35",
+  "_json_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "PoE",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "-",
+        "✓",
+        "Single",
+        "XF100-1 Unmanaged PoE Switch"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "PoE",
+      "PoE Budget",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "240 W",
+        "XF-100-1"
+      ],
+      [
+        "—",
+        "—",
+        "✓",
+        "30W Max",
+        "Unmanaged PoE"
+      ],
+      [
+        "",
+        "",
+        "",
+        "Per Port",
+        "Switch"
+      ]
+    ]
+  },
+  "conflicts": [
+    {
+      "field": "Ordering table",
+      "json": "XF1001UNMANAGEDPOESWITCH",
+      "pdf": "SWITCH, UNMANAGEDPOE, XF1001",
+      "targets": [
+        [
+          "ordering",
+          ""
+        ]
+      ],
+      "choice": "json"
+    }
+  ],
+  "updated": "2026-11-12T12:36:30",
+  "approved_at": "2026-11-12T12:36:30"
+}

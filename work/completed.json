@@ -1,0 +1,426 @@
+{
+  "inv-cb-xx": {
+    "name": "INV-CB-XX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\INV-CB-XX\\INV-CB-XX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\INV-CB-XX\\INV-CB-XX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:04:31",
+    "locked": true
+  },
+  "inv-cd-xx": {
+    "name": "INV-CD-XX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\INV-CD-XX\\INV-CD-XX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\INV-CD-XX\\INV-CD-XX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:05:25",
+    "locked": true
+  },
+  "inv-ce-xx": {
+    "name": "INV-CE-XX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\INV-CE-XX\\INV-CE-XX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\INV-CE-XX\\INV-CE-XX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T16:02:52",
+    "locked": true
+  },
+  "inv-cea-xx": {
+    "name": "INV-CEA-XX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\INV-CEA-XX\\INV-CEA-XX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\INV-CEA-XX\\INV-CEA-XX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T16:03:17",
+    "locked": true
+  },
+  "inv-ci-xx": {
+    "name": "INV-CI-XX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\INV-CI-XX\\INV-CI-XX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\INV-CI-XX\\INV-CI-XX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:07:36",
+    "locked": true
+  },
+  "itx-arl-board": {
+    "name": "Arrowlake ITX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\Arrowlake_ITX\\Arrowlake_ITX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\Arrowlake_ITX\\Arrowlake_ITX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:09:14",
+    "locked": true
+  },
+  "inv-cf-xx": {
+    "name": "INV-CF-XX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\INV-CF-XX\\INV-CF-XX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\INV-CF-XX\\INV-CF-XX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:09:52",
+    "locked": true
+  },
+  "rtsxx": {
+    "name": "RTSXX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RTSXX\\RTSXX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RTSXX\\RTSXX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:10:32",
+    "locked": true
+  },
+  "ru60": {
+    "name": "RU60",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RU60\\RU60_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RU60\\RU60_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:11:38",
+    "locked": true
+  },
+  "roxx": {
+    "name": "ROXX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\ROXX\\ROXX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\ROXX\\ROXX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:12:10",
+    "locked": true
+  },
+  "rtxx": {
+    "name": "RTXX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RTXX\\RTXX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RTXX\\RTXX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:12:41",
+    "locked": true
+  },
+  "rvxx": {
+    "name": "RVXX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RVXX\\RVXX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RVXX\\RVXX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:14:44",
+    "locked": true
+  },
+  "rv00": {
+    "name": "RV00",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RV00\\RV00_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RV00\\RV00_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:15:09",
+    "locked": true
+  },
+  "rdxx": {
+    "name": "RDXX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RDXX\\RDXX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RDXX\\RDXX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:15:34",
+    "locked": true
+  },
+  "rexx": {
+    "name": "REXX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\REXX\\REXX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\REXX\\REXX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:16:06",
+    "locked": true
+  },
+  "ri44": {
+    "name": "RI44",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RI44\\RI44_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RI44\\RI44_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:16:30",
+    "locked": true
+  },
+  "iexx": {
+    "name": "IEXX-X-XX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\IEXX-X-XX\\IEXX-X-XX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\IEXX-X-XX\\IEXX-X-XX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:16:52",
+    "locked": true
+  },
+  "iaxx": {
+    "name": "IAXX-X",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\IAXX-X\\IAXX-X_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\IAXX-X\\IAXX-X_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:17:24",
+    "locked": true
+  },
+  "rfnxx": {
+    "name": "RFNXX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RFNXX\\RFNXX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RFNXX\\RFNXX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:17:50",
+    "locked": true
+  },
+  "iabxx": {
+    "name": "IABXX-X",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\IABXX-X\\IABXX-X_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\IABXX-X\\IABXX-X_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:18:20",
+    "locked": true
+  },
+  "iacxx": {
+    "name": "IACXX-X",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\IACXX-X\\IACXX-X_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\IACXX-X\\IACXX-X_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:18:45",
+    "locked": true
+  },
+  "iafxx": {
+    "name": "IAFXX-X",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\IAFXX-X\\IAFXX-X_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\IAFXX-X\\IAFXX-X_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:19:07",
+    "locked": true
+  },
+  "idxx-x": {
+    "name": "IDXX-X",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\IDXX-X\\IDXX-X_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\IDXX-X\\IDXX-X_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:19:58",
+    "locked": true
+  },
+  "idbxx-x": {
+    "name": "IDBXX-X",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\IDBXX-X\\IDBXX-X_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\IDBXX-X\\IDBXX-X_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:20:20",
+    "locked": true
+  },
+  "iSense": {
+    "name": "iSense XXX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\iSense_XXX\\iSense_XXX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\iSense_XXX\\iSense_XXX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:26:50",
+    "locked": true
+  },
+  "rvgxx-x": {
+    "name": "RVGXX-XX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RVGXX-XX\\RVGXX-XX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RVGXX-XX\\RVGXX-XX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:27:13",
+    "locked": true
+  },
+  "rvh44": {
+    "name": "RVH 44",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RVH_44\\RVH_44_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RVH_44\\RVH_44_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:27:44",
+    "locked": true
+  },
+  "rvcp": {
+    "name": "RVCP",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RVCP\\RVCP_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RVCP\\RVCP_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:28:06",
+    "locked": true
+  },
+  "ruc65": {
+    "name": "RUC 65",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RUC_65\\RUC_65_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RUC_65\\RUC_65_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:28:23",
+    "locked": true
+  },
+  "rdb40": {
+    "name": "RDB40",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RDB40\\RDB40_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RDB40\\RDB40_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:28:54",
+    "locked": true
+  },
+  "gpononu": {
+    "name": "GPON ONU",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\GPON_ONU\\GPON_ONU_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\GPON_ONU\\GPON_ONU_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:29:18",
+    "locked": true
+  },
+  "xa82": {
+    "name": "XA82-2",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\XA82-2\\XA82-2_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\XA82-2\\XA82-2_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:34:58",
+    "locked": true
+  },
+  "xb82": {
+    "name": "XB82-2",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\XB82-2\\XB82-2_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\XB82-2\\XB82-2_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:35:27",
+    "locked": true
+  },
+  "xc80": {
+    "name": "XC80-1",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\XC80-1\\XC80-1_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\XC80-1\\XC80-1_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:35:45",
+    "locked": true
+  },
+  "xd50": {
+    "name": "XD50-1",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\XD50-1\\XD50-1_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\XD50-1\\XD50-1_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:36:03",
+    "locked": true
+  },
+  "xf100": {
+    "name": "XF100-1",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\XF100-1\\XF100-1_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\XF100-1\\XF100-1_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:36:30",
+    "locked": true
+  },
+  "xg822l": {
+    "name": "XG-82-2L",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\XG-82-2L\\XG-82-2L_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\XG-82-2L\\XG-82-2L_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:36:48",
+    "locked": true
+  },
+  "xg82": {
+    "name": "XG-82-2MI",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\XG-82-2MI\\XG-82-2MI_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\XG-82-2MI\\XG-82-2MI_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:37:28",
+    "locked": true
+  },
+  "xi244-2m": {
+    "name": "XI 244-2M",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\XI_244-2M\\XI_244-2M_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\XI_244-2M\\XI_244-2M_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:38:01",
+    "locked": true
+  },
+  "rvcd": {
+    "name": "RVCD",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RVCD\\RVCD_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RVCD\\RVCD_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:38:23",
+    "locked": true
+  },
+  "pc3xx": {
+    "name": "PC3XX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\PC3XX\\PC3XX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\PC3XX\\PC3XX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:38:46",
+    "locked": true
+  },
+  "mcx": {
+    "name": "MC-X",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\MC-X\\MC-X_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\MC-X\\MC-X_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:39:17",
+    "locked": true
+  },
+  "mt7621odu": {
+    "name": "MT7621-01 ODU",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\MT7621-01_ODU\\MT7621-01_ODU_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\MT7621-01_ODU\\MT7621-01_ODU_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T12:39:52",
+    "locked": true
+  },
+  "rt65odu": {
+    "name": "RT65-ODU",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RT65-ODU\\RT65-ODU_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RT65-ODU\\RT65-ODU_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T13:15:10",
+    "locked": true
+  },
+  "rn50pcba": {
+    "name": "RN50-PCBA",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RN50-PCBA\\RN50-PCBA_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RN50-PCBA\\RN50-PCBA_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T13:16:24",
+    "locked": true
+  },
+  "rvw50": {
+    "name": "RVW 50 with M12",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RVW_50_with_M12\\RVW_50_with_M12_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\RVW_50_with_M12\\RVW_50_with_M12_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T13:16:58",
+    "locked": true
+  },
+  "idfxx": {
+    "name": "IDFXX",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\IDFXX\\IDFXX_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\IDFXX\\IDFXX_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T13:17:27",
+    "locked": true
+  },
+  "miniups": {
+    "name": "Mini UPS",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\Mini_UPS\\Mini_UPS_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\Mini_UPS\\Mini_UPS_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T13:18:09",
+    "locked": true
+  },
+  "mfmet4640": {
+    "name": "ET 4640 (Multi-Function Meter)",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\ET_4640__Multi-Function_Meter_\\ET_4640__Multi-Function_Meter__Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\ET_4640__Multi-Function_Meter_\\ET_4640__Multi-Function_Meter__Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T13:18:37",
+    "locked": true
+  },
+  "acmeter": {
+    "name": "ET4602 (AC Meter)",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\ET4602__AC_Meter_\\ET4602__AC_Meter__Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\ET4602__AC_Meter_\\ET4602__AC_Meter__Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T13:19:03",
+    "locked": true
+  },
+  "dcmeter": {
+    "name": "ET1641 (DC Meter)",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\ET1641__DC_Meter_\\ET1641__DC_Meter__Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\ET1641__DC_Meter_\\ET1641__DC_Meter__Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T13:19:33",
+    "locked": true
+  },
+  "bcpm": {
+    "name": "ET7022 (BCPM)",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\ET7022__BCPM_\\ET7022__BCPM__Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\ET7022__BCPM_\\ET7022__BCPM__Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T13:19:56",
+    "locked": true
+  },
+  "id04": {
+    "name": "ID04-B",
+    "pdf": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\ID04-B\\ID04-B_Catalogue.pdf",
+    "docx": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\output\\ID04-B\\ID04-B_Catalogue.docx",
+    "source": "app",
+    "generated_at": "2026-11-12T13:20:26",
+    "locked": true
+  }
+}

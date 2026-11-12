@@ -1,0 +1,405 @@
+{
+  "id": "iexx",
+  "name": "IEXX-X-XX",
+  "order": 17,
+  "category": "Gateway",
+  "category_plural": "Gateways",
+  "eyebrow": [
+    "GATEWAYS"
+  ],
+  "subtitle": "Industrial 4G Gateway",
+  "bar_title": "Industrial 4G Gateway",
+  "description": "A compact industrial gateway on MT7628 with 4G, Wi-Fi 4, eSIM support, and a wide 9–36V DC input. Designed for IoT use cases such as smart metering, remote equipment monitoring, and kiosk connectivity with flexible SIM options.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\iexx.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "4G MODEM"
+    },
+    {
+      "icon": "ports",
+      "value": "1+1",
+      "label": "LAN+WAN"
+    },
+    {
+      "icon": "wifi",
+      "value": "Wi-Fi 4",
+      "label": "2.4 GHz"
+    },
+    {
+      "icon": "bolt",
+      "value": "9–36 V",
+      "label": "DC INPUT"
+    },
+    {
+      "icon": "cpu",
+      "value": "MT7628",
+      "label": "PROCESSOR"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "4G LTE"
+    },
+    {
+      "icon": "wifi",
+      "label": "Wi-Fi 4"
+    },
+    {
+      "icon": "fan",
+      "label": "Fanless Design"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "CPU",
+      "value": "MediaTek MT7628"
+    },
+    {
+      "show": true,
+      "key": "RAM",
+      "value": "128MB"
+    },
+    {
+      "show": true,
+      "key": "Flash",
+      "value": "32MB"
+    },
+    {
+      "show": true,
+      "key": "WAN",
+      "value": "1x 10/100"
+    },
+    {
+      "show": true,
+      "key": "LAN",
+      "value": "1x 10/100"
+    },
+    {
+      "show": true,
+      "key": "Cellular",
+      "value": "Single SIM (ESim /Physical SIM) 4G/3G/2G External 5dBi"
+    },
+    {
+      "show": true,
+      "key": "SIM",
+      "value": "Single SIM (eSIM / Physical SIM) 4G/3G/2G, External 5dBi antennas"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi",
+      "value": "802.11 b/g/n; Wi-Fi 2.4 GHz, 300 MBPS AP Station"
+    },
+    {
+      "show": true,
+      "key": "Interface",
+      "value": "1 x RS485, 2 x Configurable DIO"
+    },
+    {
+      "show": true,
+      "key": "Reset",
+      "value": "Pinhole Reset Button"
+    },
+    {
+      "show": true,
+      "key": "Antenna",
+      "value": "Cellular: 2x SMA Connector Wi-Fi:2x SMA Connector"
+    },
+    {
+      "show": true,
+      "key": "Storage Temp",
+      "value": "-30 ~ 70 °C"
+    },
+    {
+      "show": true,
+      "key": "Operating Temp",
+      "value": "-20 ~ 60 °C"
+    },
+    {
+      "show": true,
+      "key": "Humidity",
+      "value": "10 ~ 90% (non-condensing)"
+    }
+  ],
+  "software": [
+    {
+      "key": "Operating System",
+      "value": "OpenWRT-based Linux OS",
+      "show": true
+    },
+    {
+      "key": "Wi-Fi Mode",
+      "value": "Access Point (AP), Station, AP & Client, Guest Wi-Fi",
+      "show": true
+    },
+    {
+      "key": "Encryption",
+      "value": "TKIP, AES, TKIP & AES",
+      "show": true
+    },
+    {
+      "key": "Wi-Fi Technology",
+      "value": "802.11 b/g/n",
+      "show": true
+    },
+    {
+      "key": "Authentication",
+      "value": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode",
+      "show": true
+    },
+    {
+      "key": "TX Power",
+      "value": "Configurable",
+      "show": true
+    },
+    {
+      "key": "Wi-Fi Scheduler",
+      "value": "Scheduled ON/OFF",
+      "show": true
+    },
+    {
+      "key": "Routing",
+      "value": "Static routing, Advance Routing",
+      "show": true
+    },
+    {
+      "key": "Network Protocols",
+      "value": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+      "show": true
+    },
+    {
+      "key": "Monitoring",
+      "value": "Ping Reboot, Scheduled Periodic Reboot",
+      "show": true
+    },
+    {
+      "key": "Firewall Features",
+      "value": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+      "show": true
+    },
+    {
+      "key": "DHCP",
+      "value": "Static and Dynamic",
+      "show": true
+    },
+    {
+      "key": "VLAN",
+      "value": "Tagged VLAN, Untagged VLAN",
+      "show": true
+    },
+    {
+      "key": "VPN",
+      "value": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+      "show": true
+    },
+    {
+      "key": "OpenVPN",
+      "value": "TUN/TAP with TLS Certificates",
+      "show": true
+    },
+    {
+      "key": "IPsec",
+      "value": "IKEv1, IKEv2, Aggressive/Main Mode",
+      "show": true
+    },
+    {
+      "key": "PPTP/L2TP WAN",
+      "value": "Server & Client with/without MPPE Encryption",
+      "show": true
+    },
+    {
+      "key": "Remote Management",
+      "value": "Remote Monitoring & Management Platform for SILBO Networking products",
+      "show": true
+    },
+    {
+      "key": "NMS VPN",
+      "value": "Remote Access of SILBO and non-SILBO Networking devices",
+      "show": true
+    },
+    {
+      "key": "Supported Languages / Tools",
+      "value": "Shell scripting, C, C++",
+      "show": true
+    },
+    {
+      "key": "SDK Package",
+      "value": "SDK package with built environment provided (Optional)",
+      "show": true
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "97 x 28 x 84 mm (W x H x D)"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Metal Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "DIN rail mounting Kit (Optional)"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fanless"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "9-36 Vdc"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "280 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "Wi-Fi 4",
+        "4G",
+        "Single",
+        "IE44-A"
+      ],
+      [
+        "✓",
+        "Wi-Fi 4",
+        "4G",
+        "Single",
+        "IE44-C"
+      ],
+      [
+        "✓",
+        "Wi-Fi 4",
+        "4G",
+        "Single",
+        "IE44-A-EX1 (e-SIM)"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Smart Metering & Utility Data Collection using eSIM",
+      "desc": "Ideal for smart electricity, water, and gas metering applications, enabling secure transmission of field data through cellular connectivity and RS485 integration."
+    },
+    {
+      "title": "Remote Equipment Monitoring using dual profile eSIM",
+      "desc": "Can be deployed to monitor pumps, generators, vending machines, and industrial equipment at remote locations with real-time status updates and alerts."
+    },
+    {
+      "title": "Kiosk & Self-Service Terminal Connectivity using Multi profile eSIM",
+      "desc": "Provides stable and secure connectivity for kiosks, ticketing systems, and self-service terminals requiring lightweight edge networking and remote management."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "iexx",
+    "brief_page": 17,
+    "detailed_page": 55,
+    "match": "name"
+  },
+  "status": "approved",
+  "created": "2026-10-07T20:50:37",
+  "_json_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "Wi-Fi 4",
+        "4G",
+        "Single",
+        "IE44-A"
+      ],
+      [
+        "✓",
+        "Wi-Fi 4",
+        "4G",
+        "Single",
+        "IE44-C"
+      ],
+      [
+        "✓",
+        "Wi-Fi 4",
+        "4G",
+        "Single",
+        "IE44-A-EX1 (e-SIM)"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "conflicts": [
+    {
+      "field": "Cellular",
+      "json": "4G",
+      "pdf": "Single SIM (ESim /Physical SIM) 4G/3G/2G External 5dBi",
+      "targets": [
+        [
+          "hardware",
+          "Cellular"
+        ]
+      ],
+      "choice": "pdf"
+    }
+  ],
+  "updated": "2026-11-12T12:16:52",
+  "approved_at": "2026-11-12T12:16:52"
+}

@@ -1,0 +1,249 @@
+{
+  "id": "inv-cf-xx",
+  "name": "INV-CF-XX",
+  "order": 7,
+  "category": "Edge Computer",
+  "category_plural": "Intel Based Device",
+  "eyebrow": [
+    "INTEL BASED DEVICE"
+  ],
+  "subtitle": "Industrial 5G/4G Edge Computer",
+  "bar_title": "Industrial 5G/4G Edge Computer",
+  "description": "The INV-CF-XX is a compact, fanless industrial edge computing platform powered by the Intel X7425E processor, featuring high-speed 2.5GbE networking, 4G/5G connectivity, Wi-Fi 6 support, and flexible mounting options for industrial and IoT applications.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\inv-cf-xx.webp",
+  "tiles": [
+    {
+      "icon": "cpu",
+      "value": "N150",
+      "label": "8 CORES 3.9 GHz"
+    },
+    {
+      "icon": "chip",
+      "value": "32 GB",
+      "label": "DDR4 RAM (MAX)"
+    },
+    {
+      "icon": "storage",
+      "value": "512 GB",
+      "label": "SSD (MAX)"
+    },
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "5G MODEM"
+    },
+    {
+      "icon": "bolt",
+      "value": "12 V",
+      "label": "DC INPUT"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "5G Ready"
+    },
+    {
+      "icon": "shield",
+      "label": "IP30 Rated"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "CPU",
+      "value": "Intel N150/x7425E/x7433RE/x7835RE/i3-N305/N355, 4/8 cores with 3.4-3.9 GHz Turbo Frequency"
+    },
+    {
+      "show": true,
+      "key": "RAM",
+      "value": "32GB DDR4/64 GB DDR5 SODIMM (Max)"
+    },
+    {
+      "show": true,
+      "key": "Storage",
+      "value": "One M.2 (B Key,2280), Upto 512GB SSD, Upto 64GB eMMC"
+    },
+    {
+      "show": true,
+      "key": "Ethernet Ports",
+      "value": "Gigabit Ethernet (2.5 Gbps)"
+    },
+    {
+      "show": true,
+      "key": "Operating Temp",
+      "value": "0 ~ 50℃"
+    },
+    {
+      "show": true,
+      "key": "Cellular",
+      "value": "One M.2( B Key, supports both types 3042 and 3052)\nwith USB2.0 and USB3.0 Supporting both 4G and 5G\nModems."
+    },
+    {
+      "show": true,
+      "key": "SIM",
+      "value": "2x Nano SIM"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi",
+      "value": "One M.2 ( E Key, 3052 for Wifi/BLE Module 802.11b/g/n/ac/ax (1 x PCIe, 1 X USB2.0)"
+    },
+    {
+      "show": true,
+      "key": "TPM",
+      "value": "Firmware/Hardware TPM"
+    },
+    {
+      "show": true,
+      "key": "RTC Battery Backup",
+      "value": "3V, CR2032"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "12V DC , DC Jack"
+    },
+    {
+      "show": true,
+      "key": "Button",
+      "value": "Software Reset"
+    },
+    {
+      "show": true,
+      "key": "LEDs",
+      "value": "Power, SATA, WiFi (depending on WiFi module),\nCellular Activity (depending on modem), Optional\nCellular Signal Strength (needs custom application.\nAPI’s will be provided), Link and Activity for\nEthernets."
+    },
+    {
+      "show": true,
+      "key": "Antenna",
+      "value": "Cellular : 8 x SMA and Wifi : 2 x SMA for 2.4 and 5\nGHz"
+    },
+    {
+      "show": true,
+      "key": "USB",
+      "value": "2 x USB2.0"
+    },
+    {
+      "show": true,
+      "key": "HDMI",
+      "value": "1"
+    },
+    {
+      "show": true,
+      "key": "Console",
+      "value": "1 x Type B Micro USB, HDMI"
+    }
+  ],
+  "software": [
+    {
+      "key": "Operating System",
+      "value": "Ubuntu/Oracle Linux/OpenWRT/Windows",
+      "show": true
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "150mm X 160mm X 52.8mm (L X W X H)"
+    },
+    {
+      "show": true,
+      "key": "IP Rating",
+      "value": "IP30"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Aluminum Heat Sink with CRCA Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "12 VDC"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "1800 gm"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "Desktop Mount/ Wall Mount / 19 inch rack mount /\nVesa Mount"
+    }
+  ],
+  "ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "use_cases": [
+    {
+      "title": "Remote Industrial IoT Gateway",
+      "desc": "The 4G/5G cellular connectivity paired with 4 Gigabit Ethernet ports lets it aggregate data from multiple field sensors and PLCs, then backhaul it over cellular where wired internet isn't available. Its -20°C to 75°C operating range and fanless design suit outdoor cabinets or remote plant sites."
+    },
+    {
+      "title": "Retail & Branch Edge Computing",
+      "desc": "Wi-Fi 6 support and flexible mounting (wall, desktop, or 19\" rack) make it easy to deploy as a local compute node in stores or branch offices for POS systems, digital signage, or local analytics. The Intel x7425E processor with up to 64GB RAM handles on-site processing without relying on cloud latency."
+    },
+    {
+      "title": "Vehicle & Transportation Telematics",
+      "desc": "Dual Nano SIM slots and 5G readiness enable reliable connectivity for fleet vehicles or mobile units even while roaming across networks. The compact, rugged aluminum enclosure and 12VDC input make it well-suited for invehicle mounting and automotive power systems."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "IP30",
+  "density": 1.0,
+  "sources": {
+    "json": "inv-cf-xx",
+    "brief_page": null,
+    "detailed_page": null,
+    "match": "no match"
+  },
+  "status": "approved",
+  "created": "2026-10-07T16:41:40",
+  "_json_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "_pdf_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "conflicts": [],
+  "updated": "2026-11-12T12:09:52",
+  "ordering_image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\uploads\\inv-cf-xx_ordering.webp",
+  "ordering_mode": "image",
+  "approved_at": "2026-11-12T12:09:52"
+}

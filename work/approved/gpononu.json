@@ -1,0 +1,168 @@
+{
+  "id": "gpononu",
+  "name": "GPON ONU",
+  "order": 31,
+  "category": "Gateway",
+  "category_plural": "Gateways",
+  "eyebrow": [
+    "GATEWAYS"
+  ],
+  "subtitle": "Industrial - Gateway",
+  "bar_title": "Industrial - Gateway",
+  "description": "A compact single-port GPON ONU on RTL9601D chipset designed to terminate fiber-optic GPON connections and deliver Gigabit Ethernet connectivity for FTTH deployments in residential, retail, and multi-dwelling unit rollouts.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\gpononu.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "MODEM"
+    },
+    {
+      "icon": "ports",
+      "value": "1 x 10/100/1000",
+      "label": "ETHERNET PORTS"
+    },
+    {
+      "icon": "bolt",
+      "value": "12 V",
+      "label": "DC INPUT"
+    },
+    {
+      "icon": "chip",
+      "value": "64 MB",
+      "label": "RAM"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "- LTE"
+    }
+  ],
+  "hardware": [
+    {
+      "key": "RAM",
+      "value": "64 MB SD RAM",
+      "show": true
+    },
+    {
+      "key": "Controller",
+      "value": "RTL9601D",
+      "show": true
+    },
+    {
+      "key": "Operating Temp",
+      "value": "0 ~ 70°C",
+      "show": true
+    }
+  ],
+  "software": [],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "90 x 27 x 80 mm (W x H x D)"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Plastic"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "12 VDC"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "300 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Interface",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "Controller-RTL9601D",
+        "GPON ONU"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Residential FTTH Last-Mile Termination",
+      "desc": "Delivering high-speed fiber broadband connectivity to residential homes and apartments through Fiber-to-the-Home (FTTH) networks, enabling reliable internet access, IPTV, VoIP services, and seamless connectivity for smart home devices and everyday digital applications."
+    },
+    {
+      "title": "Small Office / Retail Fiber Connectivity",
+      "desc": "Ideal for providing reliable, high-speed fiber internet connectivity to small offices, retail stores, and branch locations, enabling seamless POS transactions, cloud application access, VoIP communication, and secure data transmission for uninterrupted business operations."
+    },
+    {
+      "title": "MDU (Multi-Dwelling Unit) Bulk Rollouts",
+      "desc": "Deploying high-speed fiber broadband connectivity across apartments, residential complexes, and multi-tenant buildings, enabling scalable network installations, centralized management, and reliable internet, IPTV, and VoIP services for multiple households through a shared fiber infrastructure."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "gpononu",
+    "brief_page": null,
+    "detailed_page": null,
+    "match": "no match"
+  },
+  "status": "approved",
+  "created": "2026-10-08T11:11:27",
+  "_json_ordering": {
+    "headers": [
+      "Interface",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "Controller-RTL9601D",
+        "GPON ONU"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "conflicts": [],
+  "updated": "2026-11-12T12:29:18",
+  "approved_at": "2026-11-12T12:29:18"
+}

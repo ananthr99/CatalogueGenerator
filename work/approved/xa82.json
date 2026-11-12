@@ -1,0 +1,302 @@
+{
+  "id": "xa82",
+  "name": "XA82-2",
+  "order": 32,
+  "category": "Switch",
+  "category_plural": "Switches",
+  "eyebrow": [
+    "SWITCHES"
+  ],
+  "subtitle": "Industrial - Switch",
+  "bar_title": "Industrial - Switch",
+  "description": "A plug-and-play 8-port Gigabit PoE+ unmanaged switch with 2 SFP uplinks and 240W PoE budget. DIN-rail mountable in an industrial aluminium body with 9–57V DC input, ideal for CCTV/surveillance, smart buildings, and industrial cabinet network expansion.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\xa82.webp",
+  "tiles": [
+    {
+      "icon": "ports",
+      "value": "8×",
+      "label": "GIGABIT ETHERNET"
+    },
+    {
+      "icon": "bolt",
+      "value": "9–57 V",
+      "label": "DC INPUT"
+    },
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "MODEM"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "LTE"
+    },
+    {
+      "icon": "ports",
+      "label": "POE"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "Ethernet",
+      "value": "8 x 10/100/1000 Mbps (MDI/MDIX)"
+    },
+    {
+      "show": true,
+      "key": "SFP",
+      "value": "2 x SFP"
+    },
+    {
+      "show": true,
+      "key": "Status LED",
+      "value": "PWR(On/Off), LAN Activity LED (Green: Active connection, Orange: 1000 Mbps), SFP Status LED (Green: Connection status)"
+    },
+    {
+      "show": true,
+      "key": "PoE",
+      "value": "LAN Port 1 – 8 (PoE Out)"
+    },
+    {
+      "show": true,
+      "key": "PoE Standard",
+      "value": "802.3at & 802.3af"
+    },
+    {
+      "show": true,
+      "key": "PoE Budget (Per Port)",
+      "value": "30 W (Max)"
+    },
+    {
+      "show": true,
+      "key": "Total PoE Budget",
+      "value": "240 W(Max)"
+    },
+    {
+      "show": true,
+      "key": "MAC Address table entries",
+      "value": "2000"
+    },
+    {
+      "show": true,
+      "key": "Jumbo Frame",
+      "value": "9216 bytes"
+    },
+    {
+      "show": true,
+      "key": "Buffer size",
+      "value": "128 KB"
+    },
+    {
+      "show": true,
+      "key": "Power Connector",
+      "value": "Spring Loaded 2 wire connector"
+    },
+    {
+      "show": true,
+      "key": "Input Voltage Range",
+      "value": "9-57 Vdc (PoE out will work from 44-57Vdc Input)"
+    },
+    {
+      "show": true,
+      "key": "Power Consumption",
+      "value": "5.5 W (Non PoE) / 245.5 W (With PoE)"
+    },
+    {
+      "show": true,
+      "key": "Dimensions",
+      "value": "56 mm x 110 mm x 114 mm (W x H x D)"
+    },
+    {
+      "show": true,
+      "key": "Other",
+      "value": "Grounding Screw"
+    },
+    {
+      "show": true,
+      "key": "Standard Packing",
+      "value": "XA-82-2 with Industrial Aluminium Enclosure"
+    }
+  ],
+  "software": [],
+  "physical": [
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Industrial Aluminium Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "DIN rail mounting Kit (Optional)"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fanless"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "9-43 VDC: No PoE out 44-57 VDC PoE out"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "300 Gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "PoE",
+      "No.of Modems",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "—",
+        "—",
+        "✓",
+        "Single",
+        "XA82-2 Unmanaged PoE Switch"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "CCTV & Video Surveillance Deployment",
+      "desc": "Ideal for powering and connecting IP cameras, NVRs, and surveillance equipment through PoE, simplifying installation in security networks."
+    },
+    {
+      "title": "Enterprise & Smart Building Connectivity",
+      "desc": "Can be used in offices, hotels, and smart buildings to connect IP phones, wireless access points, and network devices with reliable Gigabit switching."
+    },
+    {
+      "title": "Industrial Cabinet & Field Network Expansion",
+      "desc": "Suitable for industrial panels, outdoor enclosures, and remote sites requiring rugged, plug-and-play Layer-2 connectivity with SFP uplink support."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "xa82",
+    "brief_page": 26,
+    "detailed_page": 64,
+    "match": "part numbers"
+  },
+  "status": "approved",
+  "created": "2026-10-08T11:14:18",
+  "_json_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "PoE",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "-",
+        "✓",
+        "Single",
+        "XA82-2 Unmanaged PoE Switch"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "PoE",
+      "PoE Budget",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "240 W",
+        "XA82-2"
+      ],
+      [
+        "—",
+        "—",
+        "✓",
+        "30w Max Per",
+        "Unmanaged PoE"
+      ],
+      [
+        "",
+        "",
+        "",
+        "Port",
+        "Switch"
+      ]
+    ]
+  },
+  "conflicts": [
+    {
+      "field": "Input Power",
+      "json": "9-57 VDC",
+      "pdf": "9-43 VDC: No PoE out 44-57 VDC PoE out",
+      "targets": [
+        [
+          "physical",
+          "Input Power"
+        ]
+      ],
+      "choice": "pdf"
+    },
+    {
+      "field": "Ordering table",
+      "json": "XA822UNMANAGEDPOESWITCH",
+      "pdf": "SWITCH, UNMANAGEDPOE, XA822",
+      "targets": [
+        [
+          "ordering",
+          ""
+        ]
+      ],
+      "choice": "pdf"
+    }
+  ],
+  "updated": "2026-11-12T12:34:58",
+  "approved_at": "2026-11-12T12:34:58"
+}

@@ -1,0 +1,324 @@
+{
+  "id": "inv-cea-xx",
+  "name": "INV-CEA-XX",
+  "order": 4,
+  "category": "Edge Computer",
+  "category_plural": "Intel Based Device",
+  "eyebrow": [
+    "INTEL BASED DEVICE"
+  ],
+  "subtitle": "Industrial 5G/4G Dual Modem Edge Computer",
+  "bar_title": "Industrial 5G/4G Dual Modem Edge Computer",
+  "description": "The INV-CEA-XX is a fanless industrial gateway designed for high-performance edge computing and robust connectivity, featuring an Intel X7425E processor and extensive cellular/Wi-Fi expansion capabilities. It differentiates itself through quad-Gigabit Ethernet ports, dual isolated serial interfaces (RS232/RS485), and flexible mounting options, making it highly adaptable for harsh environments. Primarily targeted at industrial automation, telecommunications, and smart city infrastructure where reliable long-term operation is critical.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\inv-cea-xx.webp",
+  "tiles": [
+    {
+      "icon": "cpu",
+      "value": "X7425E",
+      "label": "QUAD CORE · 3.9 GHz"
+    },
+    {
+      "icon": "chip",
+      "value": "32 GB",
+      "label": "DDR4 RAM (MAX)"
+    },
+    {
+      "icon": "storage",
+      "value": "512 GB",
+      "label": "SSD (MAX)"
+    },
+    {
+      "icon": "signal",
+      "value": "Dual",
+      "label": "5G MODEMS"
+    },
+    {
+      "icon": "wifi",
+      "value": "Wi-Fi 6",
+      "label": "DUAL BAND"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "5G Ready"
+    },
+    {
+      "icon": "wifi",
+      "label": "Wi-Fi 6"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "CPU",
+      "value": "Intel X7425E/X7433RE/X7835RE/x7809C/i3-N305/N350 Quad Core/Octa Core with 3.9 GHz turbo frequency"
+    },
+    {
+      "show": true,
+      "key": "RAM",
+      "value": "Up to 32 GB DDR4 or 64 GB SODIMM DDR5"
+    },
+    {
+      "show": true,
+      "key": "Ethernet",
+      "value": "Four 10/100/1000 Ports ((Realtek RTL8111H)"
+    },
+    {
+      "show": true,
+      "key": "Cellular",
+      "value": "Dual M.2 Modem 5G/4G"
+    },
+    {
+      "show": true,
+      "key": "SIM",
+      "value": "2x Nano SIM ( additional 2 X nano SIM optional)"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi",
+      "value": "One M.2 ( E Key, 3052 for Wifi/BLE Module 802.11b/g/n/ac/ax (1 x PCIe, 1 X USB2.0) (WiFi module to be Separately Ordered)"
+    },
+    {
+      "show": true,
+      "key": "Storage",
+      "value": "Up to 512 GB SSD and 64 GB eMMC (Except ARROW LAKE Devices)"
+    },
+    {
+      "show": true,
+      "key": "TPM",
+      "value": "Firmware/Hardware TPM ( Optional)"
+    },
+    {
+      "show": true,
+      "key": "RTC Battery Backup",
+      "value": "3V, CR2032"
+    },
+    {
+      "show": true,
+      "key": "Button",
+      "value": "Software Reset"
+    },
+    {
+      "show": true,
+      "key": "LEDs",
+      "value": "Power, SATA, WiFi (depending on WiFi module), Cellular Activity (depending on modem),Link and Activity for Ethernets"
+    },
+    {
+      "show": true,
+      "key": "Interface",
+      "value": "4x USB 2.0"
+    },
+    {
+      "show": true,
+      "key": "Antenna",
+      "value": "Cellular: 4 x SMA Connector, Wi-Fi: 1x SMA connector for 5Ghz and 1 x SMA connector for 2.4 Ghz"
+    },
+    {
+      "show": true,
+      "key": "USB",
+      "value": "4 x USB2.0"
+    },
+    {
+      "show": true,
+      "key": "RS232",
+      "value": "2 X Isolated RS232"
+    },
+    {
+      "show": true,
+      "key": "RS485",
+      "value": "2 X Isolated RS485"
+    },
+    {
+      "show": true,
+      "key": "Digital Inputs/Outputs",
+      "value": "4 X Isolated DIOs (Configurable as Input or Output)"
+    },
+    {
+      "show": true,
+      "key": "HDMI",
+      "value": "1 (Optional)"
+    },
+    {
+      "show": true,
+      "key": "Console",
+      "value": "1 x Type B Micro USB"
+    },
+    {
+      "show": true,
+      "key": "Dimensions",
+      "value": "150mm X 250mm X 55mm ( L X W X H)"
+    },
+    {
+      "show": true,
+      "key": "Storage Temperature",
+      "value": "-20 ~ 75℃"
+    },
+    {
+      "show": true,
+      "key": "Operating Temperature",
+      "value": "0 ~ 50℃"
+    },
+    {
+      "show": true,
+      "key": "Humidity",
+      "value": "10 ~ 90% (non-condensing)"
+    },
+    {
+      "show": true,
+      "key": "Operating System",
+      "value": "Ubuntu/Oracle Linux/OpenWRT/Windows"
+    },
+    {
+      "show": true,
+      "key": "Boot Loader",
+      "value": "Intel Slim Boot Loader"
+    }
+  ],
+  "software": [
+    {
+      "key": "Operating System",
+      "value": "Ubuntu / Oracle Linux / OpenWRT / Windows",
+      "show": true
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Aluminum Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "Desktop Mount, Rack Mount, Vesa Mount, Wall Mount"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fan less"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "12V DC, DC Jack"
+    }
+  ],
+  "ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "use_cases": [
+    {
+      "title": "Industrial Automation & Control",
+      "desc": "Collect data from PLCs, energy meters, VFDs, sensors, and analysers run custom SCADA software or lightweight SCADA to show data locally and Push data to cloud platforms using MQTT, OPC-UA, HTTPS, or REST APIs."
+    },
+    {
+      "title": "Machine Monitoring & OEE System",
+      "desc": "Monitor production machines and calculate:\nAvailability, Performance, Quality, QEE"
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "inv-cea-xx",
+    "brief_page": 5,
+    "detailed_page": 43,
+    "match": "name"
+  },
+  "status": "approved",
+  "created": "2026-10-07T16:23:14",
+  "_json_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "_pdf_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "conflicts": [
+    {
+      "field": "CPU",
+      "json": "Intel X7425E/X7433RE/X7835RE/x7809C/i3-N305/N350 Quad Core/Octa Core with 3.9 GHz turbo frequency",
+      "pdf": "Intel X7425E, 4 cores with 3.4GHz Turbo Frequency.",
+      "targets": [
+        [
+          "hardware",
+          "CPU"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "RAM",
+      "json": "Up to 32 GB DDR4 or 64 GB SODIMM DDR5",
+      "pdf": "64GB DDR5 SODIMM (Max) (Memory to be Separately Ordered)",
+      "targets": [
+        [
+          "hardware",
+          "RAM"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Storage / Flash",
+      "json": "Up to 512 GB SSD and 64 GB eMMC",
+      "pdf": "One M.2 (B Key,2280), Upto 512GB SSD, Upto 64GB eMMC ((Memory to be Separately Ordered)",
+      "targets": [
+        [
+          "hardware",
+          "Storage"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Cellular",
+      "json": "Dual M.2 Modem 5G/4G/3G",
+      "pdf": "One M.2( B Key, supports both types 3042 and 3052) with USB2.0 and USB3.0 Supporting both 4G and 5G Modems. (Cellular module to be Separately Ordered), One M.2 slot with dual SIM optional",
+      "targets": [
+        [
+          "hardware",
+          "Cellular"
+        ]
+      ],
+      "choice": "json"
+    }
+  ],
+  "updated": "2026-11-12T16:03:17",
+  "approved_at": "2026-11-12T16:03:17",
+  "ordering_image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\uploads\\inv-cea-xx_ordering.webp",
+  "ordering_mode": "image"
+}

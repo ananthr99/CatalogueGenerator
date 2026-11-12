@@ -1,0 +1,484 @@
+{
+  "id": "iSense",
+  "name": "iSense XXX",
+  "order": 25,
+  "category": "Gateway",
+  "category_plural": "Gateways",
+  "eyebrow": [
+    "GATEWAYS"
+  ],
+  "subtitle": "Industrial 4G Gateway",
+  "bar_title": "Industrial 4G Gateway",
+  "description": "A dense industrial I/O gateway on MT7621 featuring 24 isolated digital inputs, 8 relay outputs, 4x RS485, RS232, analog I/O, dual external temperature probes, and Modbus/MQTT/SNMP support. Designed for energy monitoring, process automation, and smart infrastructure.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\iSense.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "4G MODEM"
+    },
+    {
+      "icon": "ports",
+      "value": "4×",
+      "label": "GIGABIT ETHERNET"
+    },
+    {
+      "icon": "serial",
+      "value": "Serial I/O",
+      "label": "RS485 · RS232"
+    },
+    {
+      "icon": "wifi",
+      "value": "Wi-Fi 5",
+      "label": "DUAL BAND"
+    },
+    {
+      "icon": "bolt",
+      "value": "20–60 V",
+      "label": "DC INPUT"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "4G LTE"
+    },
+    {
+      "icon": "wifi",
+      "label": "Wi-Fi 5"
+    }
+  ],
+  "hardware": [
+    {
+      "key": "CPU",
+      "value": "MT7621 MIPS Dual Core with 880 MHz Frequency",
+      "show": true
+    },
+    {
+      "key": "RAM",
+      "value": "512 MB DDR3, eMMC up to 32 GB",
+      "show": true
+    },
+    {
+      "key": "Onboard Temperature",
+      "value": "Onboard Temperature Sensor",
+      "show": true
+    },
+    {
+      "key": "Sensor",
+      "value": "",
+      "show": true
+    },
+    {
+      "key": "Flash",
+      "value": "512 MB",
+      "show": true
+    },
+    {
+      "key": "WAN",
+      "value": "1 X 10/100/1000 MBPS",
+      "show": true
+    },
+    {
+      "key": "LAN",
+      "value": "3 X 10/100/1000 MBPS",
+      "show": true
+    },
+    {
+      "key": "Digital Inputs",
+      "value": "24 with isolation (External/self powered)",
+      "show": true
+    },
+    {
+      "key": "Digital Outputs",
+      "value": "8 potential free outputs (SPDT Relay)",
+      "show": true
+    },
+    {
+      "key": "Temperature Sensor",
+      "value": "2 external temperature sensor probes",
+      "show": true
+    },
+    {
+      "key": "Safety",
+      "value": "RoHS compliant, EMC Certification (Optional)",
+      "show": true
+    },
+    {
+      "key": "RS485",
+      "value": "4 X RS485",
+      "show": true
+    },
+    {
+      "key": "RS232",
+      "value": "1 X RS232",
+      "show": true
+    },
+    {
+      "key": "Analog Input",
+      "value": "Voltage-2 with Isolation (Range: -60 to 60V), Current-2 with isolation (Range: 4-20mA)",
+      "show": true
+    },
+    {
+      "key": "Output Voltage",
+      "value": "DO Opto Operates with internal 12V, Contact Rating 100mA @30V DC",
+      "show": true
+    },
+    {
+      "key": "Interface Connectors",
+      "value": "Terminal Block 3.81 mm with screws",
+      "show": true
+    },
+    {
+      "key": "Storage Temp",
+      "value": "-40°C to 85°C",
+      "show": true
+    },
+    {
+      "key": "Operating Temp",
+      "value": "-10°C to 70°C",
+      "show": true
+    },
+    {
+      "key": "Humidity",
+      "value": "90% non-condensing",
+      "show": true
+    },
+    {
+      "key": "Cellular",
+      "value": "4G",
+      "show": true
+    },
+    {
+      "key": "Interface",
+      "value": "1 x USB 3.0, 24 x DI, 8 x DO, 8 x AI, 2 x RTD",
+      "show": true
+    }
+  ],
+  "software": [
+    {
+      "key": "Operating System",
+      "value": "OpenWRT-based Linux OS",
+      "show": true
+    },
+    {
+      "key": "Software Support",
+      "value": "Router Software, Modbus serial, Modbus TCP, SNMP, HTTP, MQTT",
+      "show": true
+    },
+    {
+      "key": "Routing",
+      "value": "Static routing, Dynamic Routing (BGP,OSPF etc)",
+      "show": true
+    },
+    {
+      "key": "Network Protocols",
+      "value": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP, SNMP, PPPoE",
+      "show": true
+    },
+    {
+      "key": "Monitoring",
+      "value": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)",
+      "show": true
+    },
+    {
+      "key": "Firewall Features",
+      "value": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+      "show": true
+    },
+    {
+      "key": "DHCP",
+      "value": "Static and Dynamic",
+      "show": true
+    },
+    {
+      "key": "VLAN",
+      "value": "Tagged VLAN, Untagged VLAN",
+      "show": true
+    },
+    {
+      "key": "VPN",
+      "value": "Open VPN, IPsec, GRE, L2TP, PPTP, Wire guard, Zero Tier, IPIP Tunnel",
+      "show": true
+    },
+    {
+      "key": "OpenVPN",
+      "value": "TUN/TAP with TLS Certificates",
+      "show": true
+    },
+    {
+      "key": "IPsec",
+      "value": "IKEv1, IKEv2, Aggressive/Main Mode",
+      "show": true
+    },
+    {
+      "key": "PPTP/L2TP WAN",
+      "value": "Server & Client with/without MPPE Encryption",
+      "show": true
+    },
+    {
+      "key": "Remote Management",
+      "value": "Remote Monitoring & Management Platform for SILBO Networking products",
+      "show": true
+    },
+    {
+      "key": "NMS VPN",
+      "value": "Remote Access of SILBO and non-SILBO Networking Devices",
+      "show": true
+    },
+    {
+      "key": "Supported Languages / Tools",
+      "value": "Shell scripting, C, C++",
+      "show": true
+    },
+    {
+      "key": "SDK Package",
+      "value": "SDK package with built environment provided (Optional)",
+      "show": true
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Design",
+      "value": "TBD Sheet Metal with powder coating"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "20 to 60 Volts DC"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "1853 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Wi-Fi",
+      "Cellular",
+      "4G/5G",
+      "RS485",
+      "RS232",
+      "DIO Count",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "✓",
+        "4G",
+        "✓",
+        "✓",
+        "24",
+        "iSense Violet Plus Pro"
+      ],
+      [
+        "✓",
+        "✓",
+        "4G",
+        "✓",
+        "✓",
+        "12",
+        "iSense Green Plus Pro"
+      ],
+      [
+        "✓",
+        "✓",
+        "4G",
+        "✓",
+        "✓",
+        "6",
+        "iSense Blue Plus Pro"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Energy Monitoring & Power Management",
+      "desc": "Ideal for monitoring electrical panels, DG sets, solar systems, utility meters, and RTUs using RS485/RS232 and 4-20mA transducer interfaces for real-time energy analytics and cloud data transmission."
+    },
+    {
+      "title": "Process Automation & Industrial Control",
+      "desc": "Can be deployed in manufacturing plants to integrate PLCs, sensors, relays, and field devices through RS485, DI/DO, and analog I/O for automated process control and predictive maintenance."
+    },
+    {
+      "title": "Smart Infrastructure & Remote Asset Intelligence",
+      "desc": "Suitable for smart buildings, water treatment plants, telecom shelters, agricultural systems, and remote field assets requiring field-level monitoring, MQTT/Modbus communication, and centralized remote management over cellular connectivity."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "iSense",
+    "brief_page": 25,
+    "detailed_page": 63,
+    "match": "part numbers"
+  },
+  "status": "approved",
+  "created": "2026-10-07T21:12:51",
+  "_json_ordering": {
+    "headers": [
+      "Wi-Fi",
+      "Cellular",
+      "4G/5G",
+      "RS485",
+      "RS232",
+      "DIO Count",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "✓",
+        "4G",
+        "✓",
+        "✓",
+        "24",
+        "iSense Violet Plus Pro"
+      ],
+      [
+        "✓",
+        "✓",
+        "4G",
+        "✓",
+        "✓",
+        "12",
+        "iSense Green Plus Pro"
+      ],
+      [
+        "✓",
+        "✓",
+        "4G",
+        "✓",
+        "✓",
+        "6",
+        "iSense Blue Plus Pro"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [
+      "Wi-Fi",
+      "Cellular",
+      "4G/5G",
+      "RS485",
+      "RS232",
+      "DIO",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "✓",
+        "4G",
+        "✓",
+        "✓",
+        "",
+        "iSense Violet Plus Pro"
+      ],
+      [
+        "✓",
+        "✓",
+        "4G",
+        "✓",
+        "✓",
+        "12",
+        "iSense Green Plus Pro"
+      ],
+      [
+        "✓",
+        "✓",
+        "4G",
+        "✓",
+        "✓",
+        "",
+        "iSense Blue Plus Pro"
+      ]
+    ]
+  },
+  "conflicts": [
+    {
+      "field": "CPU",
+      "json": "MT7621 MIPS Dual Core with 880 MHz Frequency",
+      "pdf": "Dual Core 0.88GHz,512MB RAM, eMMC support up to 32GB.",
+      "targets": [
+        [
+          "hardware",
+          "CPU"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "RAM",
+      "json": "512 MB DDR3, eMMC up to 32 GB",
+      "pdf": "Onboard RTC with battery backup/temperature sensor",
+      "targets": [
+        [
+          "hardware",
+          "RAM"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Storage / Flash",
+      "json": "512 MB",
+      "pdf": "32 MB Flash",
+      "targets": [
+        [
+          "hardware",
+          "Flash"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Weight",
+      "json": "1853 gm",
+      "pdf": "1 kg 853 gm",
+      "targets": [
+        [
+          "physical",
+          "Weight"
+        ]
+      ],
+      "choice": "json"
+    }
+  ],
+  "updated": "2026-11-12T12:26:50",
+  "approved_at": "2026-11-12T12:26:50"
+}

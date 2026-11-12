@@ -1,0 +1,274 @@
+{
+  "id": "rn50pcba",
+  "name": "RN50-PCBA",
+  "order": 45,
+  "category": "PCB",
+  "category_plural": "PCB",
+  "eyebrow": [
+    "PCB"
+  ],
+  "subtitle": "Industrial - PCB",
+  "bar_title": "Industrial - PCB",
+  "description": "A board-level router on MT7621 with Wi-Fi 5, M12 Gigabit connectors, PoE input, and OpenWRT for OEM integration into vehicle-mounted systems and ruggedised industrial hardware platforms.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\rn50pcba.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "MODEM"
+    },
+    {
+      "icon": "ports",
+      "value": "1+1",
+      "label": "LAN+WAN"
+    },
+    {
+      "icon": "chip",
+      "value": "512 MB",
+      "label": "DDR3 RAM"
+    },
+    {
+      "icon": "wifi",
+      "value": "Wi-Fi 5",
+      "label": "DUAL BAND"
+    },
+    {
+      "icon": "bolt",
+      "value": "44–57 V",
+      "label": "DC INPUT"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "LTE"
+    },
+    {
+      "icon": "wifi",
+      "label": "Wi-Fi 5"
+    },
+    {
+      "icon": "fan",
+      "label": "Fanless Design"
+    }
+  ],
+  "hardware": [
+    {
+      "key": "CPU",
+      "value": "MediaTek MT7621",
+      "show": true
+    },
+    {
+      "key": "RAM",
+      "value": "256/512MB DDR3",
+      "show": true
+    },
+    {
+      "key": "Flash",
+      "value": "32/64 MB",
+      "show": true
+    },
+    {
+      "key": "WAN",
+      "value": "1x 10/100/1000 (M12 Connector)",
+      "show": true
+    },
+    {
+      "key": "LAN",
+      "value": "1x 10/100/1000 (M12 Connector)",
+      "show": true
+    },
+    {
+      "key": "Wi-Fi",
+      "value": "802.11b/g/n/ac; Dual Band Wi-Fi, AP Station, External 5dBi antennas",
+      "show": true
+    },
+    {
+      "key": "Reset",
+      "value": "Pinhole Reset Button",
+      "show": true
+    },
+    {
+      "key": "Antenna",
+      "value": "Wi-Fi: 2x SMA connector",
+      "show": true
+    }
+  ],
+  "software": [
+    {
+      "key": "Routing",
+      "value": "Static routing, Dynamic Routing (BGP,OSPF etc)",
+      "show": true
+    },
+    {
+      "key": "Network Protocols",
+      "value": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP, SNMP, PPPoE",
+      "show": true
+    },
+    {
+      "key": "Internet Connectivity",
+      "value": "Multi-WAN (Ethernet, Cellular, Wi-Fi), Failover, Load Balancing",
+      "show": true
+    },
+    {
+      "key": "Firewall features",
+      "value": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+      "show": true
+    },
+    {
+      "key": "VPN",
+      "value": "Open VPN, IPsec, GRE, L2TP, PPTP, Wire guard, Zero Tier, IPIP Tunnel",
+      "show": true
+    },
+    {
+      "key": "NMS",
+      "value": "Remote Monitoring C Management Platform for SILBO Networking products",
+      "show": true
+    },
+    {
+      "key": "Wi-Fi",
+      "value": "Access Point, Client, Easy mesh",
+      "show": true
+    },
+    {
+      "key": "Standard Packaging",
+      "value": "RN50-ODU Cellular Router with sheet Metal housing, 2x Wi-Fi Rubber Duck Antennas, Power Adapter, 01- meter Ethernet cable.",
+      "show": true
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "209 x 30 x 154 mm (W x H x D)"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Industrial Aluminium Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "DIN rail mounting Kit (Optional)"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fanless"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "Active PoE 44-57 VDC"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Wi-Fi",
+      "Cellular",
+      "Gen",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "Wi-Fi 5",
+        "-",
+        "-",
+        "Single",
+        "RN 50 PCB-A"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Vehicle & Transportation Systems",
+      "desc": "Connects onboard systems, sensors, tracking units, and communication equipment across vehicles and transportation networks. This enables real-time data exchange, fleet monitoring, and reliable communication for safer and more efficient transport operations."
+    },
+    {
+      "title": "Passenger Infotainment AP for Railways",
+      "desc": "Provides onboard Wi-Fi access points that deliver wireless connectivity to passengers across railway coaches. It supports seamless access to digital services, entertainment, and travel information throughout the journey."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "rn50pcba",
+    "brief_page": 36,
+    "detailed_page": 76,
+    "match": "name"
+  },
+  "status": "approved",
+  "created": "2026-11-11T17:55:33",
+  "_json_ordering": {
+    "headers": [
+      "Wi-Fi",
+      "Cellular",
+      "Gen",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "Wi-Fi 5",
+        "-",
+        "-",
+        "Single",
+        "RN 50 PCB-A"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "—",
+        "WiFi-5",
+        "—",
+        "Single",
+        "RN 50 PCB-A"
+      ]
+    ]
+  },
+  "conflicts": [],
+  "updated": "2026-11-12T13:16:24",
+  "approved_at": "2026-11-12T13:16:24"
+}

@@ -1,0 +1,283 @@
+{
+  "id": "inv-cd-xx",
+  "name": "INV-CD-XX",
+  "order": 2,
+  "category": "Edge Computer",
+  "category_plural": "Intel Based Device",
+  "eyebrow": [
+    "INTEL BASED DEVICE"
+  ],
+  "subtitle": "Industrial 5G/4G Edge Computer",
+  "bar_title": "Industrial 5G/4G Edge Computer",
+  "description": "This compact, fanless edge computing system is designed for AI inference, networking, and industrial applications, combining an Intel® Core™ N350 processor with flexible expansion for AI accelerators or NVMe storage. Key differentiators include dual Gigabit LAN, multiple display outputs (up to 4K), wide OS support, and robust I/O in a small form factor. It targets edge AI deployments, smart retail, industrial automation, and network security solutions.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\inv-cd-xx.webp",
+  "tiles": [
+    {
+      "icon": "cpu",
+      "value": "X7425E",
+      "label": "QUAD CORE 3.9 GHz"
+    },
+    {
+      "icon": "chip",
+      "value": "32 GB",
+      "label": "DDR4 RAM (MAX)"
+    },
+    {
+      "icon": "storage",
+      "value": "512 GB",
+      "label": "SSD (MAX)"
+    },
+    {
+      "icon": "wifi",
+      "value": "Wi-Fi 6",
+      "label": "DUAL BAND"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "wifi",
+      "label": "Wi-Fi 6"
+    },
+    {
+      "icon": "fan",
+      "label": "Fanless Design"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "CPU",
+      "value": "Intel X7425E/X7433RE/X7835RE/i3-N305/N350 Quad Core/Octa Core with 3.9 GHz turbo frequency"
+    },
+    {
+      "show": true,
+      "key": "RAM",
+      "value": "Up to 32 GB DDR4 or 64 GB SODIMM DDR5"
+    },
+    {
+      "show": true,
+      "key": "Flash",
+      "value": "One M.2 NVME PCIE X 2, Upto 512GB, Upto 64GB eMMC"
+    },
+    {
+      "show": true,
+      "key": "Ethernet",
+      "value": "2 X 10/100/1000 (RTL811H)"
+    },
+    {
+      "show": false,
+      "key": "Cellular",
+      "value": "4G/5G"
+    },
+    {
+      "show": true,
+      "key": "USB",
+      "value": "2 x USB3.0, 4 x USB2.0"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi",
+      "value": "One M.2 ( E Key, 3052 for Wi-Fi/BLE Module 802.11b/g/n/ac/ax (1 x PCIe, 1 X USB2.0)"
+    },
+    {
+      "show": true,
+      "key": "Storage",
+      "value": "One M.2 SATA, Upto 512GB SSD"
+    },
+    {
+      "show": true,
+      "key": "Reset",
+      "value": "Software Reset, Power"
+    },
+    {
+      "show": true,
+      "key": "Antenna",
+      "value": "Wi-Fi: 2x SMA connector for 5 and 2.4 GHz"
+    },
+    {
+      "show": true,
+      "key": "Storage Temp",
+      "value": "-20°C ~ 75°C"
+    },
+    {
+      "show": true,
+      "key": "Operating Temp",
+      "value": "0°C ~ 50°C"
+    },
+    {
+      "show": true,
+      "key": "Humidity",
+      "value": "10% ~ 90% (Non-condensing)"
+    },
+    {
+      "show": true,
+      "key": "PCIE",
+      "value": "m.2 Key M for AI Accelerator or NVME"
+    }
+  ],
+  "software": [
+    {
+      "show": true,
+      "key": "Operating System",
+      "value": "Ubuntu/Oracle Linux/OpenWRT/Windows Intel Slim Boot Loader"
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "150 x 210 x 65 mm (LxWxH)"
+    },
+    {
+      "show": true,
+      "key": "IP Rating",
+      "value": "IP30"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Aluminium Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "Desktop Mount"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fanless"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "12V DC, DC Jack"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "995 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "use_cases": [
+    {
+      "title": "Industrial Machine Vision & Quality Inspection",
+      "desc": "The x7425E supports Intel OpenVINO for advanced AI inference, and pairs with GigE PoE+ ports with screw-lock mechanisms — ideal for securely connecting industrial cameras in machine vision applications."
+    },
+    {
+      "title": "Smart Traffic & Transportation Edge Nodes",
+      "desc": "The platform supports up to 3 independent 4K60 displays and up to 32 Execution Units (EU) for AI inference, making it well-suited for multi-camera traffic analytics, license plate recognition, and pedestrian counting at intersections."
+    },
+    {
+      "title": "Edge Security & Surveillance with AI Analytics",
+      "desc": "The platform includes onboard TPM 2.0 and hardware virtualization support, enabling secure multi-tenant edge deployments with isolated AI workloads for video analytics."
+    }
+  ],
+  "compliance": [
+    {
+      "show": true,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": true,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": true,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": true,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": true,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "IP30",
+  "density": 1.0,
+  "sources": {
+    "json": "inv-cd-xx",
+    "brief_page": 7,
+    "detailed_page": 45,
+    "match": "name"
+  },
+  "status": "approved",
+  "created": "2026-10-07T16:03:50",
+  "_json_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "_pdf_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "conflicts": [
+    {
+      "field": "CPU",
+      "json": "Intel X7425E/X7433RE/X7835RE/i3-N305/N350 Quad Core/Octa Core with 3.9 GHz turbo frequency",
+      "pdf": "Intel X7425E, 4 cores with 3.4GHz Turbo Frequency",
+      "targets": [
+        [
+          "hardware",
+          "CPU"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "RAM",
+      "json": "Up to 32 GB DDR4 or 64 GB SODIMM DDR5",
+      "pdf": "64GB DDR5 SODIMM (Max); Upto 64 GB DDR5 SODIMM (Max)",
+      "targets": [
+        [
+          "hardware",
+          "RAM"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Storage / Flash",
+      "json": "Up to 512 GB SSD and up to 64 GB eMMC (Optional)",
+      "pdf": "One M.2 NVME PCIE X 2, Upto 512GB, Upto 64GB eMMC",
+      "targets": [
+        [
+          "hardware",
+          "Flash"
+        ]
+      ],
+      "choice": "pdf"
+    },
+    {
+      "field": "Dimensions",
+      "json": "150 x 210 x 65 mm (LxWxH)",
+      "pdf": "150mm X 123mm X 35mm ( L X D X H)",
+      "targets": [
+        [
+          "physical",
+          "Dimensions (W × H × D)"
+        ]
+      ],
+      "choice": "json"
+    }
+  ],
+  "updated": "2026-11-12T12:05:25",
+  "ordering_image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\uploads\\inv-cd-xx_ordering.webp",
+  "ordering_mode": "image",
+  "approved_at": "2026-11-12T12:05:25"
+}

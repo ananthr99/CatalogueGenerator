@@ -1,0 +1,54 @@
+# Paths are relative to this file unless absolute.
+paths:
+  master_pdf: data/Master Catalogue.pdf
+  json_dir: data/json          # one product-selector JSON per product (searched recursively)
+  images_dir: data/images      # product images (searched recursively, matched by JSON "images" filename or id)
+  output_dir: output           # PDF / DOCX / HTML per product
+  work_dir: work               # drafts, approved records, page mappings, use-case library
+
+company:
+  name: Invendis Technologies India Pvt. Ltd.
+  city: Bangalore – 560 068
+  email: sales@invendis.com
+  phone: +91 6361509463
+  websites: [www.invendis.com]
+  tagline: Invent, Discover.
+
+# QR code in the footer of every catalogue (leave url empty to hide it)
+qr:
+  url: https://invendis.co.in/products/product-selector
+  title: Find the right product
+  caption: Scan to explore all products
+
+brand:
+  primary: "#010199"
+  primary_dark: "#0B1F7A"
+  accent: "#E8141C"
+
+docx_font: Arial
+
+# Website JSON "cat" -> label used on the page, and which spec tiles to show (in order).
+# Tile types: cellular, ports, ram, wifi, power, cpu, storage, io
+default_tiles: [cellular, ports, ram, wifi, power]
+categories:
+  Router:              {singular: Router, plural: Routers, tiles: [cellular, ports, ram, wifi, power]}
+  Gateway:             {singular: Gateway, plural: Gateways, tiles: [cellular, ports, io, wifi, power]}
+  Intel Based Devices: {singular: Edge Computer, plural: Edge Computers, tiles: [cpu, ram, storage, cellular, wifi]}
+  Switch:              {singular: Switch, plural: Switches, tiles: [ports, power, cpu, ram, storage]}
+
+# Rows unticked by default (still editable in the app). Empty = everything from both Master pages is shown.
+hardware_default_hidden: []
+software_default_hidden: []
+
+# Compliance marks each new product starts with (show/hide, add or remove per product in the app).
+# Ready-made keys: ce, fcc, rohs, weee, iso9001 (official logos in assets/logos), india (Made in India), ip (the product's
+# IP rating; skipped if none), bis, tec, ul (generic certificate symbol).
+# A category can set its own list, e.g.  Router: {..., compliance: [ce, fcc, rohs, weee]}
+# Add your own ready-made marks under compliance_presets; icon is a built-in symbol
+# (leaf, ce, india, shield, cert, check) or an uploaded logo (logo:<name>); empty label = logo only:
+# compliance_presets:
+#   bis: {name: BIS, icon: "logo:bis", label: ""}
+default_compliance: [ce, fcc, rohs, weee, iso9001]
+
+# Build: if the page overflows A4, step density down to this minimum before giving up.
+min_density: 0.86

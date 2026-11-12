@@ -1,0 +1,333 @@
+{
+  "id": "pc3xx",
+  "name": "PC3XX",
+  "order": 41,
+  "category": "Switch",
+  "category_plural": "Switches",
+  "eyebrow": [
+    "SWITCHES"
+  ],
+  "subtitle": "Industrial - Switch",
+  "bar_title": "Industrial - Switch",
+  "description": "An ultra-compact serial-to-IP gateway on MT7628 with RS485, optional Wi-Fi 4, and a single Fast Ethernet port for bridging field devices to IP networks in DIN-rail enclosures.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\pc3xx.webp",
+  "tiles": [
+    {
+      "icon": "ports",
+      "value": "1",
+      "label": "LAN"
+    },
+    {
+      "icon": "bolt",
+      "value": "12–24 V",
+      "label": "DC INPUT"
+    },
+    {
+      "icon": "cpu",
+      "value": "MT7628",
+      "label": "PROCESSOR"
+    },
+    {
+      "icon": "chip",
+      "value": "128 MB",
+      "label": "DDR2 RAM"
+    },
+    {
+      "icon": "storage",
+      "value": "32 MB",
+      "label": "FLASH"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "LTE"
+    },
+    {
+      "icon": "wifi",
+      "label": "Wi-Fi 4"
+    },
+    {
+      "icon": "fan",
+      "label": "Fanless Design"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "CPU",
+      "value": "MediaTek MT7628"
+    },
+    {
+      "show": true,
+      "key": "RAM",
+      "value": "128 MB DDR2"
+    },
+    {
+      "show": true,
+      "key": "Flash",
+      "value": "32MB"
+    },
+    {
+      "show": true,
+      "key": "LAN",
+      "value": "1x 10/100"
+    },
+    {
+      "show": true,
+      "key": "Serial Interface",
+      "value": "2 x RS485"
+    },
+    {
+      "show": true,
+      "key": "Wi-Fi",
+      "value": "802.11 b/g/n"
+    },
+    {
+      "show": true,
+      "key": "Reset",
+      "value": "Pinhole Reset Button"
+    },
+    {
+      "show": true,
+      "key": "Storage Temp",
+      "value": "-30 ~ 70 °C"
+    },
+    {
+      "show": true,
+      "key": "Operating Temp",
+      "value": "0 ~ 50°C"
+    },
+    {
+      "show": true,
+      "key": "Humidity",
+      "value": "10 ~ 90% (non-condensing)"
+    }
+  ],
+  "software": [
+    {
+      "show": true,
+      "key": "Operating System",
+      "value": "OpenWRT-based Linux OS"
+    },
+    {
+      "show": true,
+      "key": "Remote Management",
+      "value": "Remote Monitoring & Management Platform for SILBO Networking products"
+    },
+    {
+      "show": true,
+      "key": "NMS VPN",
+      "value": "Remote Access of SILBO and non-SILBO Networking Devices"
+    },
+    {
+      "show": true,
+      "key": "Supported Languages / Tools",
+      "value": "Shell scripting, C, C++"
+    },
+    {
+      "show": true,
+      "key": "SDK Package",
+      "value": "SDK package with built environment provided (Optional)"
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "80 x 26 x 78 mm (W x H x D)"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Sheet Metal Enclosure"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "DIN rail mounting Kit (Optional)"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fanless"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "12-24V"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "400 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "RS485",
+      "No. of RS485 Ports",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "-",
+        "✓",
+        "1",
+        "PC310"
+      ],
+      [
+        "-",
+        "-",
+        "✓",
+        "2",
+        "PC311"
+      ],
+      [
+        "-",
+        "✓",
+        "✓",
+        "1",
+        "PC312"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Energy Meter & Utility Device Integration",
+      "desc": "Enables seamless connectivity with energy meters and utility devices to collect and transmit real-time consumption, voltage, and power-quality data. This supports centralized monitoring, accurate energy tracking, and more informed utility management."
+    },
+    {
+      "title": "Building Automation Connectivity",
+      "desc": "Connects HVAC systems, lighting, access control, and other building management equipment over a unified network. This enables centralized monitoring and control of building operations, improving energy efficiency, security, and overall operational convenience."
+    },
+    {
+      "title": "Legacy Device Network Enablement",
+      "desc": "Bridges older equipment and legacy systems with modern IP networks, enabling continued communication without requiring a complete infrastructure upgrade. This helps extend existing asset life while simplifying centralized monitoring and management."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "pc3xx",
+    "brief_page": 32,
+    "detailed_page": 70,
+    "match": "name"
+  },
+  "status": "approved",
+  "created": "2026-11-11T17:47:50",
+  "_json_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "RS485",
+      "No. of RS485 Ports",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "-",
+        "✓",
+        "1",
+        "PC310"
+      ],
+      [
+        "-",
+        "-",
+        "✓",
+        "2",
+        "PC311"
+      ],
+      [
+        "-",
+        "✓",
+        "✓",
+        "1",
+        "PC312"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "RS485",
+      "No of RS485",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "—",
+        "—",
+        "✓",
+        "1",
+        "PC310"
+      ],
+      [
+        "—",
+        "—",
+        "✓",
+        "2",
+        "PC311"
+      ],
+      [
+        "—",
+        "✓",
+        "✓",
+        "1",
+        "PC312"
+      ]
+    ]
+  },
+  "conflicts": [
+    {
+      "field": "RAM",
+      "json": "128 MB DDR2",
+      "pdf": "128MB; Up to 16 GB SODIMM DDR5",
+      "targets": [
+        [
+          "hardware",
+          "RAM"
+        ]
+      ],
+      "choice": "json"
+    }
+  ],
+  "updated": "2026-11-12T12:38:46",
+  "approved_at": "2026-11-12T12:38:46"
+}

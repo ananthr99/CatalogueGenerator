@@ -1,0 +1,399 @@
+{
+  "id": "mt7621odu",
+  "name": "MT7621-01 ODU",
+  "order": 43,
+  "category": "Outdoor Unit",
+  "category_plural": "Outdoor Unit",
+  "eyebrow": [
+    "OUTDOOR UNIT"
+  ],
+  "subtitle": "Industrial 4G Outdoor Unit",
+  "bar_title": "Industrial 4G Outdoor Unit",
+  "description": "An IP66-rated outdoor cellular router on MT7621 with 4G dual-SIM, PoE IN, and wall/pole mounting — eliminating weatherproof cabinets for outdoor CCTV, kiosks, and transportation connectivity.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\mt7621odu.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "4G MODEM"
+    },
+    {
+      "icon": "ports",
+      "value": "1×",
+      "label": "GIGABIT ETHERNET"
+    },
+    {
+      "icon": "chip",
+      "value": "512 MB",
+      "label": "DDR3 RAM"
+    },
+    {
+      "icon": "bolt",
+      "value": "48–57 V",
+      "label": "DC INPUT"
+    },
+    {
+      "icon": "cpu",
+      "value": "MT7621",
+      "label": "DUAL CORE · 880 MHz"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "4G LTE"
+    },
+    {
+      "icon": "fan",
+      "label": "Fanless Design"
+    },
+    {
+      "icon": "shield",
+      "label": "IP66 Rated"
+    }
+  ],
+  "hardware": [
+    {
+      "key": "CPU",
+      "value": "MediaTek MT7621 MIPS Dual Core, 880 MHz",
+      "show": true
+    },
+    {
+      "key": "RAM",
+      "value": "512MB",
+      "show": true
+    },
+    {
+      "key": "Flash",
+      "value": "32MB",
+      "show": true
+    },
+    {
+      "key": "Ethernet",
+      "value": "1x 10/100/1000 (External) with PoE IN, 1 x 10/100/1000 internal for configuration",
+      "show": true
+    },
+    {
+      "key": "Cellular",
+      "value": "Single M.2 Modem 4G/3G/2G",
+      "show": true
+    },
+    {
+      "key": "SIM",
+      "value": "2x Nano SIM with Tray (1x Active & 1x Passive)",
+      "show": true
+    },
+    {
+      "key": "Wi-Fi",
+      "value": "NA",
+      "show": true
+    },
+    {
+      "key": "Reset",
+      "value": "Pinhole Reset Button",
+      "show": true
+    },
+    {
+      "key": "Antenna",
+      "value": "Cellular: 1x N Type Connector, 1x UFL connector",
+      "show": true
+    },
+    {
+      "key": "Storage Temp",
+      "value": "-20 ~ 60 °C",
+      "show": true
+    },
+    {
+      "key": "Operating Temp",
+      "value": "-0 ~ 50 °C",
+      "show": true
+    },
+    {
+      "key": "Humidity",
+      "value": "10 ~ 90% (non-condensing)",
+      "show": true
+    }
+  ],
+  "software": [
+    {
+      "key": "Operating System",
+      "value": "OpenWRT-based Linux OS",
+      "show": true
+    },
+    {
+      "key": "Cellular Mode",
+      "value": "4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps",
+      "show": true
+    },
+    {
+      "key": "Routing",
+      "value": "Static routing, Advanced Static Routing,",
+      "show": true
+    },
+    {
+      "key": "Network Protocols",
+      "value": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+      "show": true
+    },
+    {
+      "key": "Monitoring",
+      "value": "Ping Reboot, Scheduled Periodic Reboot",
+      "show": true
+    },
+    {
+      "key": "Firewall Features",
+      "value": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+      "show": true
+    },
+    {
+      "key": "DHCP",
+      "value": "Static and Dynamic",
+      "show": true
+    },
+    {
+      "key": "VLAN",
+      "value": "Tagged VLAN, Untagged VLAN",
+      "show": true
+    },
+    {
+      "key": "VPN",
+      "value": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+      "show": true
+    },
+    {
+      "key": "OpenVPN",
+      "value": "TUN/TAP with TLS Certificates",
+      "show": true
+    },
+    {
+      "key": "IPsec",
+      "value": "IKEv1, IKEv2, Aggressive/Main Mode",
+      "show": true
+    },
+    {
+      "key": "PPTP/L2TP WAN",
+      "value": "Server & Client with/without MPPE Encryption",
+      "show": true
+    },
+    {
+      "key": "Remote Management",
+      "value": "Remote Monitoring & Management Platform for SILBO Networking products",
+      "show": true
+    },
+    {
+      "key": "NMS VPN",
+      "value": "Remote Access of SILBO and non-SILBO Networking devices",
+      "show": true
+    },
+    {
+      "key": "Supported Languages / Tools",
+      "value": "Shell scripting, C, C++",
+      "show": true
+    },
+    {
+      "key": "SDK Package",
+      "value": "SDK package with built environment provided (Optional)",
+      "show": true
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "140 x 75 x 224 mm (W x H x D)"
+    },
+    {
+      "show": true,
+      "key": "IP Rating",
+      "value": "IP66"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "ABS/PC IP66 Housing"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "WALL Mount, Poll Mount"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fanless"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "Active PoE IN (IEEE 802.3af/at (48V- 57V))"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "950 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Wi-Fi",
+      "Cellular",
+      "Gen",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "✓",
+        "4G",
+        "Single",
+        "MT7621-01 ODU"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Outdoor CCTV & Perimeter Surveillance",
+      "desc": "Provides reliable network connectivity for outdoor CCTV cameras and perimeter security systems, ensuring continuous video transmission from remote monitoring points. This enables centralized surveillance, real-time incident detection, and improved site security."
+    },
+    {
+      "title": "Smart Transportation & Roadside Infrastructure",
+      "desc": "Connects traffic signals, roadside sensors, surveillance cameras, and intelligent transportation systems through a dependable network infrastructure. This enables real-time traffic monitoring, coordinated control, and improved road safety and traffic management."
+    },
+    {
+      "title": "Remote Outdoor Asset Connectivity",
+      "desc": "Enables secure and reliable network access for outdoor assets deployed across remote or hard-to-reach locations. It allows operators to remotely monitor equipment, collect field data, and manage infrastructure without requiring on-site visits."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "IP66",
+  "density": 1.0,
+  "sources": {
+    "json": "mt7621odu",
+    "brief_page": 34,
+    "detailed_page": 74,
+    "match": "name"
+  },
+  "status": "approved",
+  "created": "2026-11-11T17:51:29",
+  "_json_ordering": {
+    "headers": [
+      "Wi-Fi",
+      "Cellular",
+      "Gen",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "✓",
+        "4G",
+        "Single",
+        "MT7621-01 ODU"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "MT7621-01"
+      ],
+      [
+        "✓",
+        "—",
+        "4G",
+        "Single",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "ODU"
+      ]
+    ]
+  },
+  "conflicts": [
+    {
+      "field": "CPU",
+      "json": "MediaTek MT7621 MIPS Dual Core, 880 MHz",
+      "pdf": "MediaTek MT7621",
+      "targets": [
+        [
+          "hardware",
+          "CPU"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Cellular",
+      "json": "Single M.2 Modem 4G/3G/2G",
+      "pdf": "4G/3G/2G with Dual SIM Active Passive, One External 5dBi antenna (IP66) and One 5dBi auxiliary internal flexi antenna",
+      "targets": [
+        [
+          "hardware",
+          "Cellular"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Ordering table",
+      "json": "MT762101ODU",
+      "pdf": ", MT762101, ODU",
+      "targets": [
+        [
+          "ordering",
+          ""
+        ]
+      ],
+      "choice": "json"
+    }
+  ],
+  "updated": "2026-11-12T12:39:52",
+  "approved_at": "2026-11-12T12:39:52"
+}

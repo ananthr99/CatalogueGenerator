@@ -1,0 +1,147 @@
+{
+  "id": "dcmeter",
+  "name": "ET1641 (DC Meter)",
+  "order": 52,
+  "category": "Energy Meter",
+  "category_plural": "Energy Meter",
+  "eyebrow": [
+    "ENERGY METER"
+  ],
+  "subtitle": "Industrial - Energy Meter",
+  "bar_title": "Industrial - Energy Meter",
+  "description": "A DC energy meter with 4-channel current measurement across 20–60V (up to 200A), 1% FSR accuracy, and RS485 for battery systems, solar installations, telecom rectifiers, and EV charging infrastructure.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\dcmeter.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "MODEM"
+    },
+    {
+      "icon": "ports",
+      "value": "0×",
+      "label": "ETHERNET PORTS"
+    },
+    {
+      "icon": "bolt",
+      "value": "20–60 V",
+      "label": "DC INPUT"
+    },
+    {
+      "icon": "serial",
+      "value": "Serial I/O",
+      "label": "RS485"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "LTE"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "DC Voltage Range",
+      "value": "20-60 VDC"
+    },
+    {
+      "show": true,
+      "key": "DC Current Range",
+      "value": "1-100A / 200A DC"
+    },
+    {
+      "show": true,
+      "key": "Voltage Resolution",
+      "value": "0.1V or better"
+    },
+    {
+      "show": true,
+      "key": "Current Resolution",
+      "value": "0.2A or better"
+    }
+  ],
+  "software": [],
+  "physical": [
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Panel Mount"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "20-60 VDC (self-powered)"
+    }
+  ],
+  "ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "use_cases": [
+    {
+      "title": "Telecom Power Monitoring",
+      "desc": "Tracks power consumption and electrical parameters across telecom sites, including grid supply, generators, and backup systems. It gives operators better visibility into energy usage, equipment performance, and power availability across distributed network infrastructure."
+    },
+    {
+      "title": "Solar & Battery System Analytics",
+      "desc": "Monitors solar generation, battery charging and discharging, and overall energy storage performance in real time. This helps assess system efficiency, track battery health, and optimize the utilization of renewable energy and backup power."
+    },
+    {
+      "title": "EV Charging & DC Infrastructure",
+      "desc": "Connects EV charging stations and DC power infrastructure to enable real-time monitoring of charging activity, power consumption, and equipment status. This supports efficient energy distribution, remote diagnostics, and reliable operation of charging networks."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "dcmeter",
+    "brief_page": null,
+    "detailed_page": null,
+    "match": "no match"
+  },
+  "status": "approved",
+  "created": "2026-11-11T18:09:32",
+  "_json_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "_pdf_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "conflicts": [],
+  "updated": "2026-11-12T13:19:33",
+  "approved_at": "2026-11-12T13:19:33"
+}

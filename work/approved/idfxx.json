@@ -1,0 +1,505 @@
+{
+  "id": "idfxx",
+  "name": "IDFXX",
+  "order": 47,
+  "category": "Router",
+  "category_plural": "Routers",
+  "eyebrow": [
+    "ROUTERS"
+  ],
+  "subtitle": "Industrial 5G/4G Router",
+  "bar_title": "Industrial 5G/4G Router",
+  "description": "An industrial router on MT7621 with -48V DC input, 5G/4G dual-SIM, optional Wi-Fi 5, RS485, and OpenWRT for telecom towers, street cabinets, and negative-voltage power environments.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\idfxx.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "5G MODEM"
+    },
+    {
+      "icon": "ports",
+      "value": "4×",
+      "label": "GIGABIT ETHERNET"
+    },
+    {
+      "icon": "chip",
+      "value": "512 MB",
+      "label": "RAM"
+    },
+    {
+      "icon": "wifi",
+      "value": "Wi-Fi 5",
+      "label": "DUAL BAND"
+    },
+    {
+      "icon": "bolt",
+      "value": "−48 V",
+      "label": "DC INPUT"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "5G Ready"
+    },
+    {
+      "icon": "wifi",
+      "label": "Wi-Fi 5"
+    },
+    {
+      "icon": "fan",
+      "label": "Fanless Design"
+    }
+  ],
+  "hardware": [
+    {
+      "key": "CPU",
+      "value": "MediaTek MT7621",
+      "show": true
+    },
+    {
+      "key": "RAM",
+      "value": "512MB",
+      "show": true
+    },
+    {
+      "key": "Flash",
+      "value": "32MB",
+      "show": true
+    },
+    {
+      "key": "Ethernet",
+      "value": "1x 10/100/1000 (External) with PoE IN, 1 x 10/100/1000 internal for configuration",
+      "show": true
+    },
+    {
+      "key": "Cellular",
+      "value": "4G/5G",
+      "show": true
+    },
+    {
+      "key": "SIM",
+      "value": "2x Nano SIM with Tray (1x Active & 1x Passive)",
+      "show": true
+    },
+    {
+      "key": "Wi-Fi",
+      "value": "NA",
+      "show": true
+    },
+    {
+      "key": "Reset",
+      "value": "Pinhole Reset Button",
+      "show": true
+    },
+    {
+      "key": "Antenna",
+      "value": "Cellular: 1x N Type Connector, 1x UFL connector",
+      "show": true
+    },
+    {
+      "key": "Storage Temp",
+      "value": "-20 ~ 60 °C",
+      "show": true
+    },
+    {
+      "key": "Operating Temp",
+      "value": "-20 ~ 60°C",
+      "show": true
+    },
+    {
+      "key": "Humidity",
+      "value": "10 ~ 90% (non-condensing)",
+      "show": true
+    }
+  ],
+  "software": [
+    {
+      "key": "Operating System",
+      "value": "OpenWRT-based Linux OS",
+      "show": true
+    },
+    {
+      "key": "Cellular Mode",
+      "value": "4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps",
+      "show": true
+    },
+    {
+      "key": "Routing",
+      "value": "Static routing, Advanced Static Routing,",
+      "show": true
+    },
+    {
+      "key": "Network Protocols",
+      "value": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+      "show": true
+    },
+    {
+      "key": "Monitoring",
+      "value": "Ping Reboot, Scheduled Periodic Reboot",
+      "show": true
+    },
+    {
+      "key": "Firewall Features",
+      "value": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+      "show": true
+    },
+    {
+      "key": "DHCP",
+      "value": "Static and Dynamic",
+      "show": true
+    },
+    {
+      "key": "VLAN",
+      "value": "Tagged VLAN, Untagged VLAN",
+      "show": true
+    },
+    {
+      "key": "VPN",
+      "value": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+      "show": true
+    },
+    {
+      "key": "OpenVPN",
+      "value": "TUN/TAP with TLS Certificates",
+      "show": true
+    },
+    {
+      "key": "IPsec",
+      "value": "IKEv1, IKEv2, Aggressive/Main Mode",
+      "show": true
+    },
+    {
+      "key": "PPTP/L2TP WAN",
+      "value": "Server & Client with/without MPPE Encryption",
+      "show": true
+    },
+    {
+      "key": "Remote Management",
+      "value": "Remote Monitoring & Management Platform for SILBO Networking products",
+      "show": true
+    },
+    {
+      "key": "NMS VPN",
+      "value": "Remote Access of SILBO and non-SILBO Networking devices",
+      "show": true
+    },
+    {
+      "key": "Supported Languages / Tools",
+      "value": "Shell scripting, C, C++",
+      "show": true
+    },
+    {
+      "key": "SDK Package",
+      "value": "SDK package with built environment provided (Optional)",
+      "show": true
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "110 x 44 x 94 mm (W x H x D)"
+    },
+    {
+      "show": true,
+      "key": "IP Rating",
+      "value": "IP66 Housing"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "ABS/PC IP66 Housing"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "WALL Mount, Poll Mount"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fanless"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "-48 VDC"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "500 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "Gen",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "-",
+        "4G",
+        "Single",
+        "IDF04"
+      ],
+      [
+        "✓",
+        "Wi-Fi 5",
+        "4G",
+        "Single",
+        "IDF54"
+      ],
+      [
+        "✓",
+        "Wi-Fi 4",
+        "4G",
+        "Single",
+        "IDF44"
+      ],
+      [
+        "✓",
+        "-",
+        "5G",
+        "Single",
+        "IDF05"
+      ],
+      [
+        "✓",
+        "Wi-Fi 5",
+        "5G",
+        "Single",
+        "IDF55"
+      ],
+      [
+        "✓",
+        "Wi-Fi 4",
+        "5G",
+        "Single",
+        "IDF45"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Telecom Tower Connectivity",
+      "desc": "Establishes reliable network connectivity between telecom tower equipment, base stations, and central monitoring systems. It enables continuous data transmission, remote site management, and uninterrupted communication across distributed telecom infrastructure."
+    },
+    {
+      "title": "Smart Utility & Street Cabinet Networking",
+      "desc": "Connects smart utility cabinets, field controllers, sensors, and monitoring equipment through a secure and reliable network. This enables centralized visibility, remote diagnostics, and efficient management of distributed utility infrastructure."
+    },
+    {
+      "title": "Remote Industrial Monitoring",
+      "desc": "Enables real-time connectivity with industrial equipment, sensors, and control systems deployed across remote facilities. Operators can monitor equipment performance, track operating conditions, and identify potential issues without being physically present at the site."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "IP66 Housing",
+  "density": 1.0,
+  "sources": {
+    "json": "idfxx",
+    "brief_page": 34,
+    "detailed_page": 74,
+    "match": "CPU model"
+  },
+  "status": "approved",
+  "created": "2026-11-11T17:59:08",
+  "_json_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "Gen",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "-",
+        "4G",
+        "Single",
+        "IDF04"
+      ],
+      [
+        "✓",
+        "Wi-Fi 5",
+        "4G",
+        "Single",
+        "IDF54"
+      ],
+      [
+        "✓",
+        "Wi-Fi 4",
+        "4G",
+        "Single",
+        "IDF44"
+      ],
+      [
+        "✓",
+        "-",
+        "5G",
+        "Single",
+        "IDF05"
+      ],
+      [
+        "✓",
+        "Wi-Fi 5",
+        "5G",
+        "Single",
+        "IDF55"
+      ],
+      [
+        "✓",
+        "Wi-Fi 4",
+        "5G",
+        "Single",
+        "IDF45"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "MT7621-01"
+      ],
+      [
+        "✓",
+        "—",
+        "4G",
+        "Single",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "ODU"
+      ]
+    ]
+  },
+  "conflicts": [
+    {
+      "field": "Cellular",
+      "json": "4G/5G",
+      "pdf": "4G/3G/2G with Dual SIM Active Passive, One External 5dBi antenna (IP66) and One 5dBi auxiliary internal flexi antenna",
+      "targets": [
+        [
+          "hardware",
+          "Cellular"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Dimensions",
+      "json": "110 x 44 x 94 mm (W x H x D)",
+      "pdf": "140 x 75 x 224 mm (W x H x D)",
+      "targets": [
+        [
+          "physical",
+          "Dimensions (W × H × D)"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Weight",
+      "json": "500 gm",
+      "pdf": "950 gm",
+      "targets": [
+        [
+          "physical",
+          "Weight"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Input Power",
+      "json": "-48 VDC",
+      "pdf": "Active PoE IN (IEEE 802.3af/at (48V- 57V))",
+      "targets": [
+        [
+          "physical",
+          "Input Power"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Operating Temp",
+      "json": "-20 ~ 60°C",
+      "pdf": "-0 ~ 50 °C",
+      "targets": [
+        [
+          "hardware",
+          "Operating Temp"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Ordering table",
+      "json": "IDF04, IDF05, IDF44, IDF45, IDF54, IDF55",
+      "pdf": ", MT762101, ODU",
+      "targets": [
+        [
+          "ordering",
+          ""
+        ]
+      ],
+      "choice": "json"
+    }
+  ],
+  "updated": "2026-11-12T13:17:27",
+  "approved_at": "2026-11-12T13:17:27"
+}

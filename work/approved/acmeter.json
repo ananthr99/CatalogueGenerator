@@ -1,0 +1,177 @@
+{
+  "id": "acmeter",
+  "name": "ET4602 (AC Meter)",
+  "order": 51,
+  "category": "Energy Meter",
+  "category_plural": "Energy Meter",
+  "eyebrow": [
+    "ENERGY METER"
+  ],
+  "subtitle": "Industrial - Energy Meter",
+  "bar_title": "Industrial - Energy Meter",
+  "description": "A three-phase panel-mount AC energy meter with separate EB and DG kWh tracking, 2000VAC-isolated RS485, and phase-wise voltage/current/power breakdown for industrial and facility energy auditing.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\acmeter.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "MODEM"
+    },
+    {
+      "icon": "ports",
+      "value": "0×",
+      "label": "ETHERNET PORTS"
+    },
+    {
+      "icon": "bolt",
+      "value": "48 V",
+      "label": "DC INPUT"
+    },
+    {
+      "icon": "serial",
+      "value": "Serial I/O",
+      "label": "RS485"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "LTE"
+    }
+  ],
+  "hardware": [
+    {
+      "show": true,
+      "key": "AC Current Measurement",
+      "value": "Average, AR, AY, AB"
+    },
+    {
+      "show": true,
+      "key": "AC Voltage Measurement",
+      "value": "Average VLL (RY, YB, BR), VLN (RN, YN, BN)"
+    },
+    {
+      "show": true,
+      "key": "Power Factor",
+      "value": "Average and phase-wise"
+    },
+    {
+      "show": true,
+      "key": "Active Power (kW)",
+      "value": "Total and phase-wise"
+    },
+    {
+      "show": true,
+      "key": "Active Energy (kWh)",
+      "value": "Both EB and DG"
+    },
+    {
+      "show": true,
+      "key": "Frequency (Hz)",
+      "value": "45 to 65 Hz"
+    },
+    {
+      "show": true,
+      "key": "Isolation (RS485)",
+      "value": "2000 VAC for 1 min between communication and other circuits"
+    },
+    {
+      "show": true,
+      "key": "Storage Temperature",
+      "value": "-25 ~ 70°C"
+    },
+    {
+      "show": true,
+      "key": "Humidity",
+      "value": "5% to 95% non-condensing"
+    },
+    {
+      "show": true,
+      "key": "Operating Temp",
+      "value": "-10 ~ 55°C"
+    }
+  ],
+  "software": [],
+  "physical": [
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "Panel Mount"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "48 VDC"
+    }
+  ],
+  "ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "use_cases": [
+    {
+      "title": "Grid & Generator Energy Tracking",
+      "desc": "Monitors energy generation and consumption across grid and generator sources, providing a clear picture of power usage and source-wise contribution. This helps track generator performance, evaluate energy costs, and optimize power management across facilities."
+    },
+    {
+      "title": "Industrial Power Monitoring",
+      "desc": "Provides continuous visibility into electrical parameters and power consumption across industrial equipment and facilities. It helps operators assess system performance, identify irregularities, and maintain efficient and reliable power distribution."
+    },
+    {
+      "title": "Facility Energy Auditing",
+      "desc": "Collects and analyzes energy consumption data across different areas and equipment within a facility to identify usage patterns and potential inefficiencies. This helps organizations pinpoint energy-saving opportunities, reduce operating costs, and improve overall energy performance."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "",
+  "density": 1.0,
+  "sources": {
+    "json": "acmeter",
+    "brief_page": null,
+    "detailed_page": null,
+    "match": "no match"
+  },
+  "status": "approved",
+  "created": "2026-11-11T18:04:57",
+  "_json_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "_pdf_ordering": {
+    "headers": [],
+    "rows": []
+  },
+  "conflicts": [],
+  "updated": "2026-11-12T13:19:03",
+  "approved_at": "2026-11-12T13:19:03"
+}

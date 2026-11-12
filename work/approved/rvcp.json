@@ -1,0 +1,423 @@
+{
+  "id": "rvcp",
+  "name": "RVCP",
+  "order": 28,
+  "category": "Gateway",
+  "category_plural": "Gateways",
+  "eyebrow": [
+    "GATEWAYS"
+  ],
+  "subtitle": "Industrial 4G Gateway",
+  "bar_title": "Industrial 4G Gateway",
+  "description": "A rugged, fanless 4G dual-SIM cellular gateway on MediaTek MT7621 with 4 Gigabit Ethernet ports, SFP uplink, and advanced multi-WAN failover running OpenWRT Linux. Ideal for primary WAN failover, remote SCADA connectivity, and distributed IoT metering deployments.",
+  "image": "D:\\Project\\CatalogueGenerator\\catalogue_builder_v6\\data\\images\\rvcp.webp",
+  "tiles": [
+    {
+      "icon": "signal",
+      "value": "Single",
+      "label": "4G MODEM"
+    },
+    {
+      "icon": "ports",
+      "value": "1",
+      "label": "SFP"
+    },
+    {
+      "icon": "bolt",
+      "value": "9–30 V",
+      "label": "DC INPUT"
+    },
+    {
+      "icon": "cpu",
+      "value": "MT7621",
+      "label": "DUAL CORE · 880 MHz"
+    },
+    {
+      "icon": "storage",
+      "value": "32 MB",
+      "label": "FLASH"
+    }
+  ],
+  "badges": [
+    {
+      "icon": "india",
+      "label": "Made in India"
+    },
+    {
+      "icon": "signal",
+      "label": "4G LTE"
+    },
+    {
+      "icon": "fan",
+      "label": "Fanless Design"
+    },
+    {
+      "icon": "shield",
+      "label": "IP66 Housing Rated"
+    }
+  ],
+  "hardware": [
+    {
+      "key": "CPU",
+      "value": "MediaTek MT7621, Dual Core MIPS 880 MHz",
+      "show": true
+    },
+    {
+      "key": "RAM",
+      "value": "512MB",
+      "show": true
+    },
+    {
+      "key": "Flash",
+      "value": "32MB",
+      "show": true
+    },
+    {
+      "key": "Ethernet",
+      "value": "1x 10/100/1000 (External) with PoE IN, 1 x 10/100/1000 internal for configuration",
+      "show": true
+    },
+    {
+      "key": "Cellular",
+      "value": "4G/3G/2G with Dual SIM Active Passive, One External 5dBi antenna (IP66) and One 5dBi auxiliary internal flexi antenna",
+      "show": true
+    },
+    {
+      "key": "SIM",
+      "value": "2x Nano SIM with Tray (1x Active & 1x Passive)",
+      "show": true
+    },
+    {
+      "key": "Wi-Fi",
+      "value": "NA",
+      "show": true
+    },
+    {
+      "key": "Reset",
+      "value": "Pinhole Reset Button",
+      "show": true
+    },
+    {
+      "key": "Antenna",
+      "value": "Cellular: 1x N Type Connector, 1x UFL connector",
+      "show": true
+    },
+    {
+      "key": "Storage Temp",
+      "value": "-20 ~ 60 °C",
+      "show": true
+    },
+    {
+      "key": "Operating Temp",
+      "value": "-0 ~ 50 °C",
+      "show": true
+    },
+    {
+      "key": "Humidity",
+      "value": "10 ~ 90% (non-condensing)",
+      "show": true
+    }
+  ],
+  "software": [
+    {
+      "key": "Operating System",
+      "value": "OpenWRT-based Linux OS",
+      "show": true
+    },
+    {
+      "key": "Cellular Mode",
+      "value": "4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps",
+      "show": true
+    },
+    {
+      "key": "Routing",
+      "value": "Static routing, Advanced Static Routing,",
+      "show": true
+    },
+    {
+      "key": "Network Protocols",
+      "value": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+      "show": true
+    },
+    {
+      "key": "Monitoring",
+      "value": "Ping Reboot, Scheduled Periodic Reboot",
+      "show": true
+    },
+    {
+      "key": "Firewall Features",
+      "value": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+      "show": true
+    },
+    {
+      "key": "DHCP",
+      "value": "Static and Dynamic",
+      "show": true
+    },
+    {
+      "key": "VLAN",
+      "value": "Tagged VLAN, Untagged VLAN",
+      "show": true
+    },
+    {
+      "key": "VPN",
+      "value": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+      "show": true
+    },
+    {
+      "key": "OpenVPN",
+      "value": "TUN/TAP with TLS Certificates",
+      "show": true
+    },
+    {
+      "key": "IPsec",
+      "value": "IKEv1, IKEv2, Aggressive/Main Mode",
+      "show": true
+    },
+    {
+      "key": "PPTP/L2TP WAN",
+      "value": "Server & Client with/without MPPE Encryption",
+      "show": true
+    },
+    {
+      "key": "Remote Management",
+      "value": "Remote Monitoring & Management Platform for SILBO Networking products",
+      "show": true
+    },
+    {
+      "key": "NMS VPN",
+      "value": "Remote Access of SILBO and non-SILBO Networking devices",
+      "show": true
+    },
+    {
+      "key": "Supported Languages / Tools",
+      "value": "Shell scripting, C, C++",
+      "show": true
+    },
+    {
+      "key": "SDK Package",
+      "value": "SDK package with built environment provided (Optional)",
+      "show": true
+    }
+  ],
+  "physical": [
+    {
+      "show": true,
+      "key": "Dimensions (W × H × D)",
+      "value": "190 x 30 x 100 mm (W x H x D)"
+    },
+    {
+      "show": true,
+      "key": "IP Rating",
+      "value": "IP66 Housing"
+    },
+    {
+      "show": true,
+      "key": "Enclosure",
+      "value": "ABS/PC IP66 Housing"
+    },
+    {
+      "show": true,
+      "key": "Mounting",
+      "value": "WALL Mount, Poll Mount"
+    },
+    {
+      "show": true,
+      "key": "Design",
+      "value": "Fanless"
+    },
+    {
+      "show": true,
+      "key": "Input Power",
+      "value": "12 VDC or 9-30 VDC"
+    },
+    {
+      "show": true,
+      "key": "Weight",
+      "value": "520 gm"
+    }
+  ],
+  "ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "Gen",
+      "Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "—",
+        "✓",
+        "4G",
+        "Single",
+        "RVCP 04"
+      ]
+    ]
+  },
+  "use_cases": [
+    {
+      "title": "Primary WAN Failover for Retail & Branch Offices",
+      "desc": "Ideal for ensuring uninterrupted internet connectivity in retail stores and branch offices by automatically switching to a backup 4G/5G network when the primary WAN connection fails, maintaining seamless POS transactions, cloud access, and business operations."
+    },
+    {
+      "title": "Remote SCADA/Industrial Site Connectivity",
+      "desc": "Connecting remote industrial equipment, PLCs, RTUs, and SCADA systems over secure 4G/5G networks, enabling real-time data acquisition, remote monitoring, equipment control, and reliable communication between industrial sites and centralized control systems."
+    },
+    {
+      "title": "Fleet of Distributed IoT/Metering Gateways with Centralized Management",
+      "desc": "Deploying and managing multiple IoT and metering gateways across geographically distributed locations, enabling centralized device monitoring, remote configuration, firmware updates, and real-time data collection for efficient operations and maintenance."
+    }
+  ],
+  "compliance": [
+    {
+      "show": false,
+      "icon": "logo:ce",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:fcc",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:rohs",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:weee",
+      "label": ""
+    },
+    {
+      "show": false,
+      "icon": "logo:iso9001",
+      "label": ""
+    }
+  ],
+  "ip_rating": "IP66 Housing",
+  "density": 1.0,
+  "sources": {
+    "json": "rvcp",
+    "brief_page": 34,
+    "detailed_page": 74,
+    "match": "CPU model"
+  },
+  "status": "approved",
+  "created": "2026-10-08T10:48:59",
+  "_json_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "Gen",
+      "Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "—",
+        "✓",
+        "4G",
+        "Single",
+        "RVCP 04"
+      ]
+    ]
+  },
+  "_pdf_ordering": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "4G/5G",
+      "No. of Modem",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "MT7621-01"
+      ],
+      [
+        "✓",
+        "—",
+        "4G",
+        "Single",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "ODU"
+      ]
+    ]
+  },
+  "conflicts": [
+    {
+      "field": "CPU",
+      "json": "MediaTek MT7621, Dual Core MIPS 880 MHz",
+      "pdf": "MediaTek MT7621",
+      "targets": [
+        [
+          "hardware",
+          "CPU"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Dimensions",
+      "json": "190 x 30 x 100 mm (W x H x D)",
+      "pdf": "140 x 75 x 224 mm (W x H x D)",
+      "targets": [
+        [
+          "physical",
+          "Dimensions (W × H × D)"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Weight",
+      "json": "520 gm",
+      "pdf": "950 gm",
+      "targets": [
+        [
+          "physical",
+          "Weight"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Input Power",
+      "json": "12 VDC or 9-30 VDC",
+      "pdf": "Active PoE IN (IEEE 802.3af/at (48V- 57V))",
+      "targets": [
+        [
+          "physical",
+          "Input Power"
+        ]
+      ],
+      "choice": "json"
+    },
+    {
+      "field": "Ordering table",
+      "json": "RVCP04",
+      "pdf": ", MT762101, ODU",
+      "targets": [
+        [
+          "ordering",
+          ""
+        ]
+      ],
+      "choice": "json"
+    }
+  ],
+  "updated": "2026-11-12T12:28:06",
+  "approved_at": "2026-11-12T12:28:06"
+}
